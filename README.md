@@ -18,11 +18,11 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 
 ## Works
 
-- **🎮 [jaoafa/MyMaid3](https://github.com/jaoafa/MyMaid3)** - Plugin of Bukkit / Spigot.
-- **😉 [jaoafa/Javajaotan](https://github.com/jaoafa/Javajaotan)** - Discord Bot called jaotan
-- **👓 [jaoafa/TomachicchiMaker](https://github.com/jaoafa/TomachicchiMaker)** - My icon generator
-- **🎬 [book000/YouTubeDLWrapper](https://github.com/book000/YouTubeDLWrapper)** - YouTubeDL wrapper application
-- **👀 [book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - Tracking systemd log and send to discord
+- **[jaoafa/MyMaid3](https://github.com/jaoafa/MyMaid3)** - Plugin of Bukkit / Spigot.🎮
+- **[jaoafa/Javajaotan](https://github.com/jaoafa/Javajaotan)** - Discord Bot called jaotan.😉
+- **[jaoafa/TomachicchiMaker](https://github.com/jaoafa/TomachicchiMaker)** - My icon generator.👓
+- **[book000/YouTubeDLWrapper](https://github.com/book000/YouTubeDLWrapper)** - YouTubeDL wrapper application.🎬
+- **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - Tracking systemd log and send to discord.👀
 
 ## Contacts
 
