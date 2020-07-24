@@ -24,6 +24,19 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 - **[book000/YouTubeDLWrapper](https://github.com/book000/YouTubeDLWrapper)** - YouTubeDL wrapper application.🎬
 - **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - Tracking systemd log and send to discord.👀
 
+## Skills
+
+### Languages
+
+- PHP
+- Java
+- JavaScript
+- C#
+- NodeJS
+- Python
+
+I also want to try other things...!
+
 ## Contacts
 
 - **Twitter**: [@book000](https://twitter.com/book000)
