@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/build-passed-green)
 ![](https://img.shields.io/badge/Status-up-green)
-![](https://img.shields.io/badge/Speak%20Language-Japanese-orange)
+![](https://img.shields.io/badge/Speak%20Main%20Language-Japanese-orange)
 ![](https://img.shields.io/badge/Uptime-99.9%25-yellowgreen)
 ![](https://img.shields.io/badge/License-none-yellow)
 
