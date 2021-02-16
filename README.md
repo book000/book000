@@ -34,6 +34,8 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 - PHP
 - Java
 - JavaScript
+  - TypeScript
+  - Vue.js (Learning)
 - C#
 - NodeJS
 - Python
