@@ -10,13 +10,11 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 
 - [Gist](https://gist.github.com/book000)
 
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=book000&count_private=true&show_icons=true&theme=dark" />
-  </a>
-</p>
-
 ## Summary
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=book000&count_private=true&show_icons=true&hide_rank=true&theme=dark" />
+</a>
 
 - [jao Minecraft Server](https://jaoafa.com) staff.
 - **Birthday**: 2001/03/10
