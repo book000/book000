@@ -5,8 +5,11 @@
 ![](https://img.shields.io/badge/Speak%20Main%20Language-Japanese-orange)
 ![](https://img.shields.io/badge/Uptime-99.9%25-yellowgreen)
 ![](https://img.shields.io/badge/License-none-yellow)
-
-[![](https://github-readme-stats.vercel.app/api?username=book000&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=book000&count_private=true&show_icons=true&theme=dark" />
+  </a>
+</p>
 
 Developer of Bukkit/Spigot plugins, Discord Bot applications, etc. 
 
