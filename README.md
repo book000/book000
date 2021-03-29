@@ -20,7 +20,7 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 
 ## Works
 
-- **[jaoafa/MyMaid3](https://github.com/jaoafa/MyMaid3)** - Plugin of Bukkit / Spigot.🎮
+- **[jaoafa/MyMaid4](https://github.com/jaoafa/MyMaid4)** - Plugin of Bukkit / Spigot.🎮
 - **[jaoafa/Javajaotan](https://github.com/jaoafa/Javajaotan)** - Discord Bot called jaotan.😉
 - **[jaoafa/TomachicchiMaker](https://github.com/jaoafa/TomachicchiMaker)** - My icon generator.👓
 - **[book000/gotoeat_map](https://github.com/book000/gotoeat_map)** - Map of stores participating in the Go To Eat project in Japan.🍽️
