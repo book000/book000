@@ -6,6 +6,8 @@
 ![](https://img.shields.io/badge/Uptime-99.9%25-yellowgreen)
 ![](https://img.shields.io/badge/License-none-yellow)
 
+[![](https://github-readme-stats.vercel.app/api?username=book000&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
 Developer of Bukkit/Spigot plugins, Discord Bot applications, etc. 
 
 - [Gist](https://gist.github.com/book000)
