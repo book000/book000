@@ -20,7 +20,7 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 - **Birthday**: 2001/03/10
 - **Love**: Splendid Garden Eel, Heteroconger hassi😍
 - **Like**: PC, Music, Anime, Comic, VOICEROID, CeVIO etc.
-- **Website**: https://tomacheese.com/
+- **Website**: https://tomacheese.com
 
 ## Works
 
