@@ -35,7 +35,7 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 
 ### Languages
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/anuraghazra/github-readme-stats" >
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=book000&count_private=true&theme=dark" />
 </a>
 
@@ -51,6 +51,8 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 - Golang
 
 I also want to try other things...!
+
+("Most Used Languages" image does not include organization contributions)
 
 ## Contacts
 
