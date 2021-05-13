@@ -63,3 +63,7 @@ I also want to try other things...!
 - **YouTube**: [toma chi](https://www.youtube.com/channel/UCdqXRBLM7MWgnZUzKflBWxQ)
 - **Twitch**: [toma_chi](https://twitch.tv/toma_chi)
 - **LastFM**: [book000](https://www.last.fm/user/book000)
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=book000&layout=compact&theme=dark" />
+</a>
