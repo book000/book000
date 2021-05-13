@@ -48,6 +48,7 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 - C#
 - NodeJS
 - Python
+- Golang
 
 I also want to try other things...!
 
