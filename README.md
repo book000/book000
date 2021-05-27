@@ -25,7 +25,7 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 ## Works
 
 - **[jaoafa/MyMaid4](https://github.com/jaoafa/MyMaid4)** - Plugin of Bukkit / Spigot.🎮
-- **[jaoafa/Javajaotan](https://github.com/jaoafa/Javajaotan2)** - Discord Bot called jaotan.😉
+- **[jaoafa/Javajaotan2](https://github.com/jaoafa/Javajaotan2)** - Discord Bot called jaotan.😉
 - **[jaoafa/TomachicchiMaker](https://github.com/jaoafa/TomachicchiMaker)** - My icon generator.👓
 - **[book000/gotoeat_map](https://github.com/book000/gotoeat_map)** - Map of stores participating in the Go To Eat project in Japan.🍽️
 - **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - Tracking systemd log and send to discord.👀
