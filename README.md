@@ -16,7 +16,7 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
   <img align="right" src="https://github-readme-stats.vercel.app/api?username=book000&count_private=true&show_icons=true&hide_rank=true&theme=dark" />
 </a>
 
-- [jao Minecraft Server](https://jaoafa.com) staff.
+- [jao Minecraft Server](https://jaoafa.com) staff. (GitHub org: [jaoafa](https://github.com/jaoafa))
 - **Birthday**: 2001/03/10
 - **Love**: Splendid Garden Eel, Heteroconger hassi😍
 - **Like**: PC, Music, Anime, Comic, VOICEROID, CeVIO etc.
