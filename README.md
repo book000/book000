@@ -17,7 +17,7 @@ Developer of Bukkit/Spigot plugins, Discord Bot applications, etc.
 </a>
 
 - [jao Minecraft Server](https://jaoafa.com) staff. (GitHub org: [jaoafa](https://github.com/jaoafa))
-- **Birthday**: 2001/03/10
+- **Birthday**: March 10th, 2001
 - **Love**: Splendid Garden Eel, Heteroconger hassi😍
 - **Like**: PC, Music, Anime, Comic, VOICEROID, CeVIO etc.
 - **Website**: https://tomacheese.com
