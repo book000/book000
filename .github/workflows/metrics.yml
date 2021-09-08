@@ -33,7 +33,6 @@ jobs:
           plugin_languages_recent.load: 300
           plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
-          plugin_languages_indepth: yes
           
           plugin_habits: yes
           plugin_habits_from: 200
