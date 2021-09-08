@@ -39,3 +39,9 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_habits_trim: yes
+          
+          plugin_contributors: yes
+          plugin_contributors_base: ""
+          plugin_contributors_head: master
+          plugin_contributors_ignored: bot
+          plugin_contributors_contributions: yes
