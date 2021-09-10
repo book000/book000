@@ -55,6 +55,8 @@ I also want to try other things...!
 
 ("Most Used Languages" image does not include organization contributions)
 
+- [lowlighter/metrics](https://github.com/lowlighter/metrics) generated svg: [github-metrics.svg](https://raw.githubusercontent.com/book000/book000/master/github-metrics.svg)
+
 ## Contacts
 
 - **Twitter**: [@book000](https://twitter.com/book000)
