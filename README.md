@@ -64,6 +64,8 @@ I also want to try other things...!
 
 ## Links
 
+- **PyPi**: [book000](https://pypi.org/user/book000/)
+- **npm**: [book000](https://www.npmjs.com/~book000)
 - **Steam**: [book000](https://steamcommunity.com/id/book000)
 - **YouTube**: [toma chi](https://www.youtube.com/channel/UCdqXRBLM7MWgnZUzKflBWxQ)
 - **Twitch**: [toma_chi](https://twitch.tv/toma_chi)
