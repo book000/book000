@@ -78,3 +78,11 @@ I also want to try other things...!
 <a href="https://github.com/anuraghazra/github-readme-stats" style="display:block;width:100%">
   <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=book000&layout=compact&theme=dark&hide_title=true" width="100%" />
 </a>
+
+
+---
+
+## THIS PROFILE REPOSITORY IS MIT LICENSE!
+
+This repository (README.md, etc.) is provided under the [MIT License](LICENSE).  
+You may use it as a reference when creating your own profile README.md. Please create a better README profile that describes you!
