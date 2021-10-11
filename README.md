@@ -48,13 +48,12 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 - PHP
 - Java
-- JavaScript
-  - TypeScript
+- Python
+- JavaScript & TypeScript
   - Vue.js (Learning)
   - Nuxt.js (Learning)
 - C#
 - NodeJS
-- Python
 - Golang
 
 I also want to try other things...!
