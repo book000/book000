@@ -18,6 +18,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 - [jao Minecraft Server](https://jaoafa.com) staff. (GitHub org: [jaoafa](https://github.com/jaoafa))
 - **Birthday**: March 10th, 2001
+- **Location**: Yamanashi, Japan
 - **Love**: Splendid Garden Eel, Heteroconger hassi😍
 - **Like**: Use Computer / Listen Music / Watch Anime / Read Comic / Watch VTuber / Watch VOICEROID / Watch CeVIO etc.
 - **Website**: https://tomacheese.com
