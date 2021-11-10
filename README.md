@@ -1,8 +1,8 @@
-# Tomachi - book000 👋
-
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="right" src="https://github-readme-stats.vercel.app/api?username=book000&count_private=true&show_icons=true&hide_rank=true&theme=dark" />
 </a>
+
+# Tomachi - book000 👋
 
 ![](https://img.shields.io/badge/build-passed-green)
 ![](https://img.shields.io/badge/Status-up-green)
