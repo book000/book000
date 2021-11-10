@@ -51,8 +51,8 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 - Java
 - Python
 - JavaScript & TypeScript
-  - Vue.js (Learning)
-  - Nuxt.js (Learning)
+  - Vue.js
+  - Nuxt.js
 - C#
 - NodeJS
 - Golang
