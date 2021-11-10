@@ -1,5 +1,9 @@
 # Tomachi - book000 👋
 
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=book000&count_private=true&show_icons=true&hide_rank=true&theme=dark" />
+</a>
+
 ![](https://img.shields.io/badge/build-passed-green)
 ![](https://img.shields.io/badge/Status-up-green)
 ![](https://img.shields.io/badge/Speak%20Main%20Language-Japanese-orange)
@@ -12,8 +16,8 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 ## Summary
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=book000&count_private=true&show_icons=true&hide_rank=true&theme=dark" />
+<a href="https://github.com/lowlighter/metrics" >
+  <img align="right" width="40%" src="https://raw.githubusercontent.com/book000/book000/master/github-metrics.svg" />
 </a>
 
 - [jao Minecraft Server](https://jaoafa.com) staff. (GitHub org: [jaoafa](https://github.com/jaoafa))
@@ -43,10 +47,6 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 ### Languages
 
-<a href="https://github.com/anuraghazra/github-readme-stats" >
-  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=book000&count_private=true&theme=dark" />
-</a>
-
 - PHP
 - Java
 - Python
@@ -58,8 +58,6 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 - Golang
 
 I also want to try other things...!
-
-("Most Used Languages" image does not include organization contributions)
 
 - [lowlighter/metrics](https://github.com/lowlighter/metrics) generated svg: [github-metrics.svg](https://raw.githubusercontent.com/book000/book000/master/github-metrics.svg)
 
