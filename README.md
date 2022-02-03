@@ -73,12 +73,9 @@ I also want to try other things...!
 
 ---
 
-## A week of coding langage & time
+## A week of coding langage & time (via wakatime)
 
-<a href="https://github.com/anuraghazra/github-readme-stats" style="display:block;width:100%">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=book000&layout=compact&theme=dark&hide_title=true" width="100%" />
-</a>
-
+<img align="center" src="https://wakatime.com/share/@book000/c1a89b98-1908-4fd4-8ba4-06ece7e7cb96.svg" width="100%" />
 
 ---
 
