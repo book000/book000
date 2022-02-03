@@ -73,7 +73,7 @@ I also want to try other things...!
 
 ---
 
-## A week of coding langage & time (via [WakaTime](https://wakatime.com/@book000))
+## My coding language chart (via [WakaTime](https://wakatime.com/@book000))
 
 | Last 30 days | Last year |
 | :-: | :-: |
