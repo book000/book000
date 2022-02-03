@@ -73,11 +73,11 @@ I also want to try other things...!
 
 ---
 
-## A week of coding langage & time (via wakatime)
+## A week of coding langage & time (via [WakaTime](https://wakatime.com/@book000))
 
-<img align="center" src="https://wakatime.com/share/@book000/c1a89b98-1908-4fd4-8ba4-06ece7e7cb96.svg" width="100%" />
-
-<img align="center" src="https://wakatime.com/share/@book000/f8593ca5-de4a-4ee9-ac3b-74ac537d8f6a.svg" width="100%" />
+| Last 30 days | Last year |
+| :-: | :-: |
+| <img align="center" src="https://wakatime.com/share/@book000/c1a89b98-1908-4fd4-8ba4-06ece7e7cb96.svg" width="100%" /> | <img align="center" src="https://wakatime.com/share/@book000/f8593ca5-de4a-4ee9-ac3b-74ac537d8f6a.svg" width="100%" /> |
 
 ---
 
