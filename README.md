@@ -79,6 +79,8 @@ I also want to try other things...!
 | :-: | :-: |
 | <img align="center" src="https://wakatime.com/share/@book000/c1a89b98-1908-4fd4-8ba4-06ece7e7cb96.png" width="100%" /> | <img align="center" src="https://wakatime.com/share/@book000/f8593ca5-de4a-4ee9-ac3b-74ac537d8f6a.png" width="100%" /> |
 
+Or... [All Time](https://wakatime.com/share/@book000/11e3ce10-22eb-46ba-a187-1f20e8ba88cf.png)!
+
 ---
 
 ## THIS PROFILE REPOSITORY IS MIT LICENSE!
