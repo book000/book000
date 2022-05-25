@@ -64,6 +64,7 @@ I also want to try other things...!
 
 - **Twitter**: [@book000](https://twitter.com/book000)
 - **Discord**: [tomachi#0310](https://discord.com/users/221991565567066112)
+- **E-mail**: `info@tomacheese.com`
 
 ## Links
 
