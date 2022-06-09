@@ -34,6 +34,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 - **[book000/ZoomInClass](https://github.com/book000/ZoomInClass)** - 🎧If you are having a meeting in Zoom, use Discord Rich Presence to view it in Discord.
 - **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - 👀Tracking systemd log and send to discord.
 - **[book000/github-changelog-translator](https://github.com/book000/github-changelog-translator)** - 📫Translated and delivered by GitHub Changelogs RSS.
+- **[book000/memo](https://github.com/book000/memo)** - 📝Notes for myself in various development
 - **[book000/etc](https://github.com/book000/etc)** - ♻️Placing the a little program created.
 
 #### Details of activities in private repositories
