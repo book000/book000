@@ -30,7 +30,6 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 - **[jaoafa/MyMaid4](https://github.com/jaoafa/MyMaid4)** - 🎮Plugin of Bukkit / Spigot.
 - **[jaoafa/Javajaotan2](https://github.com/jaoafa/Javajaotan2)** - 😉Discord Bot called jaotan.
 - **[jaoafa/TomachicchiMaker](https://github.com/jaoafa/TomachicchiMaker)** - 👓My icon generator.
-- **[book000/get-unipa](https://github.com/book000/get-unipa)** - ✨Library for get various information about UNIVERSAL PASSPORT.  (UNIVERSAL PASSPORT is an educational support service in Japan) 
 - **[book000/ZoomInClass](https://github.com/book000/ZoomInClass)** - 🎧If you are having a meeting in Zoom, use Discord Rich Presence to view it in Discord.
 - **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - 👀Tracking systemd log and send to discord.
 - **[book000/github-changelog-translator](https://github.com/book000/github-changelog-translator)** - 📫Translated and delivered by GitHub Changelogs RSS.
