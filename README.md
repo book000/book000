@@ -27,14 +27,15 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 ### Hobby
 
-- **[jaoafa/MyMaid4](https://github.com/jaoafa/MyMaid4)** - 🎮Plugin of Bukkit / Spigot.
-- **[jaoafa/Javajaotan2](https://github.com/jaoafa/Javajaotan2)** - 😉Discord Bot called jaotan.
-- **[jaoafa/TomachicchiMaker](https://github.com/jaoafa/TomachicchiMaker)** - 👓My icon generator.
-- **[book000/ZoomInClass](https://github.com/book000/ZoomInClass)** - 🎧If you are having a meeting in Zoom, use Discord Rich Presence to view it in Discord.
-- **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - 👀Tracking systemd log and send to discord.
-- **[book000/github-changelog-translator](https://github.com/book000/github-changelog-translator)** - 📫Translated and delivered by GitHub Changelogs RSS.
-- **[book000/memo](https://github.com/book000/memo)** - 📝Notes for myself in various development
-- **[book000/etc](https://github.com/book000/etc)** - ♻️Placing the a little program created.
+- 🎮 **[jaoafa/MyMaid4](https://github.com/jaoafa/MyMaid4)** - PaperMC plugin
+- 😉 **[jaoafa/Javajaotan2](https://github.com/jaoafa/Javajaotan2)** - Discord Bot
+- 👓 **[jaoafa/TomachicchiMaker](https://github.com/jaoafa/TomachicchiMaker)** - My icon generator
+- 🎧 **[book000/ZoomInClass](https://github.com/book000/ZoomInClass)** - If you are having a meeting in Zoom, use Discord Rich Presence to view it in Discord
+- 👀 **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - Tracking systemd log and send to Discord
+- 📫 **[book000/github-changelog-translator](https://github.com/book000/github-changelog-translator)** - Translated and delivered by GitHub Changelogs RSS
+- 🖼️ **[tomacheese/my-pixiv](https://github.com/tomacheese/my-pixiv)** - Pixiv client for myself
+- 📝 **[book000/memo](https://github.com/book000/memo)** - Notes for myself in various development
+- ♻️ **[book000/etc](https://github.com/book000/etc)** - Placing the a little program created
 
 #### Details of activities in private repositories
 
