@@ -57,9 +57,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 - NodeJS
 - Golang
 
-I also want to try other things...!
-
-- [lowlighter/metrics](https://github.com/lowlighter/metrics) generated svg: [github-metrics.svg](https://raw.githubusercontent.com/book000/book000/master/github-metrics.svg)
+[lowlighter/metrics](https://github.com/lowlighter/metrics) generated svg: [github-metrics.svg](https://raw.githubusercontent.com/book000/book000/master/github-metrics.svg)
 
 ## Contacts
 
