@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="995" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="972" class="">
     <defs>
         <style/>
     </defs>
@@ -94,7 +94,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                             </svg>
-                            1979 issue comments
+                            1980 issue comments
                         </div>
                     </section>
                     <section>
@@ -362,6 +362,41 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M8 1.5a6.491 6.491 0 00-5.285 2.715l1.358 1.358A.25.25 0 013.896 6H.25A.25.25 0 010 5.75V2.104a.25.25 0 01.427-.177l1.216 1.216a8 8 0 0114.315 4.03.748.748 0 01-.668.83.75.75 0 01-.824-.676A6.501 6.501 0 008 1.5zM.712 8.004a.75.75 0 01.822.67 6.501 6.501 0 0011.751 3.111l-1.358-1.358a.25.25 0 01.177-.427h3.646a.25.25 0 01.25.25v3.646a.25.25 0 01-.427.177l-1.216-1.216A8 8 0 01.042 8.827a.75.75 0 01.67-.823zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Reopened
+                                        <span class="issue">#193 アイテムミュート設定の自動共有</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">tomacheese/my-pixiv</span></div>
+                                </div>
+                                <div class="timestamp">18 Oct 2022, 04:45:42</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#195 全ての設定をサーバサイドと完全に同期するフラグ</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by book000 in <span class="repo">tomacheese/my-pixiv</span></div>
+                                    <div class="comment">https://github.com/tomacheese/my-pixiv/tree/feat/global-sync</div>
+                                </div>
+                                <div class="timestamp">18 Oct 2022, 04:45:34</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
                                     </svg>
                                     <div class="content">
@@ -409,90 +444,6 @@
                                     <div class="comment">#195 に任せる</div>
                                 </div>
                                 <div class="timestamp">17 Oct 2022, 23:21:51</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#195 全ての設定をサーバサイドと完全に同期するフラグ</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by book000 in <span class="repo">tomacheese/my-pixiv</span></div>
-                                    <div class="comment">
-                                        WebSocket
-                                        <code>/sync</code>
-                                        エンドポイント
-                                        <b>フロー</b>
-                                        <b>クライアント起動時 (default.vue mounted)</b>
-                                        クライアントが
-                                        <code>settings.globalSync</code>
-                                        フラグを持っている (=true) なら本機能を稼働。そうでないならreturn
-クライアントからエンドポイントにWebSocketで接続。最新要求リクエストを送信（
-                                        <code>action=fetch</code>
-                                        ）
-サーバからサーバで保持しているデータをすべて返す（
-                                        <code>action=fetch</code>
-                                        ,
-                                        <code>value=[{...}]</code>
-                                        ）
-                                        <code>onConnected</code>
-                                        で2を動かさせる（reconnect時にも動作）
-                                        <b>自クライアントが設定を変更した時</b>
-                                        ユーザーが設定を変更。
-                                        <code>uploadSettings(type)</code>
-                                        とかなんとかを呼び出す
-設定変更後の値をサーバに投げる（
-                                        <code>action=update</code>
-                                        ,
-                                        <code>type=KEY</code>
-                                        ,
-                                        <code>value=XXXXX</code>
-                                        ）
-サーバサイドに設定変更後の値を保存
-サーバサイドから接続している全クライアントに設定変更通知を流す（
-                                        <code>action=update</code>
-                                        ,
-                                        <code>type=KEY</code>
-                                        ,
-                                        <code>value=XXXXX</code>
-                                        ）
-                                        <b>他クライアントが設定を変更した時</b>
-                                        サーバから
-                                        <code>action=update</code>
-                                        のメッセージを受けとる
-クライアントの設定変更を実施
-                                        <b>JSON</b>
-                                        <b>action (required)</b>
-                                        <b>type (optional)</b>
-                                        <b>value (optional)</b>
-                                        <b>サーバサイドでの設定保存</b>
-                                    </div>
-                                </div>
-                                <div class="timestamp">17 Oct 2022, 22:59:16</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
-                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Closed
-                                        <span class="issue">#192 アイテムミュート設定画面での、アイテム詳細取得不具合</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">tomacheese/my-pixiv</span></div>
-                                </div>
-                                <div class="timestamp">17 Oct 2022, 21:43:14</div>
                             </section>
                         </div>
                     </section>
