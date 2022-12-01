@@ -12,7 +12,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 ## Summary
 
-<a href="https://github.com/lowlighter/metrics" >
+<a href="https://github.com/lowlighter/metrics">
   <img align="right" width="40%" src="https://raw.githubusercontent.com/book000/book000/master/github-metrics.svg" />
 </a>
 
@@ -67,7 +67,9 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 ## Links
 
-<img align="right" width="50%" src="https://lastfm-recently-played-book000.vercel.app/api?user=book000&count=3&loved=true" />
+<a href="https://github.com/book000/lastfm-recently-played-readme">
+  <img align="right" width="400px" src="https://lastfm-recently-played-book000.vercel.app/api?user=book000&count=3&loved=true" />
+</a>
 
 - **PyPI**: [book000](https://pypi.org/user/book000/)
 - **npm**: [book000](https://www.npmjs.com/~book000)
