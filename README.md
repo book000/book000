@@ -61,13 +61,12 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 ## Links
 
-- **PyPI**: [book000](https://pypi.org/user/book000/)
-- **npm**: [book000](https://www.npmjs.com/~book000)
-- **Steam**: [book000](https://steamcommunity.com/id/book000)
-- **YouTube**: [toma chi](https://www.youtube.com/channel/UCdqXRBLM7MWgnZUzKflBWxQ)
-- **Twitch**: [toma_chi](https://twitch.tv/toma_chi)
-- **LastFM**: [book000](https://www.last.fm/user/book000)
-
+|||
+|:-:|:-:|
+| **PyPI**: [book000](https://pypi.org/user/book000/) | **npm**: [book000](https://www.npmjs.com/~book000) |
+| **YouTube**: [toma chi](https://www.youtube.com/channel/UCdqXRBLM7MWgnZUzKflBWxQ) | **Twitch**: [toma_chi](https://twitch.tv/toma_chi) |
+| **Steam**: [book000](https://steamcommunity.com/id/book000) | **LastFM**: [book000](https://www.last.fm/user/book000) |
+  
 [![](https://lastfm-recently-played-book000.vercel.app/api?user=book000&count=3&loved=true)](https://github.com/book000/lastfm-recently-played-readme)
 
 ## Contacts
