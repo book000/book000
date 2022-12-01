@@ -62,7 +62,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 ## Links
 
 <a href="https://github.com/book000/lastfm-recently-played-readme">
-  <img align="right" width="50%" src="https://lastfm-recently-played-book000.vercel.app/api?user=book000&count=3&loved=true" />
+  <img align="right" width="50%" src="https://lastfm-recently-played-book000.vercel.app/api?user=book000&count=3&loved=true&width=300" />
 </a>
 
 - **PyPI**: [book000](https://pypi.org/user/book000/)
