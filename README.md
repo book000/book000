@@ -67,6 +67,8 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 ## Links
 
+<img align="right" width="50%" src="https://lastfm-recently-played-book000.vercel.app/api?user=book000&count=3&loved=true" />
+
 - **PyPI**: [book000](https://pypi.org/user/book000/)
 - **npm**: [book000](https://www.npmjs.com/~book000)
 - **Steam**: [book000](https://steamcommunity.com/id/book000)
