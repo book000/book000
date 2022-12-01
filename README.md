@@ -59,12 +59,6 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 [lowlighter/metrics](https://github.com/lowlighter/metrics) generated svg: [github-metrics.svg](https://raw.githubusercontent.com/book000/book000/master/github-metrics.svg)
 
-## Contacts
-
-- **Twitter**: [@book000](https://twitter.com/book000)
-- **Discord**: [tomachi#0310](https://discord.com/users/221991565567066112)
-- **E-mail**: `tomachi@tomacheese.com`
-
 ## Links
 
 <a href="https://github.com/book000/lastfm-recently-played-readme">
@@ -77,6 +71,12 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 - **YouTube**: [toma chi](https://www.youtube.com/channel/UCdqXRBLM7MWgnZUzKflBWxQ)
 - **Twitch**: [toma_chi](https://twitch.tv/toma_chi)
 - **LastFM**: [book000](https://www.last.fm/user/book000)
+
+## Contacts
+
+- **Twitter**: [@book000](https://twitter.com/book000)
+- **Discord**: [tomachi#0310](https://discord.com/users/221991565567066112)
+- **E-mail**: `tomachi@tomacheese.com`
 
 ---
 
