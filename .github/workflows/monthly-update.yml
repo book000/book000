@@ -1,0 +1,55 @@
+name: Create Monthly Updates Issue
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # Run at 00:00 UTC on the 1st of every month
+  workflow_dispatch:
+
+jobs:
+  job:
+   runs-on: ubuntu-latest
+
+   steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Get current date
+        id: date
+        run: |
+          # shellcheck disable=SC2086
+          echo "title-date=$(date +'%Y/%m')" >> $GITHUB_OUTPUT
+          # shellcheck disable=SC2086
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Update template
+        run: |
+          # {{ date }} を置換する
+          sed -i -e "s/{{ date }}/${{ steps.date.outputs.date }}/g" .github/update-template.md
+
+          # {{ book000-renovate-success-prs }}, {{ book000-renovate-failure-prs }} を置換する
+          gh search prs archived:false --owner book000 --state open --app renovate --sort created --order desc --checks success --json repository,number,title,url | jq -r '.[] | ["- [" + .title + " - " + .repository.nameWithOwner + "#" + (.number|tostring) + "](" + .url|sub("github.com";"togithub.com") + ")"] | add' > book000-success-prs.txt
+          gh search prs archived:false --owner book000 --state open --app renovate --sort created --order desc --checks failure --json repository,number,title,url | jq -r '.[] | ["- [" + .title + " - " + .repository.nameWithOwner + "#" + (.number|tostring) + "](" + .url|sub("github.com";"togithub.com") + ")"] | add' > book000-failure-prs.txt
+          sed -i -e "/{{ book000-renovate-success-prs }}/r book000-success-prs.txt" -e "/{{ book000-renovate-success-prs }}/d" .github/update-template.md
+          sed -i -e "/{{ book000-renovate-failure-prs }}/r book000-failure-prs.txt" -e "/{{ book000-renovate-failure-prs }}/d" .github/update-template.md
+
+          # {{ tomacheese-renovate-success-prs }}, {{ tomacheese-renovate-failure-prs }} を置換する
+          gh search prs archived:false --owner tomacheese --state open --app renovate --sort created --order desc --checks success --json repository,number,title,url | jq -r '.[] | ["- [" + .title + " - " + .repository.nameWithOwner + "#" + (.number|tostring) + "](" + .url|sub("github.com";"togithub.com") + ")"] | add' > tomacheese-success-prs.txt
+          gh search prs archived:false --owner tomacheese --state open --app renovate --sort created --order desc --checks failure --json repository,number,title,url | jq -r '.[] | ["- [" + .title + " - " + .repository.nameWithOwner + "#" + (.number|tostring) + "](" + .url|sub("github.com";"togithub.com") + ")"] | add' > tomacheese-failure-prs.txt
+          sed -i -e "/{{ tomacheese-renovate-success-prs }}/r tomacheese-success-prs.txt" -e "/{{ tomacheese-renovate-success-prs }}/d" .github/update-template.md
+          sed -i -e "/{{ tomacheese-renovate-failure-prs }}/r tomacheese-failure-prs.txt" -e "/{{ tomacheese-renovate-failure-prs }}/d" .github/update-template.md
+
+          # {{ jaoafa-renovate-success-prs }}, {{ jaoafa-renovate-failure-prs }} を置換する
+          gh search prs archived:false --owner jaoafa --state open --app renovate --sort created --order desc --checks success --json repository,number,title,url | jq -r '.[] | ["- [" + .title + " - " + .repository.nameWithOwner + "#" + (.number|tostring) + "](" + .url|sub("github.com";"togithub.com") + ")"] | add' > jaoafa-success-prs.txt
+          gh search prs archived:false --owner jaoafa --state open --app renovate --sort created --order desc --checks failure --json repository,number,title,url | jq -r '.[] | ["- [" + .title + " - " + .repository.nameWithOwner + "#" + (.number|tostring) + "](" + .url|sub("github.com";"togithub.com") + ")"] | add' > jaoafa-failure-prs.txt
+          sed -i -e "/{{ jaoafa-renovate-success-prs }}/r jaoafa-success-prs.txt" -e "/{{ jaoafa-renovate-success-prs }}/d" .github/update-template.md
+          sed -i -e "/{{ jaoafa-renovate-failure-prs }}/r jaoafa-failure-prs.txt" -e "/{{ jaoafa-renovate-failure-prs }}/d" .github/update-template.md
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Create issue
+        run: |
+          # .github/update-template.md をもとにして、issue を作成する
+          cat .github/update-template.md
+          gh issue create --title "Monthly Update: ${{ steps.date.outputs.title-date }}" --body-file .github/update-template.md --label "monthly-updates" --assignee "book000"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
