@@ -29,7 +29,6 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 - 🎮 **[jaoafa/MyMaid4](https://github.com/jaoafa/MyMaid4)** - PaperMC plugin
 - 😉 **[jaoafa/Javajaotan2](https://github.com/jaoafa/Javajaotan2)** - Discord Bot
-- 👓 **[jaoafa/TomachicchiMaker](https://github.com/jaoafa/TomachicchiMaker)** - My icon generator
 - 🎧 **[book000/ZoomInClass](https://github.com/book000/ZoomInClass)** - If you are having a meeting in Zoom, use Discord Rich Presence to view it in Discord
 - 👀 **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - Tracking systemd log and send to Discord
 - 📫 **[book000/github-changelog-translator](https://github.com/book000/github-changelog-translator)** - Translated and delivered by GitHub Changelogs RSS
