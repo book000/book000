@@ -41,7 +41,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 - jao Minecraft Server
   - Server maintainer & Community management
   - Creation and operation of management site for administration members
-- Promoted tweet crawler: https://book000.github.io/twitter-adsense-crawler/
+- Crawling advertising tweets & users: https://book000.github.io/twitter-adsense-crawler/
 
 ## Skills
 
