@@ -21,10 +21,30 @@ jobs:
           # shellcheck disable=SC2086
           echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
+      - name: Calculate next Pull-request number
+        id: pr-number
+        run: |
+          # shellcheck disable=SC2086
+          LAST_PR_NUMBER=$(gh pr list --state all --json number --jq '.[0].number' --limit 1)
+          echo LAST_PR_NUMBER: $LAST_PR_NUMBER
+          # shellcheck disable=SC2086
+          LAST_ISSUE_NUMBER=$(gh issue list --state all --json number --jq '.[0].number' --limit 1)
+          echo LAST_ISSUE_NUMBER: $LAST_ISSUE_NUMBER
+          # shellcheck disable=SC2086
+          LAST_NUMBER=$((LAST_PR_NUMBER > LAST_ISSUE_NUMBER ? LAST_PR_NUMBER : LAST_ISSUE_NUMBER))
+          echo LAST_NUMBER: $LAST_NUMBER
+          # shellcheck disable=SC2086
+          NEXT_PR_NUMBER=$((LAST_NUMBER + 1))
+          echo NEXT_PR_NUMBER: $NEXT_PR_NUMBER
+
+          echo "next-pr-number=$NEXT_PR_NUMBER" >> $GITHUB_OUTPUT
+
       - name: Update template
         run: |
           # {{ date }} を置換する
           sed -i -e "s/{{ date }}/${{ steps.date.outputs.date }}/g" .github/update-template.md
+          # {{ pr-number }} を置換する
+          sed -i -e "s/{{ pr-number }}/${{ steps.pr-number.outputs.next-pr-number }}/g" .github/update-template.md
 
           # {{ book000-renovate-success-prs }}, {{ book000-renovate-failure-prs }} を置換する
           gh search prs archived:false --owner book000 --state open --app renovate --sort created --order desc --checks success --json repository,number,title,url | jq -r '.[] | ["- [ ] [" + .title + " - " + .repository.nameWithOwner + "#" + (.number|tostring) + "](" + .url|sub("github.com";"togithub.com") + ")"] | add' > book000-success-prs.txt

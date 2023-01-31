@@ -31,9 +31,40 @@
 - [ ] winget
 - [ ] MyMaid4
 
-### Computer
+### Computer / Server
 
 適宜 Windows Update などを適用
+
+- [ ] ICHIGO
+- [ ] CHOCO
+- [ ] MINT
+- [ ] TomaPi
+- [ ] Nuts
+- [ ] Comet
+- [ ] frp-server
+
+```shell
+# Debian / Ubuntu
+sudo apt update
+apt list --upgradable > apt-upgradable-{{ date }}.log
+
+sudo apt upgrade
+
+# RedHat
+sudo yum check-update > yum-updates-{{ date }}.log
+
+sudo yum update
+```
+
+```powershell
+# Windows
+start ms-settings:windowsupdate # Settings -> Update & Security -> Windows Update の画面を開く
+
+## コマンドラインだけでやるなら...
+Install-Module PSWindowsUpdate
+Get-WindowsUpdate | tee windows-update-{{ date }}.log
+Install-WindowsUpdate
+```
 
 ### Scoop
 
