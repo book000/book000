@@ -47,12 +47,12 @@
 ```shell
 # Debian / Ubuntu
 sudo apt update
-apt list --upgradable > apt-upgradable-{{ date }}.log
+apt list --upgradable | tee apt-upgradable-{{ date }}.log
 
 sudo apt upgrade
 
 # RedHat
-sudo yum check-update > yum-updates-{{ date }}.log
+sudo yum check-update | tee yum-updates-{{ date }}.log
 
 sudo yum update
 ```
