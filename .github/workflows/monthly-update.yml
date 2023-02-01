@@ -38,6 +38,8 @@ jobs:
           echo NEXT_PR_NUMBER: $NEXT_PR_NUMBER
 
           echo "next-pr-number=$NEXT_PR_NUMBER" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Update template
         run: |
