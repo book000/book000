@@ -8,7 +8,7 @@
 - TomaPi
   - [ ] `/`
   - [ ] `/mnt/hdd`
-  - [ ] `/mnt/hdd`
+  - [ ] `/mnt/hdd2`
 - Nuts
   - [ ] `/`
   - [ ] `/mnt/hdd`
