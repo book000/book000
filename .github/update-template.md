@@ -3,21 +3,21 @@
 `df -h` などを活用し、ストレージの使用率を確認  
 Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。
 
-| ✅ | ComputerName | Drive       | Available (Use %) | Size (Type)   |
-| :-: | ------------ | ----------- | ----------------- | ------------- |
-|  | 🍓 ICHIGO       | `C:`         |   (%)             | 465 GB (SSD)  |
-|  | 🍓 ICHIGO       | `N:`         |   (%)             | 3.63 TB (HDD) |
-|  | 🍓 ICHIGO       | `S:`         |   (%)             | 465 GB (SSD)  |
-|  | 🥧 TomaPi       | `/`         |   (%)             | 29 GB (SD)    |
-|  | 🥧 TomaPi       | `/mnt/hdd`  |   (%)             | 2.7 TB (HDD)  |
-|  | 🥧 TomaPi       | `/mnt/hdd2` |   (%)             | 5.5 TB (HDD)  |
-|  | 🥜 Nuts         | `/`         |   (%)             | 457 GB (SSD)  |
-|  | 🥜 Nuts         | `/mnt/hdd`  |   (%)             | 1.8 TB (HDD)  |
-|  | ☄ Comet        | `/`         |   (%)             | 99 GB (SSD)   |
-|  | 💣 jaoMain      | `/`         |   (%)             | 99 GB (SSD)   |
-|  | 🌐 jaoWeb       | `/`         |   (%)             | 99 GB (SSD)   |
-|  | 👒 ZakuroHat    | `/`         |   (%)             | 115 GB (?)    |
-|  | 👒 ZakuroHat    | `/home`     |   (%)             | 1.9 TB (HDD)  |
+| ✅ | ComputerName | Drive       | Used (Use %) | Size (Type)   |
+| :-: | ------------ | ----------- | ------------ | ------------- |
+|  | 🍓 ICHIGO       | `C:`         |   (%)        | 465 GB (SSD)  |
+|  | 🍓 ICHIGO       | `N:`         |   (%)        | 3.63 TB (HDD) |
+|  | 🍓 ICHIGO       | `S:`         |   (%)        | 465 GB (SSD)  |
+|  | 🥧 TomaPi       | `/`         |   (%)        | 29 GB (SD)    |
+|  | 🥧 TomaPi       | `/mnt/hdd`  |   (%)        | 2.7 TB (HDD)  |
+|  | 🥧 TomaPi       | `/mnt/hdd2` |   (%)        | 5.5 TB (HDD)  |
+|  | 🥜 Nuts         | `/`         |   (%)        | 457 GB (SSD)  |
+|  | 🥜 Nuts         | `/mnt/hdd`  |   (%)        | 1.8 TB (HDD)  |
+|  | ☄ Comet        | `/`         |   (%)        | 99 GB (SSD)   |
+|  | 💣 jaoMain      | `/`         |   (%)        | 99 GB (SSD)   |
+|  | 🌐 jaoWeb       | `/`         |   (%)        | 99 GB (SSD)   |
+|  | 👒 ZakuroHat    | `/`         |   (%)        | 115 GB (?)    |
+|  | 👒 ZakuroHat    | `/home`     |   (%)        | 1.9 TB (HDD)  |
 
 ## PC / Server のアップデート
 
