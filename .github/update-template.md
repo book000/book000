@@ -3,24 +3,24 @@
 `df -h` などを活用し、ストレージの使用率を確認
 
 - ICHIGO
-  - [ ] `C`
-  - [ ] `N`
+  - [ ] `C`: 残り (Using: %)
+  - [ ] `N`: 残り (Using: %)
 - TomaPi
-  - [ ] `/`
-  - [ ] `/mnt/hdd`
-  - [ ] `/mnt/hdd2`
+  - [ ] `/`: 残り (Using: %)
+  - [ ] `/mnt/hdd`: 残り (Using: %)
+  - [ ] `/mnt/hdd2`: 残り (Using: %)
 - Nuts
-  - [ ] `/`
-  - [ ] `/mnt/hdd`
+  - [ ] `/`: 残り (Using: %)
+  - [ ] `/mnt/hdd`: 残り (Using: %)
 - Comet
-  - [ ] `/`
+  - [ ] `/`: 残り (Using: %)
 - jaoMain
-  - [ ] `/`
+  - [ ] `/`: 残り (Using: %)
 - jaoWeb
-  - [ ] `/`
+  - [ ] `/`: 残り (Using: %)
 - ZakuroHat
-  - [ ] `/`
-  - [ ] `/home`
+  - [ ] `/`: 残り (Using: %)
+  - [ ] `/home`: 残り (Using: %)
 
 ## アップデート
 
