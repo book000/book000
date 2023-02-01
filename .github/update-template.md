@@ -37,6 +37,7 @@
 
 - [ ] ICHIGO
 - [ ] CHOCO
+- [ ] BANANA
 - [ ] MINT
 - [ ] TomaPi
 - [ ] Nuts
