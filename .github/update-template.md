@@ -1,48 +1,38 @@
 ## ストレージ確認
 
-`df -h` などを活用し、ストレージの使用率を確認
+`df -h` などを活用し、ストレージの使用率を確認  
+Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。
 
-- ICHIGO
-  - [ ] `C`: 残り (Using: %)
-  - [ ] `N`: 残り (Using: %)
-- TomaPi
-  - [ ] `/`: 残り (Using: %)
-  - [ ] `/mnt/hdd`: 残り (Using: %)
-  - [ ] `/mnt/hdd2`: 残り (Using: %)
-- Nuts
-  - [ ] `/`: 残り (Using: %)
-  - [ ] `/mnt/hdd`: 残り (Using: %)
-- Comet
-  - [ ] `/`: 残り (Using: %)
-- jaoMain
-  - [ ] `/`: 残り (Using: %)
-- jaoWeb
-  - [ ] `/`: 残り (Using: %)
-- ZakuroHat
-  - [ ] `/`: 残り (Using: %)
-  - [ ] `/home`: 残り (Using: %)
+| ✅ | ComputerName | Drive       | Available (Use %) | Size (Type)   |
+| :-: | ------------ | ----------- | ----------------- | ------------- |
+|  | 🍓 ICHIGO       | `C`         |   (%)             | 465 GB (SSD)  |
+|  | 🍓 ICHIGO       | `N`         |   (%)             | 3.63 TB (HDD) |
+|  | 🍓 ICHIGO       | `S`         |   (%)             | 465 GB (SSD)  |
+|  | 🥧 TomaPi       | `/`         |   (%)             | 29 GB (SD)    |
+|  | 🥧 TomaPi       | `/mnt/hdd`  |   (%)             | 2.7 TB (HDD)  |
+|  | 🥧 TomaPi       | `/mnt/hdd2` |   (%)             | 5.5 TB (HDD)  |
+|  | 🥜 Nuts         | `/`         |   (%)             | 457 GB (SSD)  |
+|  | 🥜 Nuts         | `/mnt/hdd`  |   (%)             | 1.8 TB (HDD)  |
+|  | ☄ Comet        | `/`         |   (%)             | 99 GB (SSD)   |
+|  | 💣 jaoMain      | `/`         |   (%)             | 99 GB (SSD)   |
+|  | 🌐 jaoWeb       | `/`         |   (%)             | 99 GB (SSD)   |
+|  | 👒 ZakuroHat    | `/`         |   (%)             | 115 GB (?)    |
+|  | 👒 ZakuroHat    | `/home`     |   (%)             | 1.9 TB (HDD)  |
 
-## アップデート
-
-各アプリケーション等のアップデート実施
-
-- [ ] Computer
-- [ ] Scoop
-- [ ] winget
-- [ ] MyMaid4
-
-### Computer / Server
+## PC / Server のアップデート
 
 適宜 Windows Update などを適用
 
-- [ ] ICHIGO
-- [ ] CHOCO
-- [ ] BANANA
-- [ ] MINT
-- [ ] TomaPi
-- [ ] Nuts
-- [ ] Comet
-- [ ] frp-server
+| ✅ | ComputerName | OS              | PM  |
+| :---: | ------------ | --------------- | --- |
+|  | 🍓 ICHIGO       | Windows         |     |
+|  | 🍫 CHOCO        | Windows         |     |
+|  | 🍌 BANANA       | Windows         |     |
+|  | 🍃 MINT         | Windows         |     |
+|  | 🥧 TomaPi       | Raspberry Pi OS | apt |
+|  | 🥜 Nuts         | Ubuntu          | apt |
+|  | ☄ Comet        | CentOS          | yum |
+|  | 🌉 frp-server   | Ubuntu          | apt |
 
 ```shell
 # Debian / Ubuntu
@@ -67,7 +57,7 @@ Get-WindowsUpdate | tee windows-update-{{ date }}.log
 Install-WindowsUpdate
 ```
 
-### Scoop
+## 🍓 ICHIGO Scoop
 
 ```shell
 scoop update # Scoopのリポジトリを更新
@@ -78,7 +68,7 @@ scoop status # アップデート後の一覧を確認
 
 `scoop-{{ date }}.log` をこの issue のコメント欄に投稿しておくこと
 
-### winget
+## 🍓 ICHIGO winget
 
 ```shell
 winget upgrade | tee winget-{{ date }}.log # アップデート可能なアプリケーション一覧を表示
@@ -87,42 +77,42 @@ winget upgrade [...] # アップデートしたいアプリケーションをア
 
 `winget-{{ date }}.log` をこの issue のコメント欄に投稿しておくこと
 
-### MyMaid4
+## MyMaid4
 
 ワークフローが生成するプルリクエストを用いて一括アップデート
 
 [`is:pr is:open Update dependencies packages by renovate` in `jaoafa/MyMaid4`](https://github.com/jaoafa/MyMaid4/pulls?q=is%3Apr+is%3Aopen+Update+dependencies+packages+by+renovate)
 
-### その他 renovate
+## renovate
 
 やる気があれば…
 
-#### book000
+### book000
 
-Success:
+#### Success:
 
 {{ book000-renovate-success-prs }}
 
-Failure:
+#### Failure:
 
 {{ book000-renovate-failure-prs }}
 
-#### tomacheese
+### tomacheese
 
-Success:
+#### Success:
 
 {{ tomacheese-renovate-success-prs }}
 
-Failure:
+#### Failure:
 
 {{ tomacheese-renovate-failure-prs }}
 
-#### jaoafa
+### jaoafa
 
-Success:
+#### Success:
 
 {{ jaoafa-renovate-success-prs }}
 
-Failure:
+#### Failure:
 
 {{ jaoafa-renovate-failure-prs }}
