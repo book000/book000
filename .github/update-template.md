@@ -1,7 +1,6 @@
 ## ストレージ確認
 
-`df -h` などを活用し、ストレージの使用率を確認  
-Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。
+ストレージの使用状態を確認
 
 | ✅ | ComputerName | Drive       | Used (Use %) | Size (Type)   |
 | :-: | ------------ | ----------- | ------------ | ------------- |
@@ -18,6 +17,13 @@ Linux 系サーバでは ncdu を定期実行している環境もあるので�
 |  | 🌐 jaoWeb       | `/`         |  (%)          | 99 GB (SSD)   |
 |  | 👒 ZakuroHat    | `/`         |  (%)         | 115 GB (?)    |
 |  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  |
+
+```shell
+df -h -x tmpfs -x overlay | awk 'BEGIN { OFS="\t" } { printf "%-10s %5s %5s %5s\n",$6,$3,$5,$2 }'
+```
+
+Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。  
+Windows は可能なら WSL から df コマンドを実行したほうが使用率計算しなくて良いので楽。
 
 ## PC / Server のアップデート
 
