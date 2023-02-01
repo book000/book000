@@ -5,9 +5,9 @@ Linux 系サーバでは ncdu を定期実行している環境もあるので�
 
 | ✅ | ComputerName | Drive       | Available (Use %) | Size (Type)   |
 | :-: | ------------ | ----------- | ----------------- | ------------- |
-|  | 🍓 ICHIGO       | `C`         |   (%)             | 465 GB (SSD)  |
-|  | 🍓 ICHIGO       | `N`         |   (%)             | 3.63 TB (HDD) |
-|  | 🍓 ICHIGO       | `S`         |   (%)             | 465 GB (SSD)  |
+|  | 🍓 ICHIGO       | `C:`         |   (%)             | 465 GB (SSD)  |
+|  | 🍓 ICHIGO       | `N:`         |   (%)             | 3.63 TB (HDD) |
+|  | 🍓 ICHIGO       | `S:`         |   (%)             | 465 GB (SSD)  |
 |  | 🥧 TomaPi       | `/`         |   (%)             | 29 GB (SD)    |
 |  | 🥧 TomaPi       | `/mnt/hdd`  |   (%)             | 2.7 TB (HDD)  |
 |  | 🥧 TomaPi       | `/mnt/hdd2` |   (%)             | 5.5 TB (HDD)  |
