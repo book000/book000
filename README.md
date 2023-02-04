@@ -74,6 +74,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 - **Twitter**: [@book000](https://twitter.com/book000)
 - **Discord**: [tomachi#0310](https://discord.com/users/221991565567066112)
+- **mstdn.jp**: <a rel="me" href="https://mstdn.jp/@book000">@book000@mstdn.jp</a>
 - **E-mail**: `tomachi@tomacheese.com`
 
 ---
@@ -92,3 +93,4 @@ Or... [All Time](https://wakatime.com/share/@book000/11e3ce10-22eb-46ba-a187-1f2
 
 This repository (README.md, etc.) is provided under the [MIT License](LICENSE).  
 You may use it as a reference when creating your own profile README.md. Please create a better README profile that describes you!
+
