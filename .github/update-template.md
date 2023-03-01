@@ -12,6 +12,7 @@
 |  | 🥧 TomaPi       | `/mnt/hdd2` |  (%)         | 5.5 TB (HDD)  |
 |  | 🥜 Nuts         | `/`         |  (%)         | 457 GB (SSD)  |
 |  | 🥜 Nuts         | `/mnt/hdd`  |  (%)         | 1.8 TB (HDD)  |
+|  | 🥜 Nuts         | `/mnt/hdd2` |  (%)         | 687 GB (HDD)  |
 |  | ☄ Comet        | `/`         |  (%)         | 99 GB (SSD)   |
 |  | 💣 jaoMain      | `/`         |  (%)         | 99 GB (SSD)   |
 |  | 🌐 jaoWeb       | `/`         |  (%)          | 99 GB (SSD)   |
