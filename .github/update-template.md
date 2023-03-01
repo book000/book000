@@ -20,7 +20,7 @@
 |  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  |
 
 ```shell
-df -h -x tmpfs -x overlay | awk 'BEGIN { OFS="\t" } { printf "%-10s %5s %5s %5s\n",$6,$3,$5,$2 }'
+df -h -x tmpfs -x overlay | awk 'BEGIN { OFS="\t" } { printf "%-10s %5s %5s %5s\n",$6,$3,$5,$2 }' | tail -n +2 | sort
 ```
 
 Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。  
