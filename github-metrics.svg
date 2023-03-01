@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="954" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="940" class="">
     <defs>
         <style/>
     </defs>
@@ -88,7 +88,7 @@
                                 <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
                                 <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
                             </svg>
-                            485 Issues opened
+                            486 Issues opened
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -144,7 +144,7 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 99 commits)</small>
+                    <small class="h-details">(computed from last 100 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
@@ -160,8 +160,8 @@
                     <h3>Commit activity per hour of day</h3>
                     <div class="chart-bars">
                         <div class="entry">
-                            <span class="value">3</span>
-                            <div class="bar" style="height: 11.538461538461538px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 15.384615384615385px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             00
                         </div>
                         <div class="entry">
@@ -301,8 +301,8 @@
                                 Wed
                             </div>
                             <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                <span class="value">1</span>
+                                <div class="bar" style="height: 1.3157894736842104px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Thu
                             </div>
                             <div class="entry">
@@ -322,17 +322,17 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 13.220853894014159%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">17%</span>
+                                <div class="bar" style="width: 12.892938242399559%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">16%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Shell</span>
-                                <div class="bar" style="width: 0.19658156332689694%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.19170576846897613%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Dockerfile</span>
-                                <div class="bar" style="width: 0.18170635772008867%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.1771995112507183%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
@@ -348,6 +348,24 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
+                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Opened
+                                        <span class="issue">#136 ConoHaVPS 512MBでUbuntu 22.04から逃げ出す</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">book000/zenn-docs</span></div>
+                                </div>
+                                <div class="timestamp">2 Mar 2023, 00:28:04</div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -419,57 +437,6 @@ Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.co
                                         <span class="code">dep-update/2023-03-01</span>
                                         in
                                         <span class="repo">jaoafa/MyMaid4</span>
-                                    </div>
-                                </div>
-                                <div class="timestamp">1 Mar 2023, 13:18:58</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">jaoafa/MyMaid4</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#480728a</div>
-                                        <div class="message">Update dependencies packages by renovate (2023-03-01) (#1021)
-
-* chore: Update dependencies packages by renovate
-
-* fix(deps): update dependency org.json:json to v20230227 (#1020)
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;
-
-* chore(deps): update dependency org.apache.maven.plugins:maven-compiler-plugin to v3.11.0 (#1019)
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;
-
-* fix(deps): update dependency cloud.commandframework:cloud-paper to v1.8.2 (#1015)
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;
-
-* fix(deps): update dependency cloud.commandframework:cloud-minecraft-extras to v1.8.2 (#1014)
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;
-
-* fix(deps): update dependency net.dv8tion:jda to v5.0.0-beta.4 (#1013)
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;
-
-* chore(deps): update jetbrains/qodana-action action to v2022.3.4 (#1012)
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;
-
----------
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
                                     </div>
                                 </div>
                                 <div class="timestamp">1 Mar 2023, 13:18:58</div>
