@@ -26,6 +26,8 @@ df -h -x tmpfs -x overlay | awk 'BEGIN { OFS="\t" } { printf "%-10s %5s %5s %5s\
 Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。  
 Windows は可能なら WSL から df コマンドを実行したほうが使用率計算しなくて良いので楽。
 
+`docker system prune -a` などでの Docker 関連ストレージ解放を行うこと。
+
 ## PC / Server のアップデート
 
 適宜 Windows Update などを適用
