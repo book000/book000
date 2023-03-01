@@ -40,7 +40,7 @@ Windows は可能なら WSL から df コマンドを実行したほうが使用
 |  | 🍃 MINT         | Windows         |     |
 |  | 🥧 TomaPi       | Raspberry Pi OS | apt |
 |  | 🥜 Nuts         | Ubuntu          | apt |
-|  | ☄ Comet        | CentOS          | yum |
+|  | ☄ Comet        | Ubuntu          | apt |
 |  | 🌉 frp-server   | Ubuntu          | apt |
 
 ```shell
