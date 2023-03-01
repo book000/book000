@@ -46,7 +46,7 @@ Windows は可能なら WSL から df コマンドを実行したほうが使用
 ```shell
 # Debian / Ubuntu
 sudo apt update
-apt list --upgradable | tee apt-upgradable-{{ date }}.log
+apt-get list --upgradable | tee apt-upgradable-{{ date }}.log
 
 sudo apt upgrade
 
