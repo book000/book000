@@ -68,7 +68,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 - **Twitch**: [toma_chi](https://twitch.tv/toma_chi)
 - **LastFM**: [book000](https://www.last.fm/user/book000)
   
-[![](https://lastfm-recently-played-book000.vercel.app/api?user=book000&count=3&loved=true)](https://github.com/book000/lastfm-recently-played-readme)
+[![](https://lrpr.amatama.net/api?user=book000&count=5&loved=true)](https://github.com/book000/lastfm-recently-played-readme)
 
 ## Contacts
 
