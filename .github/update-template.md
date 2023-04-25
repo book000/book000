@@ -10,6 +10,8 @@
 |  | 🥧 TomaPi       | `/`         |  (%)         | 29 GB (SD)    |
 |  | 🥧 TomaPi       | `/mnt/hdd`  |  (%)         | 2.7 TB (HDD)  |
 |  | 🥧 TomaPi       | `/mnt/hdd2` |  (%)         | 5.5 TB (HDD)  |
+|  | 🍊 ORANGE       | `/`         |  (%)         | 30 GB (SD)    |
+|  | 🍊 ORANGE       | `/mnt/hdd`  |  (%)         | 916 GB (HDD)  |
 |  | 🥜 Nuts         | `/`         |  (%)         | 457 GB (SSD)  |
 |  | 🥜 Nuts         | `/mnt/hdd`  |  (%)         | 1.8 TB (HDD)  |
 |  | 🥜 Nuts         | `/mnt/hdd2` |  (%)         | 687 GB (HDD)  |
