@@ -42,6 +42,7 @@ Windows は可能なら WSL から df コマンドを実行したほうが使用
 |  | 🍌 BANANA       | Windows         |     |
 |  | 🍃 MINT         | Windows         |     |
 |  | 🥧 TomaPi       | Raspberry Pi OS | apt |
+|  | 🍊 ORANGE     | Ubuntu          | apt |
 |  | 🥜 Nuts         | Ubuntu          | apt |
 |  | ☄ Comet        | Ubuntu          | apt |
 |  | 🌉 frp-server   | Ubuntu          | apt |
