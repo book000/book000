@@ -22,6 +22,7 @@
 |  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  |
 
 ```shell
+docker system prune -a
 df -h -x tmpfs -x overlay | awk 'BEGIN { OFS="\t" } { printf "%-10s %5s %5s %5s\n",$6,$3,$5,$2 }' | tail -n +2 | sort
 ```
 
