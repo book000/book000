@@ -83,8 +83,8 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 | Last 30 days | Last year |
 | :-: | :-: |
-| <img align="center" src="https://wakatime.com/share/@book000/c1a89b98-1908-4fd4-8ba4-06ece7e7cb96.png" width="100%" /> | <img align="center" src="https://wakatime.com/share/@book000/f8593ca5-de4a-4ee9-ac3b-74ac537d8f6a.png" width="100%" /> |
-
+| <img align="center" src="https://wakatime.com/share/@book000/02383778-2549-4e4c-808c-90f6fa8087d3.png#gh-light-mode-only" width="100%" /><img align="center" src="https://wakatime.com/share/@book000/c1a89b98-1908-4fd4-8ba4-06ece7e7cb96.png#gh-dark-mode-only" width="100%" /> | <img align="center" src="https://wakatime.com/share/@book000/d2ec4e64-cb4c-44ba-9063-efc7c00db9c2.png#gh-light-mode-only" width="100%" /><img align="center" src="https://wakatime.com/share/@book000/f8593ca5-de4a-4ee9-ac3b-74ac537d8f6a.png#gh-dark-mode-only" width="100%" /> |
+ 
 Or... [All Time](https://wakatime.com/share/@book000/11e3ce10-22eb-46ba-a187-1f20e8ba88cf.png)! (Registered Mar 30 2021)
 
 ---
