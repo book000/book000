@@ -25,7 +25,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 ## Works
 
-### Hobby
+### Hobby : Application
 
 - 🎮 **[jaoafa/MyMaid4](https://github.com/jaoafa/MyMaid4)** - PaperMC plugin
 - 😉 **[jaoafa/Javajaotan2](https://github.com/jaoafa/Javajaotan2)** - Discord Bot
@@ -33,7 +33,12 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 - 👀 **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - Tracking systemd log and send to Discord
 - 📫 **[book000/github-changelog-translator](https://github.com/book000/github-changelog-translator)** - Translated and delivered by GitHub Changelogs RSS
 - 🖼️ **[tomacheese/my-pixiv](https://github.com/tomacheese/my-pixiv)** - pixiv client for myself
+
+### Hobby : Reusable tiny items
+
 - 📝 **[book000/memo](https://github.com/book000/memo)** - Notes for myself in various development
+- 🧰 **[book000/templates](https://github.com/book000/templates)** - My templates, such as Docker Compose file, etc.
+- 🪄 **[book000/browser-user-customs](https://github.com/book000/browser-user-customs)** - For browser user CSS or user JavaScript files
 - ♻️ **[book000/etc](https://github.com/book000/etc)** - Placing the a little program created
 
 #### Details of activities in private repositories
@@ -46,6 +51,8 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 ## Skills
 
 ### Languages
+
+The main language of late has been TypeScript.
 
 - PHP
 - Java
