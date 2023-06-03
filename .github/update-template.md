@@ -43,18 +43,7 @@ Linux 系サーバでは ncdu を定期実行している環境もあるので�
 |  | ☄ Comet        | Ubuntu          | apt |
 |  | 🌉 frp-server   | Ubuntu          | apt |
 
-```shell
-# Debian / Ubuntu
-sudo apt update
-apt list --upgradable | tee apt-upgradable-{{ date }}.log
-
-sudo apt upgrade
-
-# RedHat
-sudo yum check-update | tee yum-updates-{{ date }}.log
-
-sudo yum update
-```
+### Windows
 
 ```powershell
 # Windows
@@ -62,8 +51,38 @@ start ms-settings:windowsupdate # Settings -> Update & Security -> Windows Updat
 
 ## コマンドラインだけでやるなら...
 Install-Module PSWindowsUpdate
-Get-WindowsUpdate | tee windows-update-{{ date }}.log
+Get-WindowsUpdate | tee windows-update-2023-06-01.log
 Install-WindowsUpdate
+```
+
+### 🥧 TomaPi
+
+```shell
+wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=🥧&machine_name=TomaPi&date={{ date }}
+```
+
+### 🍊 ORANGE
+
+```shell
+wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=🍊&machine_name=ORANGE&date={{ date }}
+```
+
+### 🥜 Nuts
+
+```shell
+wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=🥜&machine_name=Nuts&date={{ date }}
+```
+
+### ☄ Comet
+
+```shell
+wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=☄&machine_name=Comet&date={{ date }}
+```
+
+### 🌉 frp-server
+
+```shell
+wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=🌉&machine_name=frp-server&date={{ date }}
 ```
 
 ## 🍓 ICHIGO Scoop
