@@ -22,14 +22,10 @@
 |  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  |
 
 ```shell
-docker system prune -a
-df -h -x tmpfs -x overlay | awk 'BEGIN { OFS="\t" } { printf "%-10s %5s %5s %5s\n",$6,$3,$5,$2 }' | tail -n +2 | sort
+wget -qO /tmp/calculate-disk.sh https://gist.githubusercontent.com/book000/d24fd6d6b832f8be28e7d7d8b9b48512/raw/calculate-disk.sh && bash /tmp/calculate-disk.sh && rm /tmp/calculate-disk.sh
 ```
 
 Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。  
-Windows は可能なら WSL から df コマンドを実行したほうが使用率計算しなくて良いので楽。
-
-`docker system prune -a` などでの Docker 関連ストレージ解放を行うこと。
 
 ## PC / Server のアップデート
 
