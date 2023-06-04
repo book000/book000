@@ -87,14 +87,10 @@ wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_
 
 ## 🍓 ICHIGO Scoop
 
-```shell
-scoop update # Scoopのリポジトリを更新
-scoop status | tee scoop-{{ date }}.log # アップデート可能なアプリケーション一覧を表示
-scoop update * # すべてのアプリケーションを更新
-scoop status # アップデート後の一覧を確認
+```powershell
+# 管理者権限で実行
+irm "https://api.tomacheese.com/monthly-update.ps1?update_type=scoop-update&number={{ pr-number }}&machine_emoji=🍓&machine_name=ICHIGO&date={{ date }}" | iex
 ```
-
-`scoop-{{ date }}.log` をこの issue のコメント欄に投稿しておくこと
 
 ## 🍓 ICHIGO winget
 
