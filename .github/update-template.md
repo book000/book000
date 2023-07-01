@@ -40,8 +40,8 @@ Linux 系サーバでは ncdu を定期実行している環境もあるので�
 |  | 🥧 TomaPi       | Raspberry Pi OS | apt |
 |  | 🍊 ORANGE     | Ubuntu          | apt |
 |  | 🥜 Nuts         | Ubuntu          | apt |
-|  | ☄ Comet        | Ubuntu          | apt |
 |  | 🌉 frp-server   | Ubuntu          | apt |
+|  | ☄ Comet        | Ubuntu          | apt |
 
 ### Windows
 
