@@ -22,7 +22,7 @@
 |  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  |
 
 ```shell
-wget -qO /tmp/calculate-disk.sh https://gist.githubusercontent.com/book000/d24fd6d6b832f8be28e7d7d8b9b48512/raw/calculate-disk.sh && bash /tmp/calculate-disk.sh && rm /tmp/calculate-disk.sh
+wget -qO /opt/calculate-disk.sh https://gist.githubusercontent.com/book000/d24fd6d6b832f8be28e7d7d8b9b48512/raw/calculate-disk.sh && bash /tmp/calculate-disk.sh && rm /opt/calculate-disk.sh
 ```
 
 Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。  
