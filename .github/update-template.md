@@ -73,16 +73,16 @@ wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_
 wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=🥜&machine_name=Nuts&date={{ date }}" && bash monthly-update.sh
 ```
 
-### ☄ Comet
-
-```shell
-wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=☄&machine_name=Comet&date={{ date }}" && bash monthly-update.sh
-```
-
 ### 🌉 frp-server
 
 ```shell
 wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=🌉&machine_name=frp-server&date={{ date }}" && bash monthly-update.sh
+```
+
+### ☄ Comet
+
+```shell
+wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=☄&machine_name=Comet&date={{ date }}" && bash monthly-update.sh
 ```
 
 ## 🍓 ICHIGO Scoop
