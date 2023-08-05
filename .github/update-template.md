@@ -21,6 +21,8 @@
 |  | 👒 ZakuroHat    | `/`         |  (%)         | 115 GB (?)    |
 |  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  |
 
+絵文字の関係上、Termius で実行すること。
+
 ```shell
 wget -qO /tmp/calculate-disk.sh https://gist.githubusercontent.com/book000/d24fd6d6b832f8be28e7d7d8b9b48512/raw/calculate-disk.sh && bash /tmp/calculate-disk.sh && rm /tmp/calculate-disk.sh
 ```
