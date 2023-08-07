@@ -103,12 +103,6 @@ winget upgrade [...] # アップデートしたいアプリケーションをア
 
 `winget-{{ date }}.log` をこの issue のコメント欄に投稿しておくこと
 
-## MyMaid4
-
-ワークフローが生成するプルリクエストを用いて一括アップデート
-
-[`is:pr is:open Update dependencies packages by renovate` in `jaoafa/MyMaid4`](https://github.com/jaoafa/MyMaid4/pulls?q=is%3Apr+is%3Aopen+Update+dependencies+packages+by+renovate)
-
 ## renovate
 
 やる気があれば…
