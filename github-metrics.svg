@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1138" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1044" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}code{display:inline-block}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}code{display:inline-block}.gemoji{height:1em;width:1em;margin-bottom:-.125em}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -81,7 +81,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
                             </svg>
-                            1241 Pull requests opened
+                            1242 Pull requests opened
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -94,7 +94,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                             </svg>
-                            2694 issue comments
+                            2697 issue comments
                         </div>
                     </section>
                     <section>
@@ -144,7 +144,7 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 161 commits)</small>
+                    <small class="h-details">(computed from last 157 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
@@ -160,8 +160,8 @@
                     <h3>Commit activity per hour of day</h3>
                     <div class="chart-bars">
                         <div class="entry">
-                            <span class="value">7</span>
-                            <div class="bar" style="height: 14.583333333333334px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">8</span>
+                            <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             00
                         </div>
                         <div class="entry">
@@ -245,28 +245,28 @@
                             16
                         </div>
                         <div class="entry">
-                            <span class="value">6</span>
-                            <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">5</span>
+                            <div class="bar" style="height: 10.416666666666668px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             17
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.416666666666668px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.333333333333332px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             18
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.416666666666668px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.333333333333332px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             19
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.416666666666668px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.333333333333332px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             20
                         </div>
                         <div class="entry">
-                            <span class="value">6</span>
-                            <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">5</span>
+                            <div class="bar" style="height: 10.416666666666668px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             21
                         </div>
                         <div class="entry">
@@ -311,13 +311,13 @@
                                 Thu
                             </div>
                             <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                <span class="value">1</span>
+                                <div class="bar" style="height: 1.0869565217391304px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Fri
                             </div>
                             <div class="entry">
-                                <span class="value">7</span>
-                                <div class="bar" style="height: 7.608695652173914px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">2</span>
+                                <div class="bar" style="height: 2.1739130434782608px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Sat
                             </div>
                         </div>
@@ -327,7 +327,7 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Kotlin</span>
-                                <div class="bar" style="width: 1.2925703829387056%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 1.3169218337397728%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">2%</span>
                             </div>
                         </div>
@@ -351,14 +351,14 @@
                                     </svg>
                                     <div class="content">
                                         Commented on
-                                        <span class="issue">#31 feat: URLに関する置換処理を作成</span>
+                                        <span class="issue">#123 meeting_voteの実装</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by book000 in <span class="repo">jaoafa/VCSpeaker.kt</span></div>
-                                    <div class="comment">一応、guildIdのunused対応はこのPRの対象外とさせてください。</div>
+                                    <div>opened by book000 in <span class="repo">jaoafa/jaotan.ts</span></div>
+                                    <div class="comment">処理のトリガーは、絵文字の付与と定期的な実行。定期的に見ないとリマインドが動かなくなる</div>
                                 </div>
-                                <div class="timestamp">12 Oct 2023, 22:57:26</div>
+                                <div class="timestamp">13 Oct 2023, 00:44:51</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -369,16 +369,26 @@
                                     </svg>
                                     <div class="content">
                                         Commented on
-                                        <span class="issue">#33 MKDocs wiki</span>
+                                        <span class="issue">#123 meeting_voteの実装</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by yuuahp in <span class="repo">jaoafa/VCSpeaker.kt</span></div>
-                                    <div class="comment">あと、wikiなのかドキュメントなのか、一応統一しておきましょうか…
-wikiは言葉の定義上はウェブブラウザから直接編集できるシステムのことを指します
-ドキュメントは資料とか記録なので言葉の範囲は広いです</div>
+                                    <div>opened by book000 in <span class="repo">jaoafa/jaotan.ts</span></div>
+                                    <div class="comment">
+                                        基本機能
+
+投票チャンネルにメッセージが送信されると、そのメッセージを「審議対象の内容」として投票を開始する
+投票は :+1:
+                                        <img class="gemoji" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAALpklEQVR4nO1bSWwcaRV+vXqP4yXxxI4zmSyTERqxSMAFwYHLiAtXQAIhIUBzQGzSaFgugxAHlgPiNkho0Ezq/3v1bre3eMkysQcYxBEQi4SEJpP+qzfb7e6uqofe/1e1q9vtpLpjZ0IrT/pku7q6qr733v+2vwzwVJ7KY5f/zkJ3OgZjegRe1Dl8+j6Hz6cZfFXX4JuCwXd1DV6V4PAzPQI/1zm8LhikBIclXYMpncF1ocGC4LCqc3hXj8CfdQ7/FBze0Rn85v234Ap8UJJWxD6X5vBtocEvBQMuONwRDP6qM7gvNCgLBtgqdO7DTDSAuUSHmZ/swsJUDxZm+iTykz2oM59J99AZfOnxEGbwgmDwfbKOYJCpeVgGZjYClXwMrEIMcCcOuJcALCYB9ycAS5OA5SnAyjSgOa2OZSMH38/FfLg7EcLSfA8aK0No3RxDvHsZ8Z0XjoT59mXMTXZZgkPlPoePnwjp/8SgS+fwsuDwN+dhsxEwdhKKRGXKh9asD3GO4K+DfZw+nwUJawYwH61eB/eTgNZcEHGpB/HGIOLmM4h3nkXcfv6B5KtKuHsV9UjAFBzmjo00rkMwE4GPCAa/Ehxy0kIRMImwOeMiOh9wIXgE7M/nCH7pGXQ98gxHKZjqQFzpR9w4i3h7HHHriifyDnbmTiMtBXrulklnNPioYPBbncPfBQfDsXYmAliZdFnYIbtACNkIK6Tq4By3zyNL0zV3Ey7ydM3FLsTV0y7rX2tKAcXls/K6eQbDLZEXGvxUMLBoHRfigPnYwdrcn/C5SLsIk9UkOhEX3eiy4TpG56Q60FwIH7Y+KZbOIQVsjDTl/lUPmB+gGFTCGASaJp/W4Ef0UIU4WLQ+6aHKkwcKMGYDdaTriC512+g5Avbn9vm5qB91TrHDpQS69nIf4towIgW/ty95Ju/EgDSH2abJZzR4liIokXdbxJjx2+7vOyDukHaTXe610aew4oJzrHpOr/yOsdCF2ahPuWxMBVKKK9ZCB5bnu7E414O7sz2Yn+qWyCU7MZvowEw8hJlYUP7MxsPyeC7ZQeTpWua9KLzUvPUZ/Fho9AAud5wPVNdqIRE4TNwhLImeUljtPxoU3JzzbMVYS71YnApXFUEeUZv/AbNRP+bjAcwnQliY7MCdqS7cmenGnZkeLEx1S+QnOzGXkMvKEgwKVJM0pQDBIZbhYFaD0bzt7qmwtP7+dFgRX7aJO6QludMKNwZcGKyD6zN5vlKIudiLhaRSsvSEKGCRUupMEC0ZEPsR14cRN88h3r6glsT21SOXgXHnEmYTYVkUUTD3rgAGKUpvirwd5Gx3z8X8aC50u4jXkx5EXBtyYVhh3Ybzd/VzpRRj6ZSs8MjKVCipuONT95VxYEhlAyL+kELIDeugHrjjXQEaLOViYCnyzlpX7r47GXJZvAFpSfSMjbMqhzcCfeactzaMuURQkjem3UEwpBTtLoS2jrb4w9Lh/bfgWhMK8FmKvLPWlbsbiz0Hrl4l7pB2CI6oB67inAuu43Texghaa8PyAffq0yDdmxRN177VXBaoWQq3L8nrpzl8xesSWJYKqCFfZ3U38RrS5xBvEkZtjMmARM0LBae9uT4sLw+hJc8bleeb62cP1wGO+0sFOGnwuZYUYN694gTRl70qYCUX81u15Ous3pC4Ioy3ztsYVyXs7XE0N0exmDqN2ZgKcrTeC9PdWFlV5LKUzrhqiA6WgNMLDKj70LWaWP8OSutjygMYfNa7AuJ+S96c1rt0eWetO1avI04uSqQl4QsKtGaruKh+3r6AxdQACuY7iPbJDiwvDaEesYNg0pWCKQ7Qc9D9SeF0D/IEj1WhcesiZqJBg0p5zz2B0GA1Fw9Y0vJEXrr8oB3gHKsfQdwhSw9ZxaU6PIeVjVG5LA7yvA+LC/2Yn+isHstGVftcnPBhaTqE5fkurCz2obE6iObaCBrro1hZH8PKxnksb5zH0toY7q88g3uLw7IRyk10OS15RmfwYU/kSQSDG7l4QLm9mzxZoGp1F/F60ncvKVclUAfXCHcvo7E5jnpEVZcOiosDuDPbi4LbHsJbH5ro3EczActWwsy/3oBOaEoBq6cPk69a3WVxx8o1hK8qN30Qtq5iae1cQwI0PKFBCc5QTeBDYzaElblOLC/0YmnhFO6n+rG0PISl1REskxfcfBaN28+h+XZdy7x9DYvLZxxlvuFJATqDtVw8qNZ8I/L1Vq8Sd0hT2+qldb0mz6dRlnxATZW71HRVA+G8XXZTNqD4Q953h4qh5mYDuwuDsjT2VBHqDNapMJE3PIq829VriLeYp21XpyaoZibg1AKyIxxVSm+yLXYqQsF9pmDwi4cqIM1gI5cIHUR7yuuNyJPVH4G4G9lYSCqgJg1SJUo9xyOmweo9Eh000Fn0roANO9ofIm+7vLTEo5MnFKZ71ZyhkQKcocijKiAeJgWkHqoAwWBTKkC6fiPytssfA3EHxRVVDe7E6sthqgbtZog8scV+gCbFgvss2mfwooCb+UTYXvfn7dbzYq3bHyN5AuVxdwY4mEU4ccDdETqe4NX7rqlAy6HiacNEaHArnwzbrk+p7mTJSwVsXmiYCksT9rKQFSEth347GzyjjCOf7XLtc21fQ/POZSxvjuP+6jm1R0C1gAavghfRZRYIW7Wuf3LkCVTFHSpm6n6n/YJc1If5uF8OTgoTIcxPhJGMlUuGZZ9RX1jZuEdbbuBV0gyu6xG/gbcu1K77Ywp4jUAlrHvkTv0ADUgJ+1NBOYfYmQhjYaJD9g7UYVIDJX/S3zQjTHbIOWE2FiSLW0IDQ2fwStP7AoLDF2ROXhp2uf7JkSc4dftu3JkGuVtiZ/07QfCKp6mw7fpm09tjGIOAYLClc5+5v3z2gXO34wLV/jl3BnBPhNzkm1iG1haNw/ymzmASmpX33oSzgsG2dMlowNiZP42VzQsnQp6Gl3Ii5N4Zktan6E+DULsNbqEGkNtjDHYQwde0EnAdgrTFTFNiwWFXtqiJsFFcHkFr6/ljzwDU+h5SwGrre4OEvSXVCL33JvTAo77QIDh8TWfwRxmVo36D+u7jUISs05mvwVC09Z2hGg/gsNeSBxwl6evwCZ3DtNw3jByPIsrr52UKIyVUG6Lq/mBry4CeiaZBgsE8nIRkOHzMUQTdqHRj9JGUQMULpTY7FVq0JMr0nkE1FpyxPeHhHaG1TdXfKacF/gycpKQ1+KTO4U9yvjfda1EKalUJuwsD5AUVncGcYK7teA5GPhGwdiY7cHemG/dm+7C4MCBTNc39i0tn5ChsNzUk3T4TC8nv6gx+AI9D8DXwCw2+Q9vRlDVazRi783JgqtM17/8O+oQGLwkNXhMaRHQG7woG7wkG+SPHYRz2dAZpmmrRd+Fxix6BF+XLUNxn0ji66ai9KDdJTC97+hTZczEYzGowQEEanhTJajAg3wrjYJU3xptSwP4NNSNsaor7JMr7MegVHP6ic79Jw8qmt7E0+Bb8v4vgME7rMZfoNJvxAj0aMKj4gnYQXYMvynn/yohnBVD6IsUda/HyQYpgkKKCyWuxREMMGdGvw4egHUS/Dp+S7bVHL5Dzu3aJA44IBn+gsbTXZZCNh4yW2tgnVXQGr8i5f/3W1RGg9psKnpbe8XsSJaPeOMXSmrd+gc6Tr7Wc1MvOj1twHYJU2++lhpqKA4LB16FdRDDfvwuzp7zXAxE/NTS/hnYRwWGL/qHBeyAMG9QEQbuITvsNk92eFZBLdtJu7vG97/9Bi6AXMJPey+JMLFihPQpoFxEckl5rAWdSLDh8D9pFBAOWjYcrnuqAmX5SQPkegxFoFxEMfp+NhypeZwKCwU+gnURweJ3GZR72CGkffwNjEIZ2kjSDH6pqcAxxu5Z45eZFzE/1yG1selFTXIdT0G5y/y04pzP4h5zyxoIVIpyf7qXfnelvXu7mtkv930jIrXUGX6Z4IDdg1aQ3ITh8g2aJDb/0VJ4KnKT8D0d0+kyHnWXgAAAAAElFTkSuQmCC" height="16" width="16" alt="" />
+                                        <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />
+                                        で行う。賛成・反対・白票で、白票の場合は自分の投票権利を失う（ボーダーラインが変わる）。全員が白票にするようであれば否認
+ボーダーラインは投票権利者の過半数。賛成or反対が過半数を超えた場合、承認or否認する。ただし、この値は
+                                        <code>[Border:1]</code>
+                                        といった文字列をメッセージに含むことで変更できる
+投票期間は、投票を開始してから2週間。確定しない状態で1週間経過したら投票していないユーザにメンションを行う（リマインド機能）。確定しない状態で2週間経過した場合は否認とする
+                                    </div>
                                 </div>
-                                <div class="timestamp">12 Oct 2023, 10:34:22</div>
+                                <div class="timestamp">13 Oct 2023, 00:29:22</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -389,51 +399,49 @@ wikiは言葉の定義上はウェブブラウザから直接編集できるシ�
                                     </svg>
                                     <div class="content">
                                         Commented on
-                                        <span class="issue">#33 MKDocs wiki</span>
+                                        <span class="issue">#123 meeting_voteの実装</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by yuuahp in <span class="repo">jaoafa/VCSpeaker.kt</span></div>
-                                    <div class="comment">mkdocsって例には上げましたが、あくまで私の知見があるツールというだけで、選択の余地はあると思います
-色々吟味してもらえれば…。</div>
+                                    <div>opened by book000 in <span class="repo">jaoafa/jaotan.ts</span></div>
+                                    <div class="comment">https://github.com/jaoafa/Javajaotan2/blob/master/src/main/java/com/jaoafa/javajaotan2/event/Event_MeetingVote.java</div>
                                 </div>
-                                <div class="timestamp">12 Oct 2023, 10:32:09</div>
+                                <div class="timestamp">13 Oct 2023, 00:05:37</div>
                             </section>
                         </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Commented on
-                                        <span class="issue">#31 feat: URLに関する置換処理を作成</span>
+                                        Created new
+                      branch
+                                        <span class="code">feat/meeting-vote</span>
+                                        in
+                                        <span class="repo">book000/jaotan.ts</span>
                                     </div>
                                 </div>
-                                <div class="details">
-                                    <div>opened by book000 in <span class="repo">jaoafa/VCSpeaker.kt</span></div>
-                                    <div class="comment">アノテーションかけるとそのメソッド全体でかかる気がしててなんかちょっとですよねえ</div>
-                                </div>
-                                <div class="timestamp">12 Oct 2023, 08:08:52</div>
+                                <div class="timestamp">13 Oct 2023, 00:05:26</div>
                             </section>
                         </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
                                     </svg>
                                     <div class="content">
-                                        Commented on
-                                        <span class="issue">#31 feat: URLに関する置換処理を作成</span>
+                                        Opened
+                                        <span class="issue">#124 feat: とりあえずVoteReactionクラス</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by book000 in <span class="repo">jaoafa/VCSpeaker.kt</span></div>
-                                    <div class="comment">unused argumentのところ、引数1つと2つ両方受け付けますよみたいな書き方ないですかね？</div>
+                                    <div> in <span class="repo">jaoafa/jaotan.ts</span></div>
+                                    <div>1 file changed <span class="code">++52 --0</span></div>
                                 </div>
-                                <div class="timestamp">12 Oct 2023, 08:06:40</div>
+                                <div class="timestamp">13 Oct 2023, 00:05:24</div>
                             </section>
                         </div>
                     </section>
