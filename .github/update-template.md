@@ -45,6 +45,7 @@ Linux 系サーバでは ncdu を定期実行している環境もあるので�
 |  | 🥜 Nuts         | Ubuntu          | apt |
 |  | 🌉 frp-server   | Ubuntu          | apt |
 |  | ☄ Comet        | Ubuntu          | apt |
+|  | 👒 ZakuroHat    | Ubuntu          | apt |
 
 ### Windows
 
@@ -86,6 +87,12 @@ wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_
 
 ```shell
 wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=☄&machine_name=Comet&date={{ date }}" && bash monthly-update.sh
+```
+
+### 👒 ZakuroHat
+
+```shell
+wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=👒&machine_name=ZakuroHat&date={{ date }}" && bash monthly-update.sh
 ```
 
 ## 🍓 ICHIGO Scoop
