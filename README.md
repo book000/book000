@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/Uptime-99.9%25-yellowgreen)
 ![](https://img.shields.io/badge/License-none-yellow)
 
-Developer of Spigot plugins, Discord Bot applications, etc. 
+Developer of Discord bot applications, efficiency projects, etc.
 
 - [Gist](https://gist.github.com/book000)
 
@@ -27,8 +27,7 @@ Developer of Spigot plugins, Discord Bot applications, etc.
 
 ### Hobby : Application
 
-- 🎮 **[jaoafa/MyMaid4](https://github.com/jaoafa/MyMaid4)** - PaperMC plugin
-- 😉 **[jaoafa/Javajaotan2](https://github.com/jaoafa/Javajaotan2)** - Discord Bot
+- 😉 **[jaoafa/jaotan.ts](https://github.com/jaoafa/jaotan.ts)** - Discord Bot for community management.
 - 🎧 **[book000/ZoomInClass](https://github.com/book000/ZoomInClass)** - If you are having a meeting in Zoom, use Discord Rich Presence to view it in Discord
 - 👀 **[book000/SystemdLogTracker](https://github.com/book000/SystemdLogTracker)** - Tracking systemd log and send to Discord
 - 📫 **[book000/github-changelog-translator](https://github.com/book000/github-changelog-translator)** - Translated and delivered by GitHub Changelogs RSS
