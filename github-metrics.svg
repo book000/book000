@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1061" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1341" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.gemoji{height:1em;width:1em;margin-bottom:-.125em}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -75,13 +75,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
                             </svg>
-                            144 Pull requests reviewed
+                            145 Pull requests reviewed
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
                             </svg>
-                            1167 Pull requests opened
+                            1168 Pull requests opened
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -94,7 +94,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                             </svg>
-                            2752 issue comments
+                            2753 issue comments
                         </div>
                     </section>
                     <section>
@@ -144,12 +144,12 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 143 commits)</small>
+                    <small class="h-details">(computed from last 138 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 46.7 characters per line of code written</li>
+                        <li>Has approximately 36.5 characters per line of code written</li>
                         <li>Mostly pushes code around 02:00</li>
                         <li>Mostly active on Sunday</li>
                     </ul>
@@ -190,13 +190,13 @@
                             05
                         </div>
                         <div class="entry">
-                            <span class="value">6</span>
-                            <div class="bar" style="height: 13.043478260869565px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">10</span>
+                            <div class="bar" style="height: 21.73913043478261px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             06
                         </div>
                         <div class="entry">
-                            <span class="value">4</span>
-                            <div class="bar" style="height: 8.695652173913043px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">5</span>
+                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             07
                         </div>
                         <div class="entry">
@@ -225,48 +225,48 @@
                             12
                         </div>
                         <div class="entry">
-                            <span class="value">7</span>
-                            <div class="bar" style="height: 15.217391304347828px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">5</span>
+                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             13
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.695652173913043px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             14
                         </div>
                         <div class="entry">
-                            <span class="value">6</span>
-                            <div class="bar" style="height: 13.043478260869565px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">5</span>
+                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             15
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.695652173913043px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             16
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.695652173913043px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             17
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.695652173913043px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             18
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.695652173913043px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             19
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.695652173913043px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             20
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 10.869565217391305px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 8.695652173913043px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             21
                         </div>
                         <div class="entry">
@@ -296,8 +296,8 @@
                                 Mon
                             </div>
                             <div class="entry">
-                                <span class="value">10</span>
-                                <div class="bar" style="height: 12.195121951219512px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">15</span>
+                                <div class="bar" style="height: 18.29268292682927px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 Tue
                             </div>
                             <div class="entry">
@@ -306,8 +306,8 @@
                                 Wed
                             </div>
                             <div class="entry">
-                                <span class="value">12</span>
-                                <div class="bar" style="height: 14.634146341463413px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">2</span>
+                                <div class="bar" style="height: 2.4390243902439024px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Thu
                             </div>
                             <div class="entry">
@@ -326,23 +326,23 @@
                         <h3>Language activity</h3>
                         <div class="chart-bars horizontal">
                             <div class="entry">
+                                <span class="name">TypeScript</span>
+                                <div class="bar" style="width: 2.209990149608089%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">3%</span>
+                            </div>
+                            <div class="entry">
                                 <span class="name">Kotlin</span>
-                                <div class="bar" style="width: 0.46801124523189414%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.4571928908795474%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">1%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Java</span>
-                                <div class="bar" style="width: 0.34997423111330206%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">0%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 0.29067993663784114%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.3418843715534152%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">CSS</span>
-                                <div class="bar" style="width: 0.018891438007298023%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.018454751340747786%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
@@ -362,63 +362,18 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
                                     </svg>
                                     <div class="content">
-                                        Commented on
-                                        <span class="issue">#255 fix: Grammar correction</span>
+                                        Opened
+                                        <span class="issue">#189 feat: ピン留めの際、チャンネルタイプチェックにスレッドを対象とするように</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by yuuahp in <span class="repo">jaoafa/watch-guilds</span></div>
-                                    <div class="comment">
-                                        <i>他で Embed のタイトルの絵文字の後にスペースが入っていたので入れましたが、入れていないのには意味があったりしますか？</i>
-                                        これは、普通に入れ忘れです。すみませぬ…
-                                    </div>
+                                    <div> in <span class="repo">jaoafa/jaotan.ts</span></div>
+                                    <div>2 files changed <span class="code">++14 --4</span></div>
                                 </div>
-                                <div class="timestamp">6 Nov 2023, 19:25:18</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#255 fix: Grammar correction</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by yuuahp in <span class="repo">jaoafa/watch-guilds</span></div>
-                                    <div class="comment">
-                                        えいごよわよわなのでいまいちわからんのですが、
-                                        <code>Available Emoji Slots</code>
-                                        と書く時、2単語目以降は頭小文字ではなく大文字なんですかね？
-あとできればレビュアーの追加お願いします（通知がgithub webhookしか飛んでこないので）
-                                    </div>
-                                </div>
-                                <div class="timestamp">6 Nov 2023, 19:21:08</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#186 <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />リアクション後付けでのピン止めができない</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by jaotan in <span class="repo">jaoafa/jaotan.ts</span></div>
-                                    <div class="comment">https://github.com/jaoafa/jaotan.ts/blob/58e8a82b6fa7851c2bad1591a2b21cfebd21aeb4/src/events/pin-reaction.ts#L36
-このif分岐でスレッドも対象にする</div>
-                                </div>
-                                <div class="timestamp">6 Nov 2023, 14:25:11</div>
+                                <div class="timestamp">7 Nov 2023, 06:42:52</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -428,14 +383,14 @@
                                         <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Deleted
+                                        Created new
                       branch
-                                        <span class="code">feat/app-list</span>
+                                        <span class="code">feat/pin-thread</span>
                                         in
-                                        <span class="repo">jaoafa/jaoFeedback</span>
+                                        <span class="repo">book000/jaotan.ts</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">6 Nov 2023, 00:24:24</div>
+                                <div class="timestamp">7 Nov 2023, 06:42:50</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -446,17 +401,164 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">jaoafa/jaoFeedback</span>
+                                        <span class="repo">jaoafa/watch-guilds</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#6bbf049</div>
-                                        <div class="message">feat: 不具合報告をユーザー右クリックからできるようにする (#66)</div>
+                                        <div class="sha">#f6020cf</div>
+                                        <div class="message">fix: Grammar correction (#255)</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">6 Nov 2023, 00:24:23</div>
+                                <div class="timestamp">7 Nov 2023, 06:38:33</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Merged
+                                        <span class="issue">#255 fix: Grammar correction</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by yuuahp in <span class="repo">jaoafa/watch-guilds</span></div>
+                                    <div>6 files changed <span class="code">++10 --10</span></div>
+                                </div>
+                                <div class="timestamp">7 Nov 2023, 06:38:32</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 116 commits in
+                                        <span class="repo">book000/jaotan.ts</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#bf40e73</div>
+                                        <div class="message">feat: console.logを使えるようにするがCIでチェックする (#82)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1e6d382</div>
+                                        <div class="message">feat: いくつかのコマンド・機能を削除 (#80)
+
+* feat: remove some commands &amp; function
+
+* feat: remove importing</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#41d5f18</div>
+                                        <div class="message">chore(deps): update typescript-eslint monorepo to v6.5.0 (#76)
+
+Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9d8db8a</div>
+                                        <div class="message">chore(deps): update dependency @book000/node-utils to v1.5.12 (#75)
+
+Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#19845f3</div>
+                                        <div class="message">chore(deps): update dependency @book000/node-utils to v1.5.11 (#74)
+
+Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ef9393a</div>
+                                        <div class="message">feat: 「えんえん」に対する自動リアクション機能を実装 (#70)
+
+Co-authored-by: Tomachi &lt;8929706+book000@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#dafc11e</div>
+                                        <div class="message">feat: 特定サーバでのコマンド実行に制限する処理を追加 (#69)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#6ba8b13</div>
+                                        <div class="message">feat: permissionを確認する処理を追加 (#68)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5b599a1</div>
+                                        <div class="message">feat: 引数取得処理の共通化 (#67)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9bb1755</div>
+                                        <div class="message">feat: greeting機能の追加 (#66)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f48cd49</div>
+                                        <div class="message">feat: alphaコマンドを実装 (#64)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9ef1765</div>
+                                        <div class="message">chore: githubディレクトリのファイルを調整 (#60)
+
+* chore: githubディレクトリへファイルを移動
+
+* chore: codeownersを追加</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3d54f2a</div>
+                                        <div class="message">feat: tmttmtコマンドを追加 (#59)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7b0661a</div>
+                                        <div class="message">feat: superコマンドの実装 (#58)
+
+Co-authored-by: Tomachi &lt;8929706+book000@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#46ad46c</div>
+                                        <div class="message">feat: powaコマンドの実装 (#57)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#09820a5</div>
+                                        <div class="message">feat: kowaineコマンドを実装 (#54)
+
+Co-authored-by: Tomachi &lt;8929706+book000@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#429c7c2</div>
+                                        <div class="message">feat: kawaiineコマンドを実装 (#53)
+
+* feat: kawaiineコマンドを実装
+
+* feat: kowaineコマンドを実装
+
+* chore: 他のPRで実装する予定の、kowaineコマンドを削除
+
+* fix: コードの修正
+
+---------
+
+Co-authored-by: Tomachi &lt;8929706+book000@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3663ce5</div>
+                                        <div class="message">ci: add add-viewer.yml (#52)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#441a93a</div>
+                                        <div class="message">feat: basslineコマンドを追加 (#48)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d615e55</div>
+                                        <div class="message">feat: potatoコマンドの設定を追加 (#47)</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">7 Nov 2023, 06:35:32</div>
                             </section>
                         </div>
                     </section>
