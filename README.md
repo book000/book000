@@ -16,7 +16,7 @@ Developer of Discord bot applications, efficiency projects, etc.
   <img align="right" width="40%" src="https://raw.githubusercontent.com/book000/book000/master/github-metrics.svg" />
 </a>
 
-- [jao Minecraft Server](https://jaoafa.com) staff. (GitHub org: [jaoafa](https://github.com/jaoafa))
+- [jao Community](https://jaoafa.com) staff. (GitHub org: [jaoafa](https://github.com/jaoafa))
 - **Birthday**: March 10th, 2001
 - **Location**: Yamanashi, Japan
 - **Love**: Splendid Garden Eel, Heteroconger hassi😍
@@ -42,9 +42,8 @@ Developer of Discord bot applications, efficiency projects, etc.
 
 #### Details of activities in private repositories
 
-- jao Minecraft Server
-  - Server maintainer & Community management
-  - Creation and operation of management site for administration members
+- jao Community
+  - Discord bot maintainer & Community management
 - Crawling advertising tweets & users: https://book000.github.io/twitter-adsense-crawler/
 
 ## Skills
