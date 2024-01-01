@@ -18,7 +18,6 @@
 |  | 🥜 Nuts         | `/mnt/hdd2` |  (%)         | 687 GB (HDD)  |
 |  | ☄ Comet        | `/`         |  (%)         | 99 GB (SSD)   |
 |  | 💣 jaoMain      | `/`         |  (%)         | 99 GB (SSD)   |
-|  | 🌐 jaoWeb       | `/`         |  (%)          | 99 GB (SSD)   |
 |  | 👒 ZakuroHat    | `/`         |  (%)         | 115 GB (?)    |
 |  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  |
 
