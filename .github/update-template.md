@@ -12,11 +12,11 @@
 |  | 🥧 TomaPi       | `/mnt/hdd2` |  (%)         | 5.5 TB (HDD)  |
 |  | 🍊 ORANGE       | `/`         |  (%)         | 30 GB (SD)    |
 |  | 🍊 ORANGE       | `/mnt/hdd`  |  (%)         | 916 GB (HDD)  |
-|  | 🌉 frp-server   | `/`         |  (%)         | 29.36 GB (SSD) |
 |  | 🥜 Nuts         | `/`         |  (%)         | 234 GB (SSD)  |
 |  | 🥜 Nuts         | `/mnt/hdd`  |  (%)         | 1.8 TB (HDD)  |
 |  | 🥜 Nuts         | `/mnt/hdd2` |  (%)         | 687 GB (HDD)  |
 |  | ☄ Comet        | `/`         |  (%)         | 99 GB (SSD)   |
+|  | 🌉 frp-server   | `/`         |  (%)         | 29.36 GB (SSD) |
 |  | 💣 jaoMain      | `/`         |  (%)         | 99 GB (SSD)   |
 |  | 👒 ZakuroHat    | `/`         |  (%)         | 115 GB (?)    |
 |  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  |
@@ -58,6 +58,22 @@ Get-WindowsUpdate | tee windows-update-2023-06-01.log
 Install-WindowsUpdate
 ```
 
+## 🍓 ICHIGO Scoop
+
+```powershell
+# 管理者権限で実行
+irm "https://api.tomacheese.com/monthly-update.ps1?update_type=scoop-update&number={{ pr-number }}&machine_emoji=🍓&machine_name=ICHIGO&date={{ date }}" | iex
+```
+
+## 🍓 ICHIGO winget
+
+```shell
+winget upgrade | tee winget-{{ date }}.log # アップデート可能なアプリケーション一覧を表示
+winget upgrade [...] # アップデートしたいアプリケーションをアップデート
+```
+
+`winget-{{ date }}.log` をこの issue のコメント欄に投稿しておくこと
+
 ### 🥧 TomaPi
 
 ```shell
@@ -76,16 +92,16 @@ wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_
 wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=🥜&machine_name=Nuts&date={{ date }}" && bash monthly-update.sh
 ```
 
-### 🌉 frp-server
-
-```shell
-wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=🌉&machine_name=frp-server&date={{ date }}" && bash monthly-update.sh
-```
-
 ### ☄ Comet
 
 ```shell
 wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=☄&machine_name=Comet&date={{ date }}" && bash monthly-update.sh
+```
+
+### 🌉 frp-server
+
+```shell
+wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=🌉&machine_name=frp-server&date={{ date }}" && bash monthly-update.sh
 ```
 
 ### 👒 ZakuroHat
@@ -93,22 +109,6 @@ wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_
 ```shell
 wget -qO monthly-update.sh "https://api.tomacheese.com/monthly-update.sh?update_type=apt-upgrade&number={{ pr-number }}&machine_emoji=👒&machine_name=ZakuroHat&date={{ date }}" && bash monthly-update.sh
 ```
-
-## 🍓 ICHIGO Scoop
-
-```powershell
-# 管理者権限で実行
-irm "https://api.tomacheese.com/monthly-update.ps1?update_type=scoop-update&number={{ pr-number }}&machine_emoji=🍓&machine_name=ICHIGO&date={{ date }}" | iex
-```
-
-## 🍓 ICHIGO winget
-
-```shell
-winget upgrade | tee winget-{{ date }}.log # アップデート可能なアプリケーション一覧を表示
-winget upgrade [...] # アップデートしたいアプリケーションをアップデート
-```
-
-`winget-{{ date }}.log` をこの issue のコメント欄に投稿しておくこと
 
 ## renovate
 
