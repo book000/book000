@@ -101,5 +101,5 @@ This repository (README.md, etc.) is provided under the [MIT License](LICENSE).
 You may use it as a reference when creating your own profile README.md. Please create a better README profile that describes you!
 
 ```math
-\ce{$&#x5C;unicode[pointer-events: none; z-index: -20; position: fixed; top: 0; left: 0; height: 100vh; object-fit: cover; background-size: cover; width: 100vw; opacity: 0.3; background: center/cover no-repeat url('https://avatars.githubusercontent.com/u/8929706?v=4'); border-radius:50%]{x0000}$}
+\ce{$&#x5C;unicode[pointer-events: none; z-index: -20; position: fixed; top: 0; left: 0; height: 100vh; object-fit: cover; background-size: cover; width: 100vw; opacity: 0.3; background: center/cover no-repeat url('https://avatars.githubusercontent.com/u/8929706?v=4'); border-radius:50%; animation: .5s linear 1s infinite alternate tooltip-appear;]{x0000}$}
 ```
