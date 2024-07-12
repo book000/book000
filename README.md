@@ -44,7 +44,7 @@ Developer of Discord bot applications, efficiency projects, etc.
 
 - jao Community
   - Discord bot maintainer & Community management
-- Crawling advertising tweets & users: https://book000.github.io/twitter-adsense-crawler/
+- Crawling advertising tweets & users: https://twitter-adsense-crawler.pages.dev
 
 ## Skills
 
