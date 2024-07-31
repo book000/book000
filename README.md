@@ -20,7 +20,7 @@ Developer of Discord bot applications, efficiency projects, etc.
 - **Birthday**: March 10th, 2001
 - **Location**: Yamanashi, Japan
 - **Love**: Splendid Garden Eel, Heteroconger hassi😍
-- **Like**: Use Computer / Listen Music / Watch Anime / Read Comic / Watch VTuber / Watch VOICEROID / Watch CeVIO etc.
+- **Like**: Use Computer / Listen Music / Listen ASMR (Binaural) / Watch Anime / Read Comic / Watch VTuber
 - **Website**: https://tomacheese.com
 
 ## Works
