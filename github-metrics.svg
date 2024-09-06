@@ -190,8 +190,8 @@
                             05
                         </div>
                         <div class="entry">
-                            <span class="value">11</span>
-                            <div class="bar" style="height: 17.741935483870968px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">12</span>
+                            <div class="bar" style="height: 19.35483870967742px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             06
                         </div>
                         <div class="entry">
@@ -255,8 +255,8 @@
                             18
                         </div>
                         <div class="entry">
-                            <span class="value">7</span>
-                            <div class="bar" style="height: 11.29032258064516px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">6</span>
+                            <div class="bar" style="height: 9.67741935483871px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             19
                         </div>
                         <div class="entry">
@@ -286,8 +286,8 @@
                         <h3>Commit activity per day of week</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">5</span>
-                                <div class="bar" style="height: 6.41025641025641px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">4</span>
+                                <div class="bar" style="height: 5.128205128205128px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Sun
                             </div>
                             <div class="entry">
@@ -311,8 +311,8 @@
                                 Thu
                             </div>
                             <div class="entry">
-                                <span class="value">17</span>
-                                <div class="bar" style="height: 21.794871794871796px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">18</span>
+                                <div class="bar" style="height: 23.076923076923077px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 Fri
                             </div>
                             <div class="entry">
@@ -327,12 +327,12 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 13.026384231388981%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">16%</span>
+                                <div class="bar" style="width: 13.405809235757769%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">17%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">PowerShell</span>
-                                <div class="bar" style="width: 0.008596212228199611%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.008846597738430478%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
