@@ -32,6 +32,7 @@ Developer of Discord bot applications, efficiency projects, etc.
 - 📫 **[book000/github-changelog-translator](https://github.com/book000/github-changelog-translator)** - Translated and delivered by GitHub Changelogs RSS
 - 🌉 **[book000/github-webhook-bridge](https://github.com/book000/github-webhook-bridge)** - Bridge the GitHub webhook to filter the repositories to notify.
 - 🖼️ **[tomacheese/my-pixiv](https://github.com/tomacheese/my-pixiv)** - pixiv client for myself
+- 🔃 **[tomacheese/splashscreen-changer](https://github.com/tomacheese/splashscreen-changer)** - Randomly change the splash screen image displayed at startup of applications where EasyAntiChest is used
 
 ### Hobby : Reusable tiny items
 
