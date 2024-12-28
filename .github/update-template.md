@@ -4,27 +4,33 @@
 
 | ✅ | ComputerName | Drive       | Used (Use %) | Size (Type)   |
 | :-: | ------------ | ----------- | ------------ | ------------- |
-|  | 🍓 ICHIGO       | `C:`         |  (%)         | 465 GB (SSD)  |
-|  | 🍓 ICHIGO       | `N:`         |  (%)         | 3.63 TB (HDD) |
-|  | 🍓 ICHIGO       | `S:`         |  (%)         | 465 GB (SSD)  |
-|  | 🥧 TomaPi       | `/`         |  (%)         | 29 GB (SD)    |
-|  | 🥧 TomaPi       | `/mnt/hdd`  |  (%)         | 2.7 TB (HDD)  |
-|  | 🥧 TomaPi       | `/mnt/hdd2` |  (%)         | 5.5 TB (HDD)  |
-|  | 🍊 ORANGE       | `/`         |  (%)         | 30 GB (SD)    |
-|  | 🍊 ORANGE       | `/mnt/hdd`  |  (%)         | 916 GB (HDD)  |
-|  | 🥜 Nuts         | `/`         |  (%)         | 234 GB (SSD)  |
-|  | 🥜 Nuts         | `/mnt/hdd`  |  (%)         | 1.8 TB (HDD)  |
-|  | 🥜 Nuts         | `/mnt/hdd2` |  (%)         | 687 GB (HDD)  |
-|  | ☄ Comet        | `/`         |  (%)         | 99 GB (SSD)   |
-|  | 🌉 frp-server   | `/`         |  (%)         | 29.36 GB (SSD) |
-|  | 💣 jaoMain      | `/`         |  (%)         | 99 GB (SSD)   |
-|  | 👒 ZakuroHat    | `/`         |  (%)         | 115 GB (?)    |
-|  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  |
+|  | 🍓 ICHIGO       | `C:`         |  (%)         | 465 GB (SSD)  | <!-- calculate-storage#ICHIGO#C: -->
+|  | 🍓 ICHIGO       | `N:`         |  (%)         | 3.63 TB (HDD) | <!-- calculate-storage#ICHIGO#N: -->
+|  | 🍓 ICHIGO       | `S:`         |  (%)         | 465 GB (SSD)  | <!-- calculate-storage#ICHIGO#S: -->
+|  | 🥧 TomaPi       | `/`         |  (%)         | 29 GB (SD)    | <!-- calculate-storage#tomapi#/ -->
+|  | 🥧 TomaPi       | `/mnt/hdd`  |  (%)         | 2.7 TB (HDD)  | <!-- calculate-storage#tomapi#/mnt/hdd -->
+|  | 🥧 TomaPi       | `/mnt/hdd2` |  (%)         | 5.5 TB (HDD)  | <!-- calculate-storage#tomapi#/mnt/hdd2 -->
+|  | 🍊 ORANGE       | `/`         |  (%)         | 30 GB (SD)    | <!-- calculate-storage#ORANGE#/ -->
+|  | 🍊 ORANGE       | `/mnt/hdd`  |  (%)         | 916 GB (HDD)  | <!-- calculate-storage#ORANGE#/mnt/hdd -->
+|  | 🥜 Nuts         | `/`         |  (%)         | 234 GB (SSD)  | <!-- calculate-storage#nuts#/ -->
+|  | 🥜 Nuts         | `/mnt/hdd`  |  (%)         | 1.8 TB (HDD)  | <!-- calculate-storage#nuts#/mnt/hdd -->
+|  | 🥜 Nuts         | `/mnt/hdd2` |  (%)         | 687 GB (HDD)  | <!-- calculate-storage#nuts#/mnt/hdd2 -->
+|  | ☄ Comet        | `/`         |  (%)         | 99 GB (SSD)   | <!-- calculate-storage#Comet#/ -->
+|  | 🌉 frp-server   | `/`         |  (%)         | 29.36 GB (SSD) | <!-- calculate-storage#frp-server#/ -->
+|  | 💣 jaoMain      | `/`         |  (%)         | 99 GB (SSD)   | <!-- calculate-storage#jaomain#/ -->
+|  | 👒 ZakuroHat    | `/`         |  (%)         | 115 GB (?)    | <!-- calculate-storage#zh-2#/ -->
+|  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  | <!-- calculate-storage#zh-2#/home -->
 
-絵文字の関係上、Termius で実行すること。
+### Windows
+
+```powershell
+$env:ISSUE_NUMBER={{ pr-number }}; irm https://raw.githubusercontent.com/book000/calculate-storage/refs/heads/master/calculate-storage.ps1 | iex
+```
+
+### Linux
 
 ```shell
-wget -qO /tmp/calculate-disk.sh https://gist.githubusercontent.com/book000/d24fd6d6b832f8be28e7d7d8b9b48512/raw/calculate-disk.sh && bash /tmp/calculate-disk.sh && rm /tmp/calculate-disk.sh
+wget -qO - https://raw.githubusercontent.com/book000/calculate-storage/refs/heads/master/calculate-storage.sh | sudo ISSUE_NUMBER={{ pr-number }} bash
 ```
 
 Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。  
