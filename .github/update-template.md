@@ -17,6 +17,8 @@
 |  | 🥜 Nuts         | `/mnt/hdd2` |  (%)         | 687 GB (HDD)  | <!-- calculate-storage#nuts#/mnt/hdd2 -->
 |  | ☄ Comet        | `/`         |  (%)         | 99 GB (SSD)   | <!-- calculate-storage#Comet3#/ -->
 |  | 🌉 frp-server   | `/`         |  (%)         | 29.36 GB (SSD) | <!-- calculate-storage#frp-server#/ -->
+|  | ⏺️ RecPi        | `/`         |  (%)         | 30 GB (SD)    | <!-- calculate-storage#RecPi#/ -->
+|  | ⏺️ RecPi        | `/mnt/hdd`  |  (%)         | 3.6 TB (HDD)  | <!-- calculate-storage#RecPi#/mnt/hdd -->
 |  | 👒 ZakuroHat    | `/`         |  (%)         | 115 GB (?)    | <!-- calculate-storage#zh-2#/ -->
 |  | 👒 ZakuroHat    | `/home`     |  (%)         | 1.9 TB (HDD)  | <!-- calculate-storage#zh-2#/home -->
 
