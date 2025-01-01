@@ -15,7 +15,7 @@
 |  | 🥜 Nuts         | `/`         |  (%)         | 234 GB (SSD)  | <!-- calculate-storage#nuts#/ -->
 |  | 🥜 Nuts         | `/mnt/hdd`  |  (%)         | 1.8 TB (HDD)  | <!-- calculate-storage#nuts#/mnt/hdd -->
 |  | 🥜 Nuts         | `/mnt/hdd2` |  (%)         | 687 GB (HDD)  | <!-- calculate-storage#nuts#/mnt/hdd2 -->
-|  | ☄ Comet        | `/`         |  (%)         | 99 GB (SSD)   | <!-- calculate-storage#Comet#/ -->
+|  | ☄ Comet        | `/`         |  (%)         | 99 GB (SSD)   | <!-- calculate-storage#Comet3#/ -->
 |  | 🌉 frp-server   | `/`         |  (%)         | 29.36 GB (SSD) | <!-- calculate-storage#frp-server#/ -->
 |  | 💣 jaoMain      | `/`         |  (%)         | 99 GB (SSD)   | <!-- calculate-storage#jaomain#/ -->
 |  | 👒 ZakuroHat    | `/`         |  (%)         | 115 GB (?)    | <!-- calculate-storage#zh-2#/ -->
