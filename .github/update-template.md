@@ -38,15 +38,15 @@ Linux 系サーバでは ncdu を定期実行している環境もあるので�
 
 ## PC / Server のアップデート
 
-| ✅ | ComputerName | OS              | PM  |
-| :---: | ------------ | --------------- | --- |
-|  | 🍓 ICHIGO       | Windows         | Scoop | <!-- update-softwares#ICHIGO#scoop -->
-|  | 🥧 TomaPi       | Raspberry Pi OS | apt | <!-- update-softwares#tomapi#apt -->
-|  | 🍊 ORANGE     | Ubuntu          | apt | <!-- update-softwares#ORANGE#apt -->
-|  | 🥜 Nuts         | Ubuntu          | apt | <!-- update-softwares#nuts#apt -->
-|  | 🌉 frp-server   | Ubuntu          | apt | <!-- update-softwares#frp-server#apt -->
-|  | ☄ Comet        | Ubuntu          | apt | <!-- update-softwares#Comet3#apt -->
-|  | 👒 ZakuroHat    | Ubuntu          | apt | <!-- update-softwares#zh-2#apt -->
+| ✅ | ComputerName | OS | PM | Upgraded | Failed |
+| :-: | - | - | - | - | - |
+|  | 🍓 ICHIGO | Windows | Scoop |  |  | <!-- update-softwares#ICHIGO#scoop -->
+|  | 🥧 TomaPi | Raspberry Pi OS | apt |  | <!-- update-softwares#tomapi#apt -->
+|  | 🍊 ORANGE | Ubuntu | apt |  |  | <!-- update-softwares#ORANGE#apt -->
+|  | 🥜 Nuts | Ubuntu | apt |  |  | <!-- update-softwares#nuts#apt -->
+|  | 🌉 frp-server | Ubuntu | apt |  |  | <!-- update-softwares#frp-server#apt -->
+|  | ☄ Comet | Ubuntu | apt |  |  | <!-- update-softwares#Comet3#apt -->
+|  | 👒 ZakuroHat | Ubuntu | apt |  |  | <!-- update-softwares#zh-2#apt -->
 
 ## 🍓 ICHIGO Scoop
 
