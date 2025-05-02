@@ -10,6 +10,7 @@
 |  | 🥧 TomaPi | `/` |  (%) | 28.39 GB (SD) | <!-- calculate-storage#tomapi#/ -->
 |  | 🥧 TomaPi | `/mnt/hdd` |  (%) | 2.69 TB (HDD) | <!-- calculate-storage#tomapi#/mnt/hdd -->
 |  | 🥧 TomaPi | `/mnt/hdd2` |  (%) | 5.41 TB (HDD) | <!-- calculate-storage#tomapi#/mnt/hdd2 -->
+|  | 🥧 TomaPi | `/mnt/hdd3` |  (%) | 5.41 TB (HDD) | <!-- calculate-storage#tomapi#/mnt/hdd3 -->
 |  | 🍊 ORANGE | `/` |  (%) | 29.02 GB (SD) | <!-- calculate-storage#ORANGE#/ -->
 |  | 🍊 ORANGE | `/mnt/hdd` |  (%) | 915.82 GB (HDD) | <!-- calculate-storage#ORANGE#/mnt/hdd -->
 |  | 🥜 Nuts | `/` |  (%) | 233.67 GB (SSD) | <!-- calculate-storage#nuts#/ -->
