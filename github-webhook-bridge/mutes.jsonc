@@ -26,8 +26,15 @@
   {
     // github-actions[bot]
     "userId": 41898282,
-    "type": "all",
-    "events": []
+    "type": "exclude",
+    "events": [
+      {
+        "eventName": "pull-request",
+        "actions": [
+          "review_requested"
+        ]
+      }
+    ]
   },
   {
     // dependabot[bot]
