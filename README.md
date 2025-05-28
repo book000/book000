@@ -82,7 +82,7 @@ The main language of late has been TypeScript.
 - **Discord**: [tomachi](https://discord.com/users/221991565567066112)
 - **mstdn.jp**: <a rel="me" href="https://mstdn.jp/@book000">@book000@mstdn.jp</a>
 - **Bluesky**: [book000.bsky.social](https://bsky.app/profile/book000.bsky.social)
-- **E-mail**: `tomachi@tomacheese.com`
+- **E-mail**: `info@tomacheese.com`
 
 ---
 
