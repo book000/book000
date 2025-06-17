@@ -149,7 +149,7 @@
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 32.7 characters per line of code written</li>
+                        <li>Has approximately 33.4 characters per line of code written</li>
                         <li>Mostly pushes code around 19:00</li>
                         <li>Mostly active on Monday</li>
                     </ul>
@@ -261,13 +261,13 @@
                                 Sun
                             </div>
                             <div class="entry">
-                                <span class="value">45</span>
+                                <span class="value">43</span>
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 Mon
                             </div>
                             <div class="entry">
-                                <span class="value">6</span>
-                                <div class="bar" style="height: 6.666666666666667px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">8</span>
+                                <div class="bar" style="height: 9.30232558139535px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Tue
                             </div>
                             <div class="entry">
@@ -297,17 +297,17 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Python</span>
-                                <div class="bar" style="width: 35.915335786930214%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">45%</span>
+                                <div class="bar" style="width: 42.23066332060658%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value">53%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 12.992249093509862%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">16%</span>
+                                <div class="bar" style="width: 11.77370478506121%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">15%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Dockerfile</span>
-                                <div class="bar" style="width: 0.262012695398145%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.2820064642756008%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
@@ -337,15 +337,20 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d830007</div>
-                                        <div class="message">Revert "fix: api.pyの重複メソッド定義を削除" (#20)
+                                        <div class="sha">#1b8a679</div>
+                                        <div class="message">feat: 認証エラー時のクッキー再読み込み機能を実装 (#22)
 
-Revert "fix: api.pyの重複メソッド定義を削除 (#19)"
+- 401エラー検出時に自動でクッキーを再読み込みして1回再試行
+- CookieManagerにキャッシュ機能を追加し、clear_cache()メソッドで再読み込み可能に
+- 全てのAPI呼び出しで統一的な認証エラーハンドリングを実装
+- 再試行前に2秒待機してタイミング問題を回避
 
-This reverts commit 85401696d6c1a0951f8ce230d9a86521b0dd9978.</div>
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">16 Jun 2025, 23:35:29</div>
+                                <div class="timestamp">17 Jun 2025, 07:46:04</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -357,12 +362,12 @@ This reverts commit 85401696d6c1a0951f8ce230d9a86521b0dd9978.</div>
                                     <div class="content">
                                         Deleted
                       branch
-                                        <span class="code">revert-19-fix/remove-duplicate-methods</span>
+                                        <span class="code">feat/cookie-reload-auth-error-clean</span>
                                         in
                                         <span class="repo">book000/twitter-bulk-blocker</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">16 Jun 2025, 23:35:29</div>
+                                <div class="timestamp">17 Jun 2025, 07:46:04</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -373,14 +378,31 @@ This reverts commit 85401696d6c1a0951f8ce230d9a86521b0dd9978.</div>
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#20 Revert "fix: api.pyの重複メソッド定義を削除"</span>
+                                        <span class="issue">#22 feat: 認証エラー時のクッキー再読み込み機能を実装</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">book000/twitter-bulk-blocker</span></div>
-                                    <div>1 file changed <span class="code">++343 --0</span></div>
+                                    <div>2 files changed <span class="code">++57 --11</span></div>
                                 </div>
-                                <div class="timestamp">16 Jun 2025, 23:35:29</div>
+                                <div class="timestamp">17 Jun 2025, 07:46:04</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Deleted
+                      branch
+                                        <span class="code">feat/cookie-reload-on-auth-error</span>
+                                        in
+                                        <span class="repo">book000/twitter-bulk-blocker</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">17 Jun 2025, 07:44:40</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -391,31 +413,14 @@ This reverts commit 85401696d6c1a0951f8ce230d9a86521b0dd9978.</div>
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#20 Revert "fix: api.pyの重複メソッド定義を削除"</span>
+                                        <span class="issue">#22 feat: 認証エラー時のクッキー再読み込み機能を実装</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">book000/twitter-bulk-blocker</span></div>
-                                    <div>1 file changed <span class="code">++343 --0</span></div>
+                                    <div>2 files changed <span class="code">++57 --11</span></div>
                                 </div>
-                                <div class="timestamp">16 Jun 2025, 23:33:33</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Created new
-                      branch
-                                        <span class="code">revert-19-fix/remove-duplicate-methods</span>
-                                        in
-                                        <span class="repo">book000/twitter-bulk-blocker</span>
-                                    </div>
-                                </div>
-                                <div class="timestamp">16 Jun 2025, 23:33:28</div>
+                                <div class="timestamp">17 Jun 2025, 07:44:01</div>
                             </section>
                         </div>
                     </section>
