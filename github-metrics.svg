@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            12581 Commits
+                            12582 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -81,7 +81,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
                             </svg>
-                            549 Pull requests opened
+                            550 Pull requests opened
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -144,12 +144,12 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 84 commits)</small>
+                    <small class="h-details">(computed from last 82 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 28.0 characters per line of code written</li>
+                        <li>Has approximately 28.3 characters per line of code written</li>
                         <li>Mostly pushes code around 06:00</li>
                         <li>Mostly active on Thursday</li>
                     </ul>
@@ -165,8 +165,8 @@
                             02
                         </div>
                         <div class="entry">
-                            <span class="value">8</span>
-                            <div class="bar" style="height: 23.52941176470588px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">5</span>
+                            <div class="bar" style="height: 14.705882352941178px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             03
                         </div>
                         <div class="entry">
@@ -264,6 +264,11 @@
                             <div class="bar" style="height: 14.705882352941178px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             22
                         </div>
+                        <div class="entry">
+                            <span class="value">1</span>
+                            <div class="bar" style="height: 2.941176470588235px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            23
+                        </div>
                     </div>
                 </div>
                 <div class="row largeable">
@@ -286,8 +291,8 @@
                                 Tue
                             </div>
                             <div class="entry">
-                                <span class="value">14</span>
-                                <div class="bar" style="height: 24.137931034482758px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">11</span>
+                                <div class="bar" style="height: 18.96551724137931px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 Wed
                             </div>
                             <div class="entry">
@@ -301,8 +306,8 @@
                                 Fri
                             </div>
                             <div class="entry">
-                                <span class="value">28</span>
-                                <div class="bar" style="height: 48.275862068965516px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">29</span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 Sat
                             </div>
                         </div>
@@ -312,27 +317,27 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Shell</span>
-                                <div class="bar" style="width: 8.296839030669076%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 8.241857949026889%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">10%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Python</span>
-                                <div class="bar" style="width: 5.595782073813709%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 5.4981127899971725%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">7%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 0.39496027129384387%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.39234296814487873%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Dockerfile</span>
-                                <div class="bar" style="width: 0.010000247530879476%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.009933978386220293%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">JavaScript</span>
-                                <div class="bar" style="width: 0.00920814871655239%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.009147128613054329%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
@@ -357,12 +362,12 @@
                                     <div class="content">
                                         Deleted
                       branch
-                                        <span class="code">feat-cookie-reload-enhancement</span>
+                                        <span class="code">feature/processing-efficiency-prediction</span>
                                         in
                                         <span class="repo">book000/twitter-bulk-blocker</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">21 Jun 2025, 22:27:40</div>
+                                <div class="timestamp">21 Jun 2025, 23:45:59</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -379,47 +384,40 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#b70d2aa</div>
-                                        <div class="message">feat: アカウントロックとエラー多発時のCookie再読み込み機能を追加 (#50)
+                                        <div class="sha">#17a8d32</div>
+                                        <div class="message">feat: 処理効率予測機能を追加（完了予想時刻算出） (#51)
 
-## 概要
-アカウントロック検出時と連続エラー・短期間大量エラー発生時に、
-自動的にCookie再読み込みを実行して回復を試行する機能を実装。
+check-cinnamonスクリプトに新機能「PROCESSING EFFICIENCY PREDICTION」を追加:
 
-## 主な変更内容
+## 主要機能
+- 📊 サービス別完了予想時刻の算出
+- 🚀 リアルタイム処理速度分析（件/時間）
+- ⏰ 残り処理時間の人間が読みやすい形式での表示
+- 💡 効率性評価（優秀/良好/要改善の3段階判定）
+- 📈 システム全体の処理効率サマリー
 
-### 1. アカウントロック対応強化
-- アカウントロック検出時にSystemExitする代わりにCookie再読み込み
-- 段階的バックオフ戦略（最大5分間隔）
-- 最大10回のリトライ機能
-- Cookie更新タイムスタンプ監視
+## 計算アルゴリズム
+- コンテナ開始時刻から実行時間を算出
+- 進捗データから処理速度（件/時間）を計算
+- 残り作業量から完了予想時刻を予測
+- 目標50件/時間との比較で効率性を評価
 
-### 2. エラー多発検出機能
-- 連続10回エラーでCookie再読み込みトリガー
-- 5分間で50回エラーでCookie再読み込みトリガー
-- スライディングウィンドウ方式でエラー頻度監視
+## 出力例
+- 📊 Service: tomachi_priv
+- ⏱️ 実行時間: 10.5時間
+- 🚀 処理速度: 900.26件/時間
+- ⏰ 完了予想: 2025/06/24 10:10 (約2.4日後)
+- 💡 効率評価: 🟢 優秀 (目標50件/時間以上達成)
 
-### 3. 回復戦略の最適化
-- アカウントロック: 長時間待機（最大5分）
-- エラー多発: 短時間待機（30秒）
-- 成功時の自動エラーカウンタリセット
-
-### 4. 対象API拡張
-- get_user_info, get_user_info_by_id
-- get_users_info_batch
-- block_user
-- screen_name lookup機能
-
-## テスト内容
-- Python構文チェック通過確認
-- 既存の認証エラー処理との統合確認
+この機能により運用チームは各サービスの完了予想時刻を把握し、
+リソース配分や運用計画の最適化が可能になります。
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
 
 Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">21 Jun 2025, 22:27:40</div>
+                                <div class="timestamp">21 Jun 2025, 23:45:59</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -430,14 +428,14 @@ Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#50 feat: アカウントロックとエラー多発時のCookie再読み込み機能を追加</span>
+                                        <span class="issue">#51 feat: 処理効率予測機能を追加（完了予想時刻算出）</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">book000/twitter-bulk-blocker</span></div>
-                                    <div>1 file changed <span class="code">++240 --11</span></div>
+                                    <div>1 file changed <span class="code">++142 --0</span></div>
                                 </div>
-                                <div class="timestamp">21 Jun 2025, 22:27:39</div>
+                                <div class="timestamp">21 Jun 2025, 23:45:58</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -448,14 +446,14 @@ Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#50 feat: アカウントロックとエラー多発時のCookie再読み込み機能を追加</span>
+                                        <span class="issue">#51 feat: 処理効率予測機能を追加（完了予想時刻算出）</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">book000/twitter-bulk-blocker</span></div>
-                                    <div>1 file changed <span class="code">++240 --11</span></div>
+                                    <div>1 file changed <span class="code">++142 --0</span></div>
                                 </div>
-                                <div class="timestamp">21 Jun 2025, 22:26:21</div>
+                                <div class="timestamp">21 Jun 2025, 23:43:41</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -467,12 +465,12 @@ Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
                                     <div class="content">
                                         Created new
                       branch
-                                        <span class="code">feat-cookie-reload-enhancement</span>
+                                        <span class="code">feature/processing-efficiency-prediction</span>
                                         in
                                         <span class="repo">book000/twitter-bulk-blocker</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">21 Jun 2025, 22:25:55</div>
+                                <div class="timestamp">21 Jun 2025, 23:43:10</div>
                             </section>
                         </div>
                     </section>
