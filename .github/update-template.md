@@ -16,6 +16,8 @@
 |  | 🥜 Nuts | `/` |  (%) | 233.67 GB (SSD) | <!-- calculate-storage#nuts#/ -->
 |  | 🥜 Nuts | `/mnt/hdd` |  (%) | 1.79 TB (HDD) | <!-- calculate-storage#nuts#/mnt/hdd -->
 |  | 🥜 Nuts | `/mnt/hdd2` |  (%) | 686.60 GB (HDD) | <!-- calculate-storage#nuts#/mnt/hdd2 -->
+|  | 🟤 Cinnamon | `/` |  (%) | 456.35 GB (HDD) | <!-- calculate-storage#cinnamon#/ -->
+|  | 🟤 Cinnamon | `/mnt/hdd` |  () | 5.41 TB (HDD) | <!-- calculate-storage#cinnamon#/mnt/hdd -->
 |  | ☄ Comet | `/` |  (%) | 98.25 GB (SSD) | <!-- calculate-storage#Comet3#/ -->
 |  | 🌉 frp-server | `/` |  (%) | 29.36 GB (SSD) | <!-- calculate-storage#frp-server#/ -->
 |  | ⏺️ RecPi | `/` |  (%) | 28.14 GB (SD) | <!-- calculate-storage#recpi#/ -->
@@ -45,6 +47,7 @@ Linux 系サーバでは ncdu を定期実行している環境もあるので�
 |  | 🥧 TomaPi | Raspberry Pi OS | apt |  |  | <!-- update-softwares#tomapi#apt -->
 |  | 🍊 ORANGE | Ubuntu | apt |  |  | <!-- update-softwares#ORANGE#apt -->
 |  | 🥜 Nuts | Ubuntu | apt |  |  | <!-- update-softwares#nuts#apt -->
+|  | 🟤 Cinnamon | Ubuntu | apt |  |  | <!-- update-softwares#cinnamon#apt -->
 |  | 🌉 frp-server | Ubuntu | apt |  |  | <!-- update-softwares#frp-server#apt -->
 |  | ☄ Comet | Ubuntu | apt |  |  | <!-- update-softwares#Comet3#apt -->
 |  | 👒 ZakuroHat | Ubuntu | apt |  |  | <!-- update-softwares#zh-2#apt -->
