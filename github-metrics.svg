@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1152" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="985" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .bold{font-weight:600}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}.token.comment{color:#690}.token.punctuation{color:#8a93a8}.token.keyword{color:#b44418}.token.trimmed{font-style:italic;color:#77777760}.token.coord{color:#d2a8ff;font-weight:700}.space{margin-left:7px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -144,12 +144,12 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 100 commits)</small>
+                    <small class="h-details">(computed from last 101 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 48.1 characters per line of code written</li>
+                        <li>Has approximately 47.9 characters per line of code written</li>
                         <li>Mostly pushes code around 06:00</li>
                         <li>Mostly active on Tuesday</li>
                     </ul>
@@ -195,8 +195,8 @@
                             06
                         </div>
                         <div class="entry">
-                            <span class="value">8</span>
-                            <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <span class="value">10</span>
+                            <div class="bar" style="height: 41.66666666666667px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                             07
                         </div>
                         <div class="entry">
@@ -250,8 +250,8 @@
                             17
                         </div>
                         <div class="entry">
-                            <span class="value">6</span>
-                            <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">5</span>
+                            <div class="bar" style="height: 20.833333333333336px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             18
                         </div>
                         <div class="entry">
@@ -281,8 +281,8 @@
                         <h3>Commit activity per day of week</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">7</span>
-                                <div class="bar" style="height: 7.142857142857142px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">6</span>
+                                <div class="bar" style="height: 6.122448979591836px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Sun
                             </div>
                             <div class="entry">
@@ -301,8 +301,8 @@
                                 Wed
                             </div>
                             <div class="entry">
-                                <span class="value">10</span>
-                                <div class="bar" style="height: 10.204081632653061px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">12</span>
+                                <div class="bar" style="height: 12.244897959183673px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Thu
                             </div>
                             <div class="entry">
@@ -322,22 +322,22 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 35.33825143474961%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">44%</span>
+                                <div class="bar" style="width: 36.187316746251156%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">45%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Vue</span>
-                                <div class="bar" style="width: 3.012455428568308%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 3.081064477395214%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">4%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Dockerfile</span>
-                                <div class="bar" style="width: 0.04106305253558888%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.041998268688391835%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">JavaScript</span>
-                                <div class="bar" style="width: 0.04106305253558888%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.041998268688391835%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
@@ -357,7 +357,25 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#58 docs: centralize AI documentation structure</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
+                                    <div class="comment">このセクションいらないです</div>
+                                </div>
+                                <div class="timestamp">24 Jul 2025, 07:43:03</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
                                         Commented on
@@ -367,74 +385,17 @@
                                 <div class="details">
                                     <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
                                     <div class="comment">
-                                        <b>PR #58 レビュー結果</b>
-                                        <b>🎯 変更内容概要</b>
-                                        このPRは生成AI関連のドキュメントをディレクトリに一元管理する優れた構造改善です。複数のAIツール（Claude Code、GitHub Copilot、Gemini CLI）の設定ファイルが統一され、メンテナンス性が大幅に向上しています。
-                                        <b>✅ 良い点</b>
-                                        <b>📁 構造化された設計</b>
-                                        をエントリーポイントとした階層的な構造
-での共通ガイドライン管理
-での各AIツール固有設定の分離
-                                        <b>📝 文書品質の向上</b>
-                                        見出しと本文の間の空白行統一
-英数字と日本語の間の半角スペース統一
-一貫したMarkdown記法
-                                        <b>🔗 参照構造の改善</b>
-                                        既存ファイル（CLAUDE.md、.github/copilot-instructions.md）からへの適切な参照
-新規GEMINI.mdファイルの追加
-                                        <b>⚠️ 修正が必要な問題</b>
-                                        <b>1. TypeScriptエラー（重要）</b>
-                                        でTypeScriptエラーが発生しています：
-                                        <code>error TS2353: Object literal may only specify known properties, and 'hid' does not exist in type...</code>
-                                        対応方法：
-                                        <code>hid</code>
-                                        プロパティを削除するか、適切な型に修正してください
-Nuxt 3では
-                                        <code>hid</code>
-                                        の代わりに
-                                        <code>key</code>
-                                        プロパティを使用します
-                                        <b>2. 技術情報の更新が必要</b>
-                                        <b>Nuxtバージョン表記</b>
-                                        <code>.ai/common/project-overview.md:9</code>
-                                        : "Nuxt.js v3 (3.13.2)"
-現在は3.17.7に更新されているため、正確なバージョンに修正してください
-                                        <b>pnpmバージョン表記</b>
-                                        <code>.ai/common/project-overview.md:11</code>
-                                        : "pnpm 8.15.9"
-現在は10.13.1に更新されているため、正確なバージョンに修正してください
-                                        <b>3. 参照リンクの修正</b>
-                                        <b>GEMINI.mdファイル</b>
-                                        47行目に不完全なMarkdownリンクがあります：
-                                        <code class="language-markdown">**['.ai/tools/gemin</code>
-                                        これを以下に修正してください：
-                                        <code class="language-markdown"><span class="token bold"><span class="token punctuation">**</span><span class="token content"><span class="token url">[<span class="token content">'.ai/tools/gemini.md'</span>](<span class="token url">.ai/tools/gemini.md</span>)</span></span><span class="token punctuation">**</span></span> - Gemini CLI 固有設定</code>
-                                        <b>📋 推奨改善事項</b>
-                                        <b>1. Issue #50との関連確認</b>
-                                        PR本文で"Fixes #50"となっていますが、具体的な要件との適合性を確認してください
-                                        <b>2. 文書の一貫性向上</b>
-                                        各AIツール固有設定の内容量バランス調整
-共通部分のさらなる抽象化を検討
-                                        <b>3. 将来の拡張性</b>
-                                        新しいAIツール追加時の手順をに記載することを推奨
-                                        <b>🚀 マージ前のアクションアイテム</b>
-                                        必須: TypeScriptエラーの修正
-必須: 技術バージョン情報の正確な更新
-必須: GEMINI.mdの不完全なリンク修正
-推奨: lint、typecheck、testの実行確認
-                                        <b>🎉 総合評価</b>
-                                        ドキュメント構造の一元化という点で非常に価値の高い変更です。上記の技術的な問題を修正すれば、プロジェクトの保守性が大幅に向上する優れたPRになります。
-修正後の再レビューをお待ちしています！
+                                        <code class="language-suggestion"></code>
                                     </div>
                                 </div>
-                                <div class="timestamp">24 Jul 2025, 03:49:23</div>
+                                <div class="timestamp">24 Jul 2025, 07:37:42</div>
                             </section>
                         </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
                                         Commented on
@@ -443,296 +404,43 @@ Nuxt 3では
                                 </div>
                                 <div class="details">
                                     <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
-                                    <div class="comment">
-                                        PR #58 の詳細なレビューを行います。
-PR概要、変更ファイル、関連Issue:
-
-タイトル:
-                                        <code>docs: Add AI development support documents</code>
-                                        概要: AI 開発支援のためのドキュメントを追加するPRです。共通のガイドラインと各AIツール（Claude Code, GitHub Copilot, Gemini CLI）固有の設定を
-                                        <code>.ai</code>
-                                        ディレクトリ以下に集約し、既存のAI関連ファイル（
-                                        <code>CLAUDE.md</code>
-                                        ,
-                                        <code>.github/copilot-instructions.md</code>
-                                        ,
-                                        <code>GEMINI.md</code>
-                                        ）を新しいドキュメントを参照するように更新しています。
-変更ファイル:
-新規追加:
-                                        <code>.ai/common/architecture.md</code>
-                                        <code>.ai/common/deployment.md</code>
-                                        <code>.ai/common/development-guidelines.md</code>
-                                        <code>.ai/common/project-overview.md</code>
-                                        <code>.ai/common/testing.md</code>
-                                        <code>.ai/index.md</code>
-                                        <code>.ai/tools/claude.md</code>
-                                        <code>.ai/tools/copilot.md</code>
-                                        <code>.ai/tools/gemini.md</code>
-                                        変更:
-                                        <code>.github/copilot-instructions.md</code>
-                                        <code>CLAUDE.md</code>
-                                        <code>GEMINI.md</code>
-                                        関連Issue: PRのdiffには直接的なIssueへの言及はありませんが、
-                                        <code>GEMINI.md</code>
-                                        の新規追加部分に
-                                        <code>book000/book000#79</code>
-                                        へのリンクがあります。
-
-PRの差分と具体的な変更内容:
-
-新規追加された
-                                        <code>.ai</code>
-                                        ディレクトリ内のMarkdownファイルは、プロジェクトの概要、アーキテクチャ、開発ガイドライン、テスト戦略、デプロイメント、そして各AIツール（Claude Code, GitHub Copilot, Gemini CLI）固有の利用方法について詳細に記述しています。
-既存の
-                                        <code>CLAUDE.md</code>
-                                        ,
-                                        <code>.github/copilot-instructions.md</code>
-                                        ,
-                                        <code>GEMINI.md</code>
-                                        は、その内容のほとんどが
-                                        <code>.ai</code>
-                                        ディレクトリ内の新しいドキュメントに移行され、これらのファイルは新しいドキュメントへのポインタとして機能するように簡素化されています。これにより、AI関連のドキュメントが一元管理されるようになります。
-
-変更されたファイルのコンテンツレビュー:
-全体的に、AI開発支援ドキュメントの追加は非常に良い変更であり、プロジェクトの可読性と保守性を高めるものです。各ドキュメントは明確で、構造化されており、プロジェクトのプライバシーファーストの原則やクライアントサイドのみで動作するという要件が強調されています。
-しかし、いくつかのファイルで軽微な修正を提案します。
-レビューコメント:
-                                        <code class="language-multiline language-diff" xml:space="preserve"><span class="token coord">--- a/CLAUDE.md</span>
-<span class="token coord">+++ b/CLAUDE.md</span>
-<span class="token trimmed">(21 more lines were trimmed)</span></code>
-                                        理由:
-                                        <code>development-guidelines.md</code>
-                                        の「コミュニケーション要件」セクションにある「文書作成ルール」では、「ドキュメント: 日本語で記述」と明記されています。
-                                        <code>CLAUDE.md</code>
-                                        ,
-                                        <code>.github/copilot-instructions.md</code>
-                                        ,
-                                        <code>GEMINI.md</code>
-                                        の各ファイルは、内容が日本語化されているにもかかわらず、最上部の見出しが英語のままです。これを日本語に統一することで、プロジェクト全体のドキュメントの一貫性が保たれます。
-上記の変更を適用することを推奨します。$
-                                    </div>
+                                    <div class="comment">これは実在しますか？test:e2eではなく？</div>
                                 </div>
-                                <div class="timestamp">24 Jul 2025, 03:41:21</div>
+                                <div class="timestamp">24 Jul 2025, 07:39:49</div>
                             </section>
                         </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
                                     </svg>
                                     <div class="content">
-                                        Commented on
+                                        Reviewed
                                         <span class="issue">#58 docs: centralize AI documentation structure</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
-                                    <div class="comment">
-                                        PR #58 の詳細なレビューを行います。
-PR概要、変更ファイル、関連Issue:
-
-タイトル: 
-概要: AI 開発支援のためのドキュメントを追加するPRです。共通のガイドラインと各AIツール（Claude Code, GitHub Copilot, Gemini CLI）固有の設定をディレクトリ以下に集約し、既存のAI関連ファイル（, , ）を新しいドキュメントを参照するように更新しています。
-変更ファイル:
-                                        <b>新規追加:</b>
-                                        <b>  - </b>
-                                        <b>  - </b>
-                                        <b>  - </b>
-                                        <b>  - </b>
-                                        <b>変更:</b>
-                                        <b>  - </b>
-                                        関連Issue: PRのdiffには直接的なIssueへの言及はありませんが、の新規追加部分にへのリンクがあります。
-
-PRの差分と具体的な変更内容:
-
-新規追加されたディレクトリ内のMarkdownファイルは、プロジェクトの概要、アーキテクチャ、開発ガイドライン、テスト戦略、デプロイメント、そして各AIツール（Claude Code, GitHub Copilot, Gemini CLI）固有の利用方法について詳細に記述しています。
-既存の, , は、その内容のほとんどがディレクトリ内の新しいドキュメントに移行され、これらのファイルは新しいドキュメントへのポインタとして機能するように簡素化されています。これにより、AI関連のドキュメントが一元管理されるようになります。
-
-変更されたファイルのコンテンツレビュー:
-全体的に、AI開発支援ドキュメントの追加は非常に良い変更であり、プロジェクトの可読性と保守性を高めるものです。各ドキュメントは明確で、構造化されており、プロジェクトのプライバシーファーストの原則やクライアントサイドのみで動作するという要件が強調されています。
-しかし、いくつかのファイルで軽微な修正を提案します。
-レビューコメント:
-理由:
-の「コミュニケーション要件」セクションにある「文書作成ルール」では、「ドキュメント: 日本語で記述」と明記されています。, , の各ファイルは、内容が日本語化されているにもかかわらず、最上部の見出しが英語のままです。これを日本語に統一することで、プロジェクト全体のドキュメントの一貫性が保たれます。
-上記の変更を適用することを推奨します。
-                                    </div>
                                 </div>
-                                <div class="timestamp">24 Jul 2025, 03:41:12</div>
+                                <div class="timestamp">24 Jul 2025, 07:44:58</div>
                             </section>
                         </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
                                     </svg>
                                     <div class="content">
-                                        Commented on
-                                        <span class="issue">#842 docs: create centralized AI documentation management system</span>
+                                        Reviewed
+                                        <span class="issue">#58 docs: centralize AI documentation structure</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by Copilot in <span class="repo">tomacheese/tomacheese.com</span></div>
-                                    <div class="comment">
-                                        <b>レビュー結果</b>
-                                        PR #842 の実装内容を詳細にレビューしました。全体的に非常に良く設計された一元管理システムで、生成 AI ツール向けドキュメントのメンテナンス性を大幅に向上させる優秀な実装です。
-                                        <b>✅ 良好な点</b>
-                                        Single Source of Truth の実現
-                                        <code>.ai/index.md</code>
-                                        を中央情報源とする設計が優秀
-各 AI ツールの特性を活かしつつ、共通情報は重複を排除
-
-
-文書品質の向上
-
-日本語と英数字間の半角スペースルールを遵守
-見出しと本文間の空白行配置が適切
-Markdown フォーマットが統一されている
-
-
-実装品質
-
-各ツールからの参照リンクが正しく機能
-文書の階層構造が論理的で理解しやすい
-                                        <b>🔍 細かな改善提案</b>
-                                        <b>1. <code>.ai/index.md</code> の Type 定義参照箇所</b>
-                                        85行目: 型定義の配置ディレクトリについて
-                                        <code class="language-markdown"><span class="token list punctuation">-</span> 適切な型定義を <span class="token code-snippet code keyword">`types/`</span> に配置</code>
-                                        GitHub Copilot 向け指示書では 103行目で:
-                                        <code class="language-markdown"><span class="token list punctuation">-</span> 適切な型定義を <span class="token code-snippet code keyword">`src/types/`</span> に配置</code>
-                                        提案: プロジェクトの実際のディレクトリ構造に合わせて統一することを推奨します。現在のプロジェクトでは
-                                        <code>types/</code>
-                                        が正しいようですが、一貫性を保つため確認をお願いします。
-                                        <b>2. ディレクトリ構造の表記統一</b>
-                                        GitHub Copilot 向け指示書 87行目:
-                                        <code class="language-markdown">└── src/                     # TypeScript 型定義等</code>
-                                        <code>.ai/index.md</code>
-                                        68行目:
-                                        <code class="language-markdown">└── types/                    # TypeScript 型定義等</code>
-                                        提案: 実際のプロジェクト構造に合わせて統一することを推奨します。
-                                        <b>🎯 総合評価</b>
-                                        この実装は以下の理由で 承認を推奨 します：
-
-設計思想が明確で、長期的なメンテナンス性を重視している
-各 AI ツールの特性を理解した適切な分離がなされている
-文書品質が高く、プロジェクトの品質基準を満たしている
-上記の細かな改善点は緊急性が低く、後続作業で対応可能
-
-この一元管理システムにより、今後の AI ツール向けドキュメントのメンテナンスが大幅に効率化されることが期待されます。
-優秀な実装をありがとうございます！ 🎉
-                                    </div>
+                                    <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
                                 </div>
-                                <div class="timestamp">24 Jul 2025, 03:37:29</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#842 docs: create centralized AI documentation management system</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Copilot in <span class="repo">tomacheese/tomacheese.com</span></div>
-                                    <div class="comment">
-                                        この PR は、生成 AI 向けの指示書を一元管理するシステムを導入するもので、プロジェクトのドキュメント管理を大幅に改善する素晴らしい変更です。情報の重複を防ぎ、一貫性を保つという目的は明確で、そのための設計も適切です。
-いくつか改善点を提案させていただきます。
-                                        <code>.ai/index.md</code>
-                                        - ディレクトリ構造の記述について
-
-現在のディレクトリ構造の記述では、
-                                        <code>.ai/</code>
-                                        ディレクトリ自体が
-                                        <code>.</code>
-                                        で表現されており、その中に
-                                        <code>README.md</code>
-                                        と
-                                        <code>index.md</code>
-                                        があることが示されています。しかし、プロジェクトルートからの相対パスで表現されている他のディレクトリ（例:
-                                        <code>assets/</code>
-                                        ,
-                                        <code>components/</code>
-                                        ）と比べると、一貫性に欠けるように見えます。
-提案:
-                                        <code>.ai/</code>
-                                        ディレクトリの記述を、他のトップレベルディレクトリと同様にプロジェクトルートからの相対パスで表現するか、または
-                                        <code>.ai/</code>
-                                        ディレクトリの内部構造であることをより明確にするために、以下のように変更することを検討してください。
-                                        <code class="language-multiline language-diff" xml:space="preserve"><span class="token coord">--- a/.ai/index.md</span>
-<span class="token coord">+++ b/.ai/index.md</span>
-<span class="token trimmed">(3 more lines were trimmed)</span></code>
-                                        -/
--├── .ai/                      # 生成 AI 向け指示書（一元管理）
-+/.ai/                      # 生成 AI 向け指示書（一元管理）
- ├── .github/                  # GitHub 設定ファイル
- ├── assets/                   # 静的アセット（画像、スタイル等）
- ├── components/               # Vue.js コンポーネント
-                                        <code class="language-multiline" xml:space="preserve">または、
-
-<span class="token trimmed">(5 more lines were trimmed)</span></code>
-                                        -/
--├── .ai/                      # 生成 AI 向け指示書（一元管理）
-+
-                                        <code>+このプロジェクトのルートディレクトリは以下の構造を持ちます。 +</code>
-                                        +├── .ai/                      # 生成 AI 向け指示書（一元管理）
- ├── .github/                  # GitHub 設定ファイル
- ├── assets/                   # 静的アセット（画像、スタイル等）
- ├── components/               # Vue.js コンポーネント
-                                        <code></code>
-                                        <code>.ai/index.md</code>
-                                        - TypeScript 型定義のパスについて
-
-「TypeScript」セクションの「適切な型定義を
-                                        <code>types/</code>
-                                        に配置」という記述は正しいですが、その下の「インターフェースは
-                                        <code>I</code>
-                                        プレフィックスなしで命名」の箇所で、以前の
-                                        <code>.github/copilot-instructions.md</code>
-                                        にあった
-                                        <code>src/types/</code>
-                                        というパスが削除されています。
-提案:
-                                        <code>types/</code>
-                                        ディレクトリがプロジェクトルート直下にあることを明確にするため、
-                                        <code>types/</code>
-                                        と記載されている箇所を
-                                        <code>types/</code>
-                                        または
-                                        <code>/types/</code>
-                                        と明示的に記載することを検討してください。
-                                        <code class="language-multiline language-diff" xml:space="preserve"><span class="token coord">--- a/.ai/index.md</span>
-<span class="token coord">+++ b/.ai/index.md</span>
-<span class="token trimmed">(7 more lines were trimmed)</span></code>
-                                        <code>.ai/index.md</code>
-                                        - 検証用ファイルの管理セクションの「禁止される行為」について
-
-「禁止される行為」の項目で、「プロジェクトのソースコードディレクトリに検証用ファイルを作成すること」とありますが、これは「プロジェクトのソースコードディレクトリ（
-                                        <code>components/</code>
-                                        ,
-                                        <code>pages/</code>
-                                        ,
-                                        <code>content/</code>
-                                        など）に一時的なファイルを作成しない」という「一時的なファイルの作成場所」の項目と重複しているように見えます。
-提案: 重複を避けるため、「禁止される行為」のこの項目を削除するか、またはより簡潔に「一時的なファイルをソースコードディレクトリに配置しないこと」のように統合することを検討してください。
-                                        <code>.github/copilot-instructions.md</code>
-                                        - 冗長な記述の削除
-
-変更後のファイルには、まだ「プロジェクト概要」セクションが残っています。これは
-                                        <code>.ai/index.md</code>
-                                        に集約されるべき情報であり、Copilot 固有の指示書からは削除されるべきです。
-提案: 「プロジェクト概要」セクションを完全に削除してください。
-                                        <code class="language-multiline language-diff" xml:space="preserve"><span class="token coord">--- a/.github/copilot-instructions.md</span>
-<span class="token coord">+++ b/.github/copilot-instructions.md</span>
-<span class="token trimmed">(76 more lines were trimmed)</span></code>
-                                    </div>
-                                </div>
-                                <div class="timestamp">24 Jul 2025, 03:34:40</div>
+                                <div class="timestamp">24 Jul 2025, 07:44:58</div>
                             </section>
                         </div>
                     </section>
