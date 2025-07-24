@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1192" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="981" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment,.project .description{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.activity .details&gt;.comment{margin-top:6px;border-left:3px solid #777777b2;padding-left:6px}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.project .description{margin-left:37px;max-height:38px;font-size:12px;white-space:normal}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}.token.comment{color:#690}.token.string{color:#2777aa}.token.property{color:#48428a}.token.operator{color:#106cbc}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -75,7 +75,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
                             </svg>
-                            173 Pull requests reviewed
+                            174 Pull requests reviewed
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -94,7 +94,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                             </svg>
-                            3766 issue comments
+                            3767 issue comments
                         </div>
                     </section>
                     <section>
@@ -144,12 +144,12 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 103 commits)</small>
+                    <small class="h-details">(computed from last 101 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 45.8 characters per line of code written</li>
+                        <li>Has approximately 45.7 characters per line of code written</li>
                         <li>Mostly pushes code around 06:00</li>
                         <li>Mostly active on Tuesday</li>
                     </ul>
@@ -200,8 +200,8 @@
                             07
                         </div>
                         <div class="entry">
-                            <span class="value">6</span>
-                            <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">7</span>
+                            <div class="bar" style="height: 29.166666666666668px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                             08
                         </div>
                         <div class="entry">
@@ -265,8 +265,8 @@
                             20
                         </div>
                         <div class="entry">
-                            <span class="value">8</span>
-                            <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <span class="value">5</span>
+                            <div class="bar" style="height: 20.833333333333336px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             21
                         </div>
                         <div class="entry">
@@ -281,8 +281,8 @@
                         <h3>Commit activity per day of week</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">6</span>
-                                <div class="bar" style="height: 6.122448979591836px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">3</span>
+                                <div class="bar" style="height: 3.061224489795918px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Sun
                             </div>
                             <div class="entry">
@@ -301,8 +301,8 @@
                                 Wed
                             </div>
                             <div class="entry">
-                                <span class="value">14</span>
-                                <div class="bar" style="height: 14.285714285714285px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">15</span>
+                                <div class="bar" style="height: 15.306122448979592px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 Thu
                             </div>
                             <div class="entry">
@@ -322,22 +322,22 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 27.897124789532537%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">35%</span>
+                                <div class="bar" style="width: 25.324612801333913%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">32%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Vue</span>
-                                <div class="bar" style="width: 3.170743201847401%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 2.8967196239368427%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">4%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">JavaScript</span>
-                                <div class="bar" style="width: 0.12921524020067776%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.11804813514476162%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Dockerfile</span>
-                                <div class="bar" style="width: 0.0702629290215887%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.06419063051638231%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
@@ -357,305 +357,17 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Commented on
-                                        <span class="issue">#58 docs: centralize AI documentation structure</span>
+                                        Deleted
+                      branch
+                                        <span class="code">copilot/fix-841</span>
+                                        in
+                                        <span class="repo">tomacheese/tomacheese.com</span>
                                     </div>
                                 </div>
-                                <div class="details">
-                                    <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
-                                    <div class="comment">
-                                        @Copilot 以下のレビューコメントを修正してください：
-                                        <b>🤖 Review Comments Summary</b>
-                                        <b>📋 General Review Comments</b>
-                                        Review ID: 3049316615 (submitted: 2025-07-23T22:33:53Z)
-                                        <b>Pull Request Overview</b>
-                                        <i>
-                                            この PR は生成 AI 関連のドキュメントを
-                                            <code>.ai/</code>
-                                            ディレクトリに一元管理する構造を構築し、メンテナンス性を向上させるものです。複数の AI ツール（Claude Code、GitHub Copilot、Gemini CLI）で共通のガイドラインを参照できるようになり、ドキュメントの重複が解消されました。
-
-新しい
-                                            <code>.ai/</code>
-                                            ディレクトリに共通ガイドラインと AI ツール固有設定を整理
-既存の AI 向けドキュメント（CLAUDE.md、.github/copilot-instructions.md）を
-                                            <code>.ai/</code>
-                                            への参照に変更
-文書フォーマットの統一と日本語コミュニケーション要件の明確化
-                                            <b>Reviewed Changes</b>
-                                            Copilot reviewed 15 out of 15 changed files in this pull request and generated 1 comment.
-Show a summary per file
-
-
-
-File
-Description
-
-
-
-tests/e2e/css-minifier.spec.ts
-E2E テストのセレクタを getByRole を使用したより安全な方法に改善
-
-
-nuxt.config.ts
-description メタタグに key 属性を追加してユニーク性を確保
-
-
-GEMINI.md
-Gemini CLI 向けの新規ガイドラインファイル作成、.ai/ ディレクトリへの参照を設定
-
-
-CLAUDE.md
-詳細な内容を削除し .ai/ ディレクトリへの参照に変更
-
-
-.github/workflows/copilot-setup-steps.yml
-Playwright ブラウザのインストールステップを追加
-
-
-.github/copilot-instructions.md
-詳細な内容を削除し .ai/ ディレクトリへの参照に変更
-
-
-.ai/tools/gemini.md
-Gemini CLI 固有の設定とベストプラクティスを記載
-
-
-.ai/tools/copilot.md
-GitHub Copilot 固有の設定と効果的な使用方法を記載
-
-
-.ai/tools/claude.md
-Claude Code 固有の設定と推奨ワークフローを記載
-
-
-.ai/index.md
-AI 開発支援ドキュメントのメインインデックス、プロジェクト概要と基本理念を記載
-
-
-.ai/common/testing.md
-テスト戦略、実行方法、実装ガイドラインを詳細に記載
-
-
-.ai/common/project-overview.md
-プロジェクトの基本情報、技術スタック、実装状況を記載
-
-
-.ai/common/development-guidelines.md
-コミュニケーション要件、コーディング規約、開発フローを記載
-
-
-.ai/common/deployment.md
-複数プラットフォーム対応のデプロイメント手順とコマンドを記載
-
-
-.ai/common/architecture.md
-ディレクトリ構造、実装パターン、設定ファイルの説明を記載
-                                        </i>
-                                        <b>📁 File-specific Comments</b>
-                                        File:
-                                        <code>.ai/common/testing.md</code>
-                                        (Line 20)
-                                        <i>
-                                            テストファイルの対応関係の例で
-                                            <code>utils/math.ts</code>
-                                            →
-                                            <code>tests/math.test.ts</code>
-                                            とありますが、現在のプロジェクトでは
-                                            <code>/tests/utils/</code>
-                                            ディレクトリを使用しているため、実際の構造に合わせて
-                                            <code>utils/math.ts</code>
-                                            →
-                                            <code>tests/utils/math.test.ts</code>
-                                            に修正することを推奨します。
-                                        </i>
-                                        File:
-                                        <code>.ai/tools/claude.md</code>
-                                        (Line null)
-                                        <i>
-                                            <code>pnpm test:e2e:ui</code>
-                                            コマンドは実在します。package.json で確認済みです：
-                                            <code class="language-json">
-                                                <span class="token property">"test:e2e:ui"</span>
-                                                <span class="token operator">:</span>
-                                                <span class="token string">"playwright test --ui"</span>
-                                            </code>
-                                            このコマンドは Playwright の UI モードでの E2E テスト実行に使用されます。
-                                        </i>
-                                        File:
-                                        <code>GEMINI.md</code>
-                                        (Line null)
-                                        <i>「🔗 プロジェクト関連リンク」セクションを削除しました。
-コミット: d9c4d50</i>
-                                        <b>✅ Action Required</b>
-                                        上記のすべての指摘事項を修正してください。
-
-This comment was automatically generated by GitHub Actions (Triggered by comment command)
-                                    </div>
-                                </div>
-                                <div class="timestamp">24 Jul 2025, 08:27:44</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#58 docs: centralize AI documentation structure</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
-                                    <div class="comment">/copilot-review</div>
-                                </div>
-                                <div class="timestamp">24 Jul 2025, 08:27:34</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Reviewed
-                                        <span class="issue">#58 docs: centralize AI documentation structure</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
-                                </div>
-                                <div class="timestamp">24 Jul 2025, 08:22:10</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 11 commits in
-                                        <span class="repo">tomacheese/tools.tomacheese.com</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">copilot/fix-39</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#8c4b250</div>
-                                        <div class="message">fix: E2Eテストの曖昧セレクターを修正し、Playwright依存関係を追加
-
-- tests/e2e/css-minifier.spec.ts: 'text=整形'を'getByRole("button", { name: "整形" })'に変更
-- .github/workflows/copilot-setup-steps.yml: 'pnpm exec playwright install --with-deps'ステップを追加
-- eslint.config.mjs: Vue設定参照の問題を修正
-
-サイドバー追加により'整形'テキストが複数要素にマッチしていた問題を解決。
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2272266</div>
-                                        <div class="message">Add sidebar to default layout for consistent navigation
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2b40d06</div>
-                                        <div class="message">Initial plan</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#37d239a</div>
-                                        <div class="message">refactor: migrate from .npmrc to pnpm config in package.json (#59)
-
-Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#cbfe078</div>
-                                        <div class="message">fix(deps): pin dependencies (#13)
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d105414</div>
-                                        <div class="message">feat: update to Nuxt v3.17.7 and pnpm v10.13.1 (#57)
-
-Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b469214</div>
-                                        <div class="message">chore(deps): update dependency vue-tsc to v3 (#24)
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b0be3d2</div>
-                                        <div class="message">feat: Update dependencies and improve code quality (#47)
-
-* Initial plan
-
-* Update minor/patch dependencies: @nuxt/test-utils, vue, eslint, marked
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-
-* Update TypeScript ESLint packages and fix unused variable warnings
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-
-* Complete major dependency updates with code quality improvements
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-
-* Resolve merge conflicts by updating dependencies with compatibility adjustments
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-
-* fix: Resolve review comments - restore error parameter in JSON formatter and update vue-tsc version
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-
----------
-
-Co-authored-by: copilot-swe-agent[bot] &lt;198982749+Copilot@users.noreply.github.com&gt;
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#dfcc45b</div>
-                                        <div class="message">docs: update copilot instructions with current project state (#49)
-
-* Initial plan
-
-* docs: update copilot instructions with accurate tool inventory and versions
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-
----------
-
-Co-authored-by: copilot-swe-agent[bot] &lt;198982749+Copilot@users.noreply.github.com&gt;
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3d484e1</div>
-                                        <div class="message">chore(deps): update vitest monorepo to v3 (major) (#28)
-
-chore(deps): update vitest monorepo to v3
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b4bf3fb</div>
-                                        <div class="message">chore(deps): update node.js to v22 (#25)
-
-Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">24 Jul 2025, 07:59:01</div>
+                                <div class="timestamp">24 Jul 2025, 08:50:47</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -666,27 +378,128 @@ Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.co
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">tomacheese/tools.tomacheese.com</span>
+                                        <span class="repo">tomacheese/tomacheese.com</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">copilot/fix-39</span></div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#afcc8a0</div>
-                                        <div class="message">fix: E2Eテストの曖昧セレクターを修正し、Playwright依存関係を追加
+                                        <div class="sha">#4bc86cd</div>
+                                        <div class="message">docs: create centralized AI documentation management system (#842)
 
-- tests/e2e/css-minifier.spec.ts: 'text=整形'を'getByRole("button", { name: "整形" })'に変更
-- .github/workflows/copilot-setup-steps.yml: 'pnpm exec playwright install --with-deps'ステップを追加
-- eslint.config.mjs: Vue設定参照の問題を修正
+* Initial plan
 
-サイドバー追加により'整形'テキストが複数要素にマッチしていた問題を解決。
+* docs: create centralized AI documentation system
 
-🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
 
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
+* docs: address code review feedback on AI documentation system
+
+Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
+
+---------
+
+Co-authored-by: copilot-swe-agent[bot] &lt;198982749+Copilot@users.noreply.github.com&gt;
+Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">24 Jul 2025, 07:55:18</div>
+                                <div class="timestamp">24 Jul 2025, 08:50:46</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
+                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Closed
+                                        <span class="issue">#841 生成AI関連のドキュメントをまとめる</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">tomacheese/tomacheese.com</span></div>
+                                </div>
+                                <div class="timestamp">24 Jul 2025, 08:50:46</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Merged
+                                        <span class="issue">#842 docs: create centralized AI documentation management system</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Copilot in <span class="repo">tomacheese/tomacheese.com</span></div>
+                                    <div>5 files changed <span class="code">++444 --174</span></div>
+                                </div>
+                                <div class="timestamp">24 Jul 2025, 08:50:45</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#45 feat: add consistent sidebar navigation to all pages</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
+                                    <div class="comment">
+                                        @Copilot 以下のレビューコメントを修正してください：
+                                        <b>🤖 Review Comments Summary</b>
+                                        <b>📋 General Review Comments</b>
+                                        Review ID: 3049430175 (submitted: 2025-07-23T23:28:41Z)
+                                        <b>Pull Request Overview</b>
+                                        <i>
+                                            このPRは、全ページにわたる一貫したナビゲーション体験を提供するため、デフォルトレイアウトにサイドバーナビゲーションを追加しています。現在、ツールページにのみサイドバーが存在していましたが、これをホームページやaboutページにも統一して適用することで、ユーザビリティの向上を図っています。
+
+デフォルトレイアウトにツール一覧サイドバーを追加
+E2Eテストの要素セレクタを改善
+CI/CDワークフローでPlaywrightブラウザの依存関係インストールを追加
+                                            <b>Reviewed Changes</b>
+                                            Copilot reviewed 3 out of 3 changed files in this pull request and generated 1 comment.
+
+
+
+File
+Description
+
+
+
+layouts/default.vue
+サイドバーナビゲーションを追加し、既存のuseTools()コンポーザブルを活用
+
+
+tests/e2e/css-minifier.spec.ts
+テストの安定性向上のため、より具体的なロールベースセレクタに変更
+
+
+.github/workflows/copilot-setup-steps.yml
+Playwrightブラウザとその依存関係のインストールステップを追加
+                                        </i>
+                                        <b>📁 File-specific Comments</b>
+                                        File:
+                                        <code>layouts/default.vue</code>
+                                        (Line 20)
+                                        <i>インラインスタイルではなく、CSS クラスを使用することを推奨します。プロジェクトのコーディング規約に従い、CSS変数や統一されたスタイリングアプローチを使用してください。</i>
+                                        <b>✅ Action Required</b>
+                                        上記のすべての指摘事項を修正してください。
+
+This comment was automatically generated by GitHub Actions (Triggered by comment command)
+                                    </div>
+                                </div>
+                                <div class="timestamp">24 Jul 2025, 08:43:07</div>
                             </section>
                         </div>
                     </section>
