@@ -25,37 +25,89 @@ jobs:
         id: pr-number
         run: |
           # Get all issue and PR numbers to find the next available number
-          # This handles cases where issues/PRs have been transferred and gaps exist
+          # This handles cases where issues/PRs have been transferred, creating gaps or invisible used numbers
           
-          echo "Getting all issue numbers..."
+          echo "Getting all visible issue numbers..."
           ISSUE_NUMBERS=$(gh api --paginate /repos/book000/book000/issues?state=all | jq -r '.[].number' 2>/dev/null | sort -n || true)
           
-          echo "Getting all PR numbers..."
+          echo "Getting all visible PR numbers..."
           PR_NUMBERS=$(gh api --paginate /repos/book000/book000/pulls?state=all | jq -r '.[].number' 2>/dev/null | sort -n || true)
           
-          echo "Combining and sorting all numbers..."
+          echo "Combining and sorting all visible numbers..."
           ALL_NUMBERS=$(echo -e "$ISSUE_NUMBERS\n$PR_NUMBERS" | grep -E '^[0-9]+$' | sort -n | uniq)
           
-          echo "All existing numbers: $(echo "$ALL_NUMBERS" | tr '\n' ' ')"
+          echo "All visible numbers: $(echo "$ALL_NUMBERS" | tr '\n' ' ')"
           
-          # Find the next available number by checking for gaps
-          expected=1
+          # Function to test if a number is available
+          test_number_available() {
+            local num=$1
+            echo "Testing number: $num"
+            if gh api "/repos/book000/book000/issues/$num" >/dev/null 2>&1; then
+              echo "Number $num is taken (issue exists)"
+              return 1
+            elif gh api "/repos/book000/book000/pulls/$num" >/dev/null 2>&1; then
+              echo "Number $num is taken (PR exists)"
+              return 1
+            else
+              echo "Number $num is available"
+              return 0
+            fi
+          }
+          
           NEXT_PR_NUMBER=1
           
           if [ -n "$ALL_NUMBERS" ]; then
+            # First, check for gaps in the visible sequence
+            expected=1
+            gap_found=false
+            
             while IFS= read -r num; do
               if [ "$num" -eq "$expected" ]; then
                 expected=$((expected + 1))
               elif [ "$num" -gt "$expected" ]; then
-                # Found a gap, use the expected number
-                NEXT_PR_NUMBER=$expected
-                break
+                # Found a gap, test if it's actually available
+                if test_number_available "$expected"; then
+                  NEXT_PR_NUMBER=$expected
+                  gap_found=true
+                  break
+                else
+                  # Gap is not available, continue looking
+                  expected=$((expected + 1))
+                fi
               fi
             done <<< "$ALL_NUMBERS"
             
-            # If no gaps found, use the next sequential number
-            if [ "$NEXT_PR_NUMBER" -eq 1 ]; then
-              NEXT_PR_NUMBER=$expected
+            # If no available gaps found, start from the highest number + 1
+            if [ "$gap_found" = false ]; then
+              HIGHEST_NUMBER=$(echo "$ALL_NUMBERS" | tail -n 1)
+              CANDIDATE_NUMBER=$((HIGHEST_NUMBER + 1))
+              
+              echo "No gaps found, starting search from: $CANDIDATE_NUMBER"
+              
+              # Check sequential numbers starting from highest + 1
+              NEXT_PR_NUMBER=$CANDIDATE_NUMBER
+              MAX_ATTEMPTS=50  # Reasonable upper limit to prevent infinite loops
+              
+              for attempt in $(seq 1 $MAX_ATTEMPTS); do
+                if test_number_available "$NEXT_PR_NUMBER"; then
+                  break
+                else
+                  NEXT_PR_NUMBER=$((NEXT_PR_NUMBER + 1))
+                fi
+              done
+              
+              if [ $attempt -eq $MAX_ATTEMPTS ]; then
+                echo "Warning: Reached maximum attempts ($MAX_ATTEMPTS), using number $NEXT_PR_NUMBER"
+              fi
+            fi
+          else
+            # No existing numbers, test if 1 is available
+            if ! test_number_available 1; then
+              # Even number 1 is taken (very unlikely but possible), increment until available
+              NEXT_PR_NUMBER=2
+              while ! test_number_available "$NEXT_PR_NUMBER"; do
+                NEXT_PR_NUMBER=$((NEXT_PR_NUMBER + 1))
+              done
             fi
           fi
           
