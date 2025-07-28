@@ -24,19 +24,42 @@ jobs:
       - name: Calculate next Pull-request number
         id: pr-number
         run: |
-          # shellcheck disable=SC2086
-          LAST_PR_NUMBER=$(gh pr list --state all --json number --jq '.[0].number' --limit 1)
-          echo LAST_PR_NUMBER: $LAST_PR_NUMBER
-          # shellcheck disable=SC2086
-          LAST_ISSUE_NUMBER=$(gh issue list --state all --json number --jq '.[0].number' --limit 1)
-          echo LAST_ISSUE_NUMBER: $LAST_ISSUE_NUMBER
-          # shellcheck disable=SC2086
-          LAST_NUMBER=$((LAST_PR_NUMBER > LAST_ISSUE_NUMBER ? LAST_PR_NUMBER : LAST_ISSUE_NUMBER))
-          echo LAST_NUMBER: $LAST_NUMBER
-          # shellcheck disable=SC2086
-          NEXT_PR_NUMBER=$((LAST_NUMBER + 1))
-          echo NEXT_PR_NUMBER: $NEXT_PR_NUMBER
-
+          # Get all issue and PR numbers to find the next available number
+          # This handles cases where issues/PRs have been transferred and gaps exist
+          
+          echo "Getting all issue numbers..."
+          ISSUE_NUMBERS=$(gh api --paginate /repos/book000/book000/issues?state=all | jq -r '.[].number' 2>/dev/null | sort -n || true)
+          
+          echo "Getting all PR numbers..."
+          PR_NUMBERS=$(gh api --paginate /repos/book000/book000/pulls?state=all | jq -r '.[].number' 2>/dev/null | sort -n || true)
+          
+          echo "Combining and sorting all numbers..."
+          ALL_NUMBERS=$(echo -e "$ISSUE_NUMBERS\n$PR_NUMBERS" | grep -E '^[0-9]+$' | sort -n | uniq)
+          
+          echo "All existing numbers: $(echo "$ALL_NUMBERS" | tr '\n' ' ')"
+          
+          # Find the next available number by checking for gaps
+          expected=1
+          NEXT_PR_NUMBER=1
+          
+          if [ -n "$ALL_NUMBERS" ]; then
+            while IFS= read -r num; do
+              if [ "$num" -eq "$expected" ]; then
+                expected=$((expected + 1))
+              elif [ "$num" -gt "$expected" ]; then
+                # Found a gap, use the expected number
+                NEXT_PR_NUMBER=$expected
+                break
+              fi
+            done <<< "$ALL_NUMBERS"
+            
+            # If no gaps found, use the next sequential number
+            if [ "$NEXT_PR_NUMBER" -eq 1 ]; then
+              NEXT_PR_NUMBER=$expected
+            fi
+          fi
+          
+          echo "NEXT_PR_NUMBER: $NEXT_PR_NUMBER"
           echo "next-pr-number=$NEXT_PR_NUMBER" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ github.token }}
