@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1059" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1123" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}.token.comment{color:#690}.token.trimmed{font-style:italic;color:#77777760}.space{margin-left:7px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -149,7 +149,7 @@
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 28.3 characters per line of code written</li>
+                        <li>Has approximately 28.4 characters per line of code written</li>
                         <li>Mostly pushes code around 02:00</li>
                         <li>Mostly active on Monday</li>
                     </ul>
@@ -265,13 +265,13 @@
                             20
                         </div>
                         <div class="entry">
-                            <span class="value">5</span>
-                            <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">3</span>
+                            <div class="bar" style="height: 15px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             21
                         </div>
                         <div class="entry">
-                            <span class="value"></span>
-                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            <span class="value">2</span>
+                            <div class="bar" style="height: 10px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             22
                         </div>
                         <div class="entry">
@@ -306,8 +306,8 @@
                                 Wed
                             </div>
                             <div class="entry">
-                                <span class="value">2</span>
-                                <div class="bar" style="height: 5.555555555555555px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">4</span>
+                                <div class="bar" style="height: 11.11111111111111px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Thu
                             </div>
                             <div class="entry">
@@ -316,8 +316,8 @@
                                 Fri
                             </div>
                             <div class="entry">
-                                <span class="value">2</span>
-                                <div class="bar" style="height: 5.555555555555555px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 Sat
                             </div>
                         </div>
@@ -327,22 +327,27 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Vue</span>
-                                <div class="bar" style="width: 44.46300027844735%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
-                                <span class="value">56%</span>
+                                <div class="bar" style="width: 44.39745785437776%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value">55%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 19.250498816186855%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 19.222121865709823%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">24%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Shell</span>
-                                <div class="bar" style="width: 0.16133470195423907%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.16109688022861543%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">0%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">C#</span>
+                                <div class="bar" style="width: 0.13609001156567677%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">CSS</span>
-                                <div class="bar" style="width: 0.02108950352342994%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.02105841571615888%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
@@ -362,132 +367,85 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Commented on
-                                        <span class="issue">#162 feat: 縦長・横長画像で省略表示した画像を作るツール</span>
+                                        Pushed 4 commits in
+                                        <span class="repo">tomacheese/VRCXDiscordTracker</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
-                                    <div class="comment">画像を選択したら、「画像をドラッグアンドドロップ」する場所はいったん隠し、プレビューが上に表示されるようにしてください。
-省略範囲の指定は、インタラクティブに画像上に動かせる棒を2本あり、それを動かすことで範囲を調整できるようにしてください
-省略する方向は、縦か横を自動判別するのではなく、ユーザーが選べる必要があります。
-波線は、波線背景を白くするのではなく、元の画像が見えるように背景等価しつつ、ぼかすとそれっぽくなります。ぼかすレベルなどはユーザーが変更できると良いでしょう。
-プレビューはもっと大きく表示して、見やすくしてください。
-波線は画像の端っこまで描画してください
-自動反映されるから、「省略画像を生成」は要らなくないですか？</div>
+                                    <div>on branch <span class="code">feat/editorconfig</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#458b57e</div>
+                                        <div class="message">fix: UpdateCheckerの非同期メソッドを使用するように変更
+
+UpdateChecker.Check()をUpdateChecker.CheckAsync()に変更し、非同期処理を適切に扱うようにしました。</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9c35473</div>
+                                        <div class="message">Merge remote-tracking branch 'origin/master' into feat/editorconfig</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1217482</div>
+                                        <div class="message">fix: 複数回同じインスタンスに参加した場合、ロケーションカウントが正しくない問題の修正 (#58)
+
+* fix: 複数回同じインスタンスに参加した場合、ロケーションカウントが正しくない問題の修正
+
+* fix: lint</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#587a4c8</div>
+                                        <div class="message">fix: Mainメソッドの非同期処理を同期処理に変更 (#52)
+
+* fix: Mainメソッドの非同期処理を同期処理に変更
+
+`Main` メソッドのシグネチャを `async Task` から `void` に変更し、非同期処理の扱いを変更しました。
+`UpdateChecker.Check()` の呼び出しを `Task.Run` 内に移動し、更新チェックの結果に基づく処理の流れを変更しました。
+また、`DiscordNotificationService.SendAppStartMessage()` の呼び出しを `await` なしで行うようにし、非同期処理の結果を待たずに次の処理に進むようにしました。
+
+* fix: Application.ApplicationExitについてもasyncをやめる
+
+* fix: GetAwaiter().GetResult()に変更</div>
+                                    </div>
                                 </div>
-                                <div class="timestamp">31 Jul 2025, 19:41:22</div>
+                                <div class="timestamp">31 Jul 2025, 22:19:27</div>
                             </section>
                         </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
                                         Commented on
-                                        <span class="issue">#162 feat: 縦長・横長画像で省略表示した画像を作るツール</span>
+                                        <span class="issue">#41 chore: 新しい.editorconfig</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
-                                    <div class="comment">
-                                        @Copilot 以下のレビューコメントを修正してください。
-                                        <b>🤖 Review Comments Summary</b>
-                                        <b>📋 General Review Comments</b>
-                                        Review ID: 3073692330 (submitted: 2025-07-31T00:40:15Z)
-                                        <b>Pull Request Overview</b>
-                                        <i>
-                                            このPRは縦長・横長画像に対して特定の領域を省略表示し、波線で省略部分を表現する新しいツールを実装しています。完全にクライアントサイドで動作し、JPEG・PNG形式に対応しています。
-
-画像省略処理のコアロジック実装（Canvas APIベースの高性能処理）
-Vue 3 Composition APIによるインタラクティブなユーザーインターフェース
-包括的なテストカバレッジ（ユニット24テスト + E2E）
-                                            <b>Reviewed Changes</b>
-                                            Copilot reviewed 5 out of 5 changed files in this pull request and generated 3 comments.
-Show a summary per file
-
-
-
-File
-Description
-
-
-
-utils/imageOmission.ts
-画像省略処理のコアユーティリティ関数（Canvas API、波線描画、画像処理）
-
-
-tests/utils/imageOmission.test.ts
-imageOmission.tsの包括的なユニットテスト（24テストケース）
-
-
-tests/e2e/image-omission.spec.ts
-ツールの基本機能とレスポンシブデザインのE2Eテスト
-
-
-pages/tools/image-omission.vue
-メインのツールページ（Vue SFC、UI、インタラクション処理）
-
-
-composables/useTools.ts
-ツールメタデータにimage-omissionツールを追加
-                                        </i>
-                                        <b>📁 File-specific Comments</b>
-                                        File:
-                                        <code>utils/imageOmission.ts</code>
-                                        (Line 245)
-                                        <i>
-                                            正規表現で 'jpg' と 'jpeg' を分けているが、'image/jpg' は標準的なMIMEタイプではありません。'image/jpeg' のみで十分です。
-                                            <code class="language-suggestion">if (!file.type.match(/^image\/(jpeg|png)$/)) {</code>
-                                        </i>
-                                        File:
-                                        <code>pages/tools/image-omission.vue</code>
-                                        (Line 390)
-                                        <i>
-                                            デバウンス処理にsetTimeoutを使用していますが、連続した呼び出しをキャンセルする仕組みがありません。debounce関数またはVueのwatchEffectを使用することを推奨します。
-                                            <code class="language-multiline language-suggestion" xml:space="preserve">const debouncedGenerateOmittedImage = debounce(() =&gt; {
-  if (originalImage.value &amp;&amp; isValidRange.value &amp;&amp; !isGenerating.value) {
-<span class="token trimmed">(8 more lines were trimmed)</span></code>
-                                        </i>
-                                        File:
-                                        <code>pages/tools/image-omission.vue</code>
-                                        (Line 335)
-                                        <i>
-                                            URL.createObjectURL()で作成したオブジェクトURLはメモリリークを防ぐため、URL.revokeObjectURL()で適切に解放する必要があります。
-                                            <code class="language-multiline language-suggestion" xml:space="preserve">originalImage.value = image
-    if (imageDataUrl.value) {
-<span class="token trimmed">(2 more lines were trimmed)</span></code>
-                                        </i>
-                                        <b>✅ Action Required</b>
-                                        上記のすべての指摘事項を修正してください。
-
-This comment was automatically generated by GitHub Actions (Triggered by comment command)
-                                    </div>
+                                    <div>opened by book000 in <span class="repo">tomacheese/VRCXDiscordTracker</span></div>
+                                    <div class="comment">@LunaRabbit66 これ、指摘は真逆で、三項演算子を使わせるようなルールになってます。（冗長なifを拒否するようなものになってる）
+そのうえでどうでしょ？このサジェストそのものはIDE0048に違反するようなものではないので普通に取り込めました。</div>
                                 </div>
-                                <div class="timestamp">31 Jul 2025, 09:54:37</div>
+                                <div class="timestamp">31 Jul 2025, 22:16:02</div>
                             </section>
                         </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
                                     </svg>
                                     <div class="content">
-                                        Commented on
-                                        <span class="issue">#162 feat: 縦長・横長画像で省略表示した画像を作るツール</span>
+                                        Reviewed
+                                        <span class="issue">#41 chore: 新しい.editorconfig</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by Copilot in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
-                                    <div class="comment">/copilot-review</div>
+                                    <div>opened  in <span class="repo">tomacheese/VRCXDiscordTracker</span></div>
                                 </div>
-                                <div class="timestamp">31 Jul 2025, 09:54:24</div>
+                                <div class="timestamp">31 Jul 2025, 22:16:03</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -498,78 +456,38 @@ This comment was automatically generated by GitHub Actions (Triggered by comment
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">tomacheese/tools.tomacheese.com</span>
+                                        <span class="repo">tomacheese/VRCXDiscordTracker</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
+                                    <div>on branch <span class="code">feat/editorconfig</span></div>
                                     <div class="commit">
-                                        <div class="sha">#5c77d55</div>
-                                        <div class="message">feat: カラーパレット生成ツールの実装 (#154)
+                                        <div class="sha">#7b24ad6</div>
+                                        <div class="message">Update VRCXDiscordTracker/Core/Notification/DiscordEmbedMembers.cs
 
-* Initial plan
-
-* feat: implement color palette generator with full functionality
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-
-* test: add E2E tests for color palette generator tool
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-
-* fix: address review comments - export documentation, replace inline styles with CSS classes, improve error handling
-
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-
-* fix: カラーパレット生成ツールE2Eテストの安定化
-
-- ページロード待機処理を追加
-- テストセレクタを最適化
-- パレット生成の確実な実行を追加
-- デバッグ用ログを追加
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;
-
-* fix: カラーパレット生成ツールのE2Eテスト修正
-
-- onMounted時の初期パレット生成を待機するロジックに変更
-- ページ読み込み完了とパレット生成完了の適切な待機処理を追加
-- テストタイムアウトを5秒に統一
-- デバッグ用console.logを削除してlintエラー解消
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;
-
----------
-
-Co-authored-by: copilot-swe-agent[bot] &lt;198982749+Copilot@users.noreply.github.com&gt;
-Co-authored-by: book000 &lt;8929706+book000@users.noreply.github.com&gt;
-Co-authored-by: akubiusa &lt;222856114+akubiusa@users.noreply.github.com&gt;
-Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
+Co-authored-by: LunaRabbit66 &lt;102153621+LunaRabbit66@users.noreply.github.com&gt;</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">31 Jul 2025, 09:52:49</div>
+                                <div class="timestamp">31 Jul 2025, 22:12:16</div>
                             </section>
                         </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
-                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Closed
-                                        <span class="issue">#100 feat: add color palette generator tool</span>
+                                        Commented on
+                                        <span class="issue">#41 chore: 新しい.editorconfig</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by akubiusa in <span class="repo">tomacheese/tools.tomacheese.com</span></div>
+                                    <div>opened by book000 in <span class="repo">tomacheese/VRCXDiscordTracker</span></div>
+                                    <div class="comment">いやどーしよ
+dotnet_style_prefer_conditional_expression_over_returnをどっちかにするだけで良い気がする</div>
                                 </div>
-                                <div class="timestamp">31 Jul 2025, 09:52:48</div>
+                                <div class="timestamp">31 Jul 2025, 22:07:18</div>
                             </section>
                         </div>
                     </section>
