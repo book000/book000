@@ -17,7 +17,7 @@
 |  | 🥜 Nuts | `/mnt/hdd` |  (%) | 1.79 TB (HDD) | <!-- calculate-storage#nuts#/mnt/hdd -->
 |  | 🥜 Nuts | `/mnt/hdd2` |  (%) | 686.60 GB (HDD) | <!-- calculate-storage#nuts#/mnt/hdd2 -->
 |  | 🟤 Cinnamon | `/` |  (%) | 456.35 GB (HDD) | <!-- calculate-storage#cinnamon#/ -->
-|  | 🟤 Cinnamon | `/mnt/hdd` |  () | 5.41 TB (HDD) | <!-- calculate-storage#cinnamon#/mnt/hdd -->
+|  | 🟤 Cinnamon | `/mnt/pve/data` |  (%) | 5.41 TB (HDD) | <!-- calculate-storage#cinnamon#/mnt/pve/data -->
 |  | ☄ Comet | `/` |  (%) | 98.25 GB (SSD) | <!-- calculate-storage#Comet3#/ -->
 |  | 🌉 frp-server | `/` |  (%) | 29.36 GB (SSD) | <!-- calculate-storage#frp-server#/ -->
 |  | ⏺️ RecPi | `/` |  (%) | 28.14 GB (SD) | <!-- calculate-storage#recpi#/ -->
