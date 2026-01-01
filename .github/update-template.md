@@ -48,8 +48,9 @@ Linux 系サーバでは ncdu を定期実行している環境もあるので�
 |  | 🍊 ORANGE | Ubuntu | apt |  |  |  | <!-- update-softwares#ORANGE#apt -->
 |  | 🥜 Nuts | Ubuntu | apt |  |  |  | <!-- update-softwares#nuts#apt -->
 |  | 🟤 Cinnamon | Ubuntu | apt |  |  |  | <!-- update-softwares#cinnamon#apt -->
-|  | 🌉 frp-server | Ubuntu | apt |  |  |  | <!-- update-softwares#frp-server#apt -->
 |  | ☄ Comet | Ubuntu | apt |  |  |  | <!-- update-softwares#Comet3#apt -->
+|  | 🌉 frp-server | Ubuntu | apt |  |  |  | <!-- update-softwares#frp-server#apt -->
+|  | ⏺️ RecPi | Ubuntu | apt |  |  |  | <!-- update-softwares#recpi#apt -->
 |  | 👒 ZakuroHat | Ubuntu | apt |  |  |  | <!-- update-softwares#zh-2#apt -->
 
 ## Windows
