@@ -25,3 +25,13 @@
 - ログに機密情報を出力しない。
 
 ## リポジトリ固有
+- **type**: GitHub Profile Repository
+- **user**: book000 (Tomachi)
+**content:**
+  - Personal bio and summary
+  - Skills (PHP, Java, Python, JavaScript, TypeScript, Vue.js, Nuxt.js, C#, NodeJS, Golang)
+  - Portfolio of works (Discord bots, efficiency tools, utilities)
+  - Links to social media and profiles
+  - Metrics visualization from GitHub
+  - WakaTime coding language chart
+- **license**: MIT

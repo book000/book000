@@ -15,7 +15,10 @@
 - 日本語と英数字の間には半角スペースを入れる。
 
 ## プロジェクト概要
-- 目的: Developer of Discord bot applications, efficiency projects, etc.
+Personal GitHub profile repository with bio, skills, works, and project listing for the user Tomachi (book000).
+
+### 技術スタック
+- **言語**: Markdown
 
 ## コーディング規約
 - フォーマット: 既存設定（ESLint / Prettier / formatter）に従う。
@@ -23,9 +26,8 @@
 - コメント言語: 日本語
 - エラーメッセージ: 英語
 
-## 開発コマンド
+### 開発コマンド
 ```bash
-# README を確認してください
 ```
 
 ## 注意事項
@@ -34,3 +36,13 @@
 - 既存のプロジェクトルールがある場合はそれを優先する。
 
 ## リポジトリ固有
+- **type**: GitHub Profile Repository
+- **user**: book000 (Tomachi)
+**content:**
+  - Personal bio and summary
+  - Skills (PHP, Java, Python, JavaScript, TypeScript, Vue.js, Nuxt.js, C#, NodeJS, Golang)
+  - Portfolio of works (Discord bots, efficiency tools, utilities)
+  - Links to social media and profiles
+  - Metrics visualization from GitHub
+  - WakaTime coding language chart
+- **license**: MIT
