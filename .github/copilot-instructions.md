@@ -45,23 +45,17 @@
 - 変数参照: `${{ }}` 形式（GitHub Actions の変数）、`$変数名` 形式（Bash の変数）
 - コメント: 日本語で記述
 
-## GitHub Actions ワークフロー
+## 開発コマンド
 
-### metrics.yml
+このプロジェクトは `package.json` を使用していないため、主に GitHub CLI (`gh`) を使用して操作します。
 
-- **トリガー**: 毎時実行、手動実行、master/main ブランチへの push
-- **処理**: gh-metrics/metrics を使用して GitHub metrics SVG を生成・更新
-- **シークレット**: `METRICS_TOKEN` を使用
+```bash
+# metrics.yml の実行
+gh workflow run metrics.yml
 
-### monthly-update.yml
-
-- **トリガー**: 毎月 1 日 00:00 UTC、手動実行
-- **処理**:
-  1. 現在の日付を取得
-  2. 次の PR 番号を計算（既存の issue/PR 番号から利用可能な番号を検索）
-  3. `.github/update-template.md` のプレースホルダーを置換
-  4. book000, tomacheese, jaoafa の Renovate PR を検索し、成功/失敗で分類
-  5. monthly update issue を作成
+# monthly-update.yml の実行
+gh workflow run monthly-update.yml
+```
 
 ## テスト方針
 
