@@ -70,7 +70,7 @@
 
 ## セキュリティ / 機密情報
 
-- **GitHub Token**: `METRICS_TOKEN` シークレットと `github.token` を使用
+- **GitHub Token**: `METRICS_TOKEN` シークレットと `${{ github.token }}` を使用
 - **認証情報**: GitHub リポジトリの Secrets で管理
 - **ログ**: トークンやシークレットをログに出力しない
 

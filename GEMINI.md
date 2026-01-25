@@ -24,7 +24,7 @@
 - **目的**: GitHub プロフィールリポジトリ。個人プロフィールの表示と、GitHub metrics の自動更新、monthly update issue の自動作成を行う。
 - **主な機能**:
   - プロフィール README.md の管理
-  - GitHub metrics SVG の毎時自動更新（lowlighter/metrics を使用）
+  - GitHub metrics SVG の毎時自動更新（gh-metrics/metrics（lowlighter/metrics ベース）を使用）
   - monthly update issue の自動作成（book000, tomacheese, jaoafa の Renovate PR リスト含む）
 
 ## 技術スタック
@@ -34,7 +34,7 @@
 - **Bash**: シェルスクリプト（GitHub Actions 内で使用）
 - **GitHub CLI (gh)**: GitHub API の操作、PR/Issue の検索・作成
 - **jq**: JSON データの処理
-- **lowlighter/metrics**: GitHub metrics SVG の生成
+- **gh-metrics/metrics**: GitHub metrics SVG の生成（lowlighter/metrics ベース）
 
 ## コーディング規約
 
@@ -88,7 +88,7 @@
 - **PR 番号計算**: 既存の issue/PR 番号から、転送や削除によるギャップを考慮して、次に利用可能な番号を検索。最大 50 回の試行で利用可能な番号を見つける
 - **GitHub CLI**: `gh` コマンドを使用して GitHub API を操作。認証は `${{ github.token }}` または `METRICS_TOKEN` シークレットを使用
 - **togithub.com**: monthly update issue では、GitHub の URL を togithub.com に置換してプライバシーを保護
-- **lowlighter/metrics**: GitHub metrics SVG の生成に使用。最新の仕様や機能については公式ドキュメントを参照
+- **gh-metrics/metrics**: GitHub metrics SVG の生成に使用。lowlighter/metrics ベースのため、最新の仕様や機能については公式ドキュメントを参照
 
 ## Gemini CLI の役割
 
@@ -96,7 +96,7 @@ Gemini CLI は、以下の観点で相談を受けることができる：
 
 - **GitHub CLI の最新仕様や機能**: `gh` コマンドの最新の使い方や新機能
 - **GitHub Actions の最新仕様や機能**: GitHub Actions の最新の機能や変更点
-- **lowlighter/metrics の最新仕様や機能**: GitHub metrics SVG 生成の最新の設定や機能
+- **lowlighter/metrics の最新仕様や機能**: gh-metrics/metrics のベースとなる GitHub metrics SVG 生成の最新の設定や機能
 - **jq の最新仕様や機能**: JSON データ処理の最新の方法
 - **外部一次情報の確認**: GitHub や lowlighter/metrics の公式ドキュメントの確認
 - **最新仕様の調査**: 技術スタックの最新バージョンや仕様の調査
