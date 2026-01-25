@@ -19,7 +19,7 @@
 - **目的**: GitHub プロフィールリポジトリ。個人プロフィールの表示と、GitHub metrics の自動更新、monthly update issue の自動作成を行う。
 - **主な機能**:
   - プロフィール README.md の管理
-  - GitHub metrics SVG の毎時自動更新（lowlighter/metrics を使用）
+  - GitHub metrics SVG の毎時自動更新（gh-metrics/metrics（lowlighter/metrics ベース）を使用）
   - monthly update issue の自動作成（book000, tomacheese, jaoafa の Renovate PR リスト含む）
 
 ## 判断記録のルール
