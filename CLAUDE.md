@@ -44,10 +44,22 @@
 - **実行環境**: GitHub Actions（ubuntu-latest）
 - **Renovate PR**: Renovate が作成した既存の PR に対して追加コミットや更新を行わない
 
+## Git Worktree
+
+プロジェクトによっては、Git Worktree を採用している場合があります。
+Git Worktree のディレクトリ構成は、以下でなければなりません。
+
+```text
+.bare/
+<ブランチ名>
+```
+
 ## コード改修時のルール
 
 - **日本語と英数字の間**: 半角スペースを挿入する
 - **既存のエラーメッセージ**: 先頭に絵文字がある場合は、全体で統一する
+- **TypeScript**: `skipLibCheck` での回避は禁止
+- **ドキュメント**: 関数やインターフェースには docstring (jsdoc など) を日本語で記載
 
 ### YAML 規約
 
@@ -93,28 +105,16 @@
 - 自身の分析結果と他エージェントの意見が異なる場合は、双方の視点を比較検討する
 - 最終的な判断は、両者の意見を総合的に評価した上で、自身で下す
 
-## GitHub Actions ワークフロー
+## 開発コマンド
 
-### metrics.yml
+このプロジェクトは `package.json` を使用していないため、主に GitHub CLI (`gh`) を使用して操作します。
 
-```yaml
-# GitHub metrics SVG の自動更新
-トリガー: 毎時実行、手動実行、master/main ブランチへの push
-処理: gh-metrics/metrics を使用して GitHub metrics SVG を生成・更新
-シークレット: METRICS_TOKEN
-```
+```bash
+# metrics.yml の実行
+gh workflow run metrics.yml
 
-### monthly-update.yml
-
-```yaml
-# monthly update issue の自動作成
-トリガー: 毎月 1 日 00:00 UTC、手動実行
-処理:
-  1. 現在の日付を取得
-  2. 次の PR 番号を計算（既存の issue/PR 番号から利用可能な番号を検索）
-  3. .github/update-template.md のプレースホルダーを置換
-  4. book000, tomacheese, jaoafa の Renovate PR を検索し、成功/失敗で分類
-  5. monthly update issue を作成
+# monthly-update.yml の実行
+gh workflow run monthly-update.yml
 ```
 
 ## アーキテクチャと主要ファイル

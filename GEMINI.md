@@ -52,6 +52,18 @@
 - コメント: 日本語で記述
 - エラーメッセージ: 英語
 
+## 開発コマンド
+
+このプロジェクトは `package.json` を使用していないため、主に GitHub CLI (`gh`) を使用して操作します。
+
+```bash
+# metrics.yml の実行
+gh workflow run metrics.yml
+
+# monthly-update.yml の実行
+gh workflow run monthly-update.yml
+```
+
 ## GitHub Actions ワークフロー
 
 ### metrics.yml

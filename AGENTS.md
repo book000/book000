@@ -56,6 +56,7 @@
    - YAML 構文エラーがないことを確認（YAML linter）
    - Bash スクリプトの構文エラーがないことを確認（shellcheck）
    - GitHub Actions のワークフローを手動実行して動作確認
+     - 例: `gh workflow run metrics.yml`
 
 ## セキュリティ / 機密情報
 
@@ -71,12 +72,3 @@
 - **Renovate PR リスト**: book000, tomacheese, jaoafa の 3 つのオーナーの Renovate PR を収集・表示
 - **PR 番号計算**: 既存の issue/PR 番号から、転送や削除によるギャップを考慮して、次に利用可能な番号を検索
 - **togithub.com**: monthly update issue では、GitHub の URL を togithub.com に置換してプライバシーを保護
-
-## 主要ファイル
-
-- **README.md**: プロフィール表示
-- **github-metrics.svg**: GitHub metrics SVG（自動生成）
-- **.github/workflows/metrics.yml**: metrics 自動更新ワークフロー
-- **.github/workflows/monthly-update.yml**: monthly update issue 自動作成ワークフロー
-- **.github/update-template.md**: monthly update issue テンプレート
-- **LICENSE**: MIT License
