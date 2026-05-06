@@ -74,7 +74,7 @@ The main language of late has been TypeScript.
 - **Twitch**: [toma_chi](https://twitch.tv/toma_chi)
 - **LastFM**: [book000](https://www.last.fm/user/book000)
   
-[![](https://lrpr.amatama.net/api?user=book000&count=5&loved=true)](https://github.com/book000/lastfm-recently-played-readme)
+[![](https://lrpr.tomacheese.com/api?user=book000&count=5&loved=true)](https://github.com/book000/lastfm-recently-played-readme)
 
 ## Contacts
 
