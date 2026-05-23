@@ -11,7 +11,15 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.METRICS_TOKEN }}
+
       - name: Generate SVG metrics
         uses: book000/metrics@master
         with:
@@ -24,17 +32,47 @@ jobs:
           base: header, activity, community
           config_timezone: Asia/Tokyo
           repositories_affiliations: owner, collaborator, organization_member
-          
+
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_habits_trim: yes
-          
+
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: all
           plugin_activity_visibility: public
           plugin_activity_timestamps: yes
+
+          # book000/metrics の Docker イメージに git が含まれていないため、
+          # output_action を none にして後続ステップで手動コミットする
+          # 参照: https://github.com/book000/metrics/pull/5
+          output_action: none
+
+      - name: Commit and push generated metrics
+        run: |
+          RENDERS_DIR="/metrics_renders"
+          SVG_FILE="github-metrics.svg"
+
+          if [ ! -f "${RENDERS_DIR}/${SVG_FILE}" ]; then
+            echo "::error::Rendered SVG not found at ${RENDERS_DIR}/${SVG_FILE}"
+            exit 1
+          fi
+
+          cp "${RENDERS_DIR}/${SVG_FILE}" "./${SVG_FILE}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "${SVG_FILE}"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-generated metrics for run #${{ github.run_id }}"
+            # 並行 push による non-fast-forward を避けるためリベースしてから push する
+            git pull --rebase origin ${{ github.ref_name }}
+            git push
+          fi
