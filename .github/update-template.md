@@ -37,8 +37,6 @@ $env:ISSUE_NUMBER={{ pr-number }}; irm https://raw.githubusercontent.com/book000
 wget -qO - https://raw.githubusercontent.com/book000/calculate-storage/refs/heads/master/calculate-storage.sh | sudo ISSUE_NUMBER={{ pr-number }} bash
 ```
 
-Linux 系サーバでは ncdu を定期実行している環境もあるので、`ncdu -f /ncdu.json` などで詳細を確認。  
-
 ## PC / Server のアップデート
 
 | ✅ | ComputerName | OS | PM | Upgraded | Failed | OS EOL |
@@ -69,5 +67,5 @@ wget -qO - https://raw.githubusercontent.com/book000/update-softwares/refs/heads
 
 ## その他
 
-- renovate PR の対応
-- Cinnamon の VM アップデート
+- [ ] renovate PR の対応
+- [ ] Cinnamon の VM アップデート
