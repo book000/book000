@@ -1,4 +1,4 @@
-# Visit https://github.com/book000/metrics/blob/master/action.yml for full reference
+# 詳細は https://github.com/book000/metrics/blob/master/action.yml を参照
 name: Metrics
 on:
   # スケジュール実行（毎時）
@@ -20,7 +20,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.METRICS_TOKEN }}
+          # git push 時のアクターを github-actions[bot] にするため GITHUB_TOKEN を使用する
+          # METRICS_TOKEN（PAT）を使うと push がトークン所有者名になり if 条件が機能しない
+          token: ${{ github.token }}
 
       - name: Generate SVG metrics
         uses: book000/metrics@master
