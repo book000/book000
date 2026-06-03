@@ -1,16 +1,18 @@
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+# Visit https://github.com/book000/metrics/blob/master/action.yml for full reference
 name: Metrics
 on:
-  # Schedule updates (each hour)
+  # スケジュール実行（毎時）
   schedule:
     - cron: '00 * * * *'
-  # Lines below let you run workflow manually and on each commit
+  # 手動実行と master/main ブランチへの push でも実行
   workflow_dispatch:
   push:
     branches: [ master, main ]
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    # ボットのコミットによる push での再トリガーを防ぐ（無限ループ回避）
+    if: "!(github.event_name == 'push' && github.actor == 'github-actions[bot]')"
     permissions:
       contents: write
     steps:
@@ -71,8 +73,8 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Auto-generated metrics for run #${{ github.run_id }}"
+            git commit -m "Update github-metrics.svg - [Skip GitHub Action]"
             # 並行 push による non-fast-forward を避けるためリベースしてから push する
             git pull --rebase origin ${{ github.ref_name }}
-            git push
+            git push origin ${{ github.ref_name }}
           fi
