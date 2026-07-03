@@ -47,7 +47,7 @@ wget -qO - https://raw.githubusercontent.com/book000/calculate-storage/refs/head
 |  | 🥜 Nuts | Ubuntu | apt |  |  |  | <!-- update-softwares#nuts#apt -->
 |  | 🟤 Cinnamon | Ubuntu | apt |  |  |  | <!-- update-softwares#cinnamon#apt -->
 |  | ☄ Comet | Ubuntu | apt |  |  |  | <!-- update-softwares#Comet3#apt -->
-|  | 🌉 frp-server | Ubuntu | apt |  |  |  | <!-- update-softwares#frp-server#apt -->
+|  | 🌉 frp-server | Debian | apt |  |  |  | <!-- update-softwares#frp-server#apt -->
 |  | ⏺️ RecPi | Ubuntu | apt |  |  |  | <!-- update-softwares#recpi#apt -->
 |  | 👒 ZakuroHat | Ubuntu | apt |  |  |  | <!-- update-softwares#zh-2#apt -->
 
