@@ -10,7 +10,6 @@
 |  | 🥧 TomaPi | `/` |  (%) | 28.39 GB (SD) | <!-- calculate-storage#tomapi#/ -->
 |  | 🥧 TomaPi | `/mnt/hdd` |  (%) | 2.69 TB (HDD) | <!-- calculate-storage#tomapi#/mnt/hdd -->
 |  | 🥧 TomaPi | `/mnt/hdd2` |  (%) | 5.41 TB (HDD) | <!-- calculate-storage#tomapi#/mnt/hdd2 -->
-|  | 🥧 TomaPi | `/mnt/hdd3` |  (%) | 5.41 TB (HDD) | <!-- calculate-storage#tomapi#/mnt/hdd3 -->
 |  | 🍊 ORANGE | `/` |  (%) | 29.02 GB (SD) | <!-- calculate-storage#ORANGE#/ -->
 |  | 🍊 ORANGE | `/mnt/hdd` |  (%) | 915.82 GB (HDD) | <!-- calculate-storage#ORANGE#/mnt/hdd -->
 |  | 🥜 Nuts | `/` |  (%) | 233.67 GB (SSD) | <!-- calculate-storage#nuts#/ -->
@@ -18,6 +17,8 @@
 |  | 🥜 Nuts | `/mnt/hdd2` |  (%) | 686.60 GB (HDD) | <!-- calculate-storage#nuts#/mnt/hdd2 -->
 |  | 🟤 Cinnamon | `/` |  (%) | 456.35 GB (HDD) | <!-- calculate-storage#cinnamon#/ -->
 |  | 🟤 Cinnamon | `/mnt/pve/data` |  (%) | 5.41 TB (HDD) | <!-- calculate-storage#cinnamon#/mnt/pve/data -->
+|  | 🍍 Pine | `/` |  (%) | 457 GB (SSD) | <!-- calculate-storage#pine#/ -->
+|  | 🍍 Pine | `/mnt/ssd/` |  (%) | 938 GB (SSD) | <!-- calculate-storage#pine#/mnt/ssd/ -->
 |  | ☄ Comet | `/` |  (%) | 98.25 GB (SSD) | <!-- calculate-storage#Comet3#/ -->
 |  | 🌉 frp-server | `/` |  (%) | 29.36 GB (SSD) | <!-- calculate-storage#frp-server#/ -->
 |  | ⏺️ RecPi | `/` |  (%) | 28.14 GB (SD) | <!-- calculate-storage#recpi#/ -->
@@ -46,6 +47,7 @@ wget -qO - https://raw.githubusercontent.com/book000/calculate-storage/refs/head
 |  | 🍊 ORANGE | Ubuntu | apt |  |  |  | <!-- update-softwares#ORANGE#apt -->
 |  | 🥜 Nuts | Ubuntu | apt |  |  |  | <!-- update-softwares#nuts#apt -->
 |  | 🟤 Cinnamon | Ubuntu | apt |  |  |  | <!-- update-softwares#cinnamon#apt -->
+|  | 🍍 Pine | Ubuntu | apt |  |  |  | <!-- update-softwares#pine#apt -->
 |  | ☄ Comet | Ubuntu | apt |  |  |  | <!-- update-softwares#Comet3#apt -->
 |  | 🌉 frp-server | Debian | apt |  |  |  | <!-- update-softwares#frp-server#apt -->
 |  | ⏺️ RecPi | Ubuntu | apt |  |  |  | <!-- update-softwares#recpi#apt -->
