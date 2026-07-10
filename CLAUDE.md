@@ -6,7 +6,7 @@ book000 (Tomachi) の GitHub プロフィールリポジトリ。ユーザー名
 
 - プロフィール `README.md` の管理
 - GitHub metrics SVG (`github-metrics.svg`) の毎時自動更新
-- monthly update issue の毎月自動作成 (book000 / tomacheese / jaoafa の Renovate PR リストを含む)
+- monthly update issue の毎月自動作成 (book000 / tomacheese / jaoafa の Renovate PR 一覧の収集処理を含む)
 
 `package.json` 等のパッケージ定義はなく、処理はすべて GitHub Actions 上の Bash + `gh` + `jq` で実行される。
 
@@ -54,7 +54,7 @@ gh workflow run monthly-update.yml  # monthly update issue 作成を手動実行
 ## 変更時の注意 (リポジトリ固有)
 
 - `github-metrics.svg` は自動生成物。手動編集しない。
-- `update-template.md` の `{{ date }}` / `{{ pr-number }}` / `{{ *-renovate-success-prs }}` / `{{ *-renovate-failure-prs }}` はワークフローが置換するプレースホルダー。直接値を埋めない。
+- `monthly-update.yml` は `{{ date }}` / `{{ pr-number }}` / `{{ *-renovate-success-prs }}` / `{{ *-renovate-failure-prs }}` を置換する処理を持つ。ただし現状 `update-template.md` に実在するプレースホルダーは `{{ pr-number }}` のみで、他は置換処理はあるがテンプレートには含まれていない。プレースホルダーを追加/削除する場合は `monthly-update.yml` の該当処理と対で保ち、直接値を埋めない。
 - Renovate PR リストは book000 / tomacheese / jaoafa の 3 オーナー分を収集する。オーナーを追加/変更する場合は monthly-update.yml の該当ブロックとテンプレートのプレースホルダーを対で修正する。
 - monthly update issue では URL を `github.com` → `togithub.com` に置換している (通知抑制目的)。この置換を外さない。
 - `README.md` は MIT ライセンスで公開され、他ユーザーがプロフィール作成の参考にする前提。編集時はプロフィールページでの見え方を意識する。

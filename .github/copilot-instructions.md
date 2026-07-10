@@ -13,7 +13,7 @@ book000 (Tomachi) の GitHub プロフィールリポジトリ。`README.md` が
 
 - **トークン漏洩**: GitHub Token のハードコード、トークン/シークレットのログ出力を必ず指摘する。認証は `secrets.METRICS_TOKEN` または `${{ github.token }}` を使う。
 - **`gh` / `jq` パイプラインの失敗**: 失敗しうる箇所でエラーが握り潰されていないか (意図しない空出力での issue 作成など) を確認する。
-- **プレースホルダーの対応漏れ**: `update-template.md` のプレースホルダー (`{{ date }}`, `{{ pr-number }}`, `{{ *-renovate-success-prs }}`, `{{ *-renovate-failure-prs }}`) を追加/変更した場合、`monthly-update.yml` 側の置換処理と対応が取れているか確認する。
+- **プレースホルダーの対応漏れ**: `monthly-update.yml` は `{{ date }}` / `{{ pr-number }}` / `{{ *-renovate-success-prs }}` / `{{ *-renovate-failure-prs }}` の置換処理を持つ (現状 `update-template.md` に実在するのは `{{ pr-number }}` のみ)。プレースホルダーを追加/変更した場合、テンプレートと `monthly-update.yml` の置換処理の対応が取れているか確認する。
 
 ## フラグしないでよい既知パターン (誤検知しやすい)
 
