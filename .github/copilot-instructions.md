@@ -1,84 +1,24 @@
-# GitHub Copilot Instructions
+# Copilot code review instructions
 
-## プロジェクト概要
+book000 (Tomachi) の GitHub プロフィールリポジトリ。`README.md` がプロフィールページに表示される。アプリケーションコードはなく、変更対象はほぼ GitHub Actions ワークフロー (Bash + `gh` + `jq`)、`README.md`、`.github/update-template.md`。
 
-- **目的**: GitHub プロフィールリポジトリ。個人プロフィールの表示と、GitHub metrics の自動更新、monthly update issue の自動作成を行う。
-- **主な機能**:
-  - プロフィール README.md の管理
-  - GitHub metrics SVG の毎時自動更新
-  - monthly update issue の自動作成（book000, tomacheese, jaoafa の Renovate PR リスト含む）
-- **対象ユーザー**: book000 (Tomachi) 本人
+## 規約 (レビューで確認する点)
 
-## 共通ルール
+- コミットメッセージは Conventional Commits (`<type>(<scope>): <description>`、description は日本語)。
+- 日本語と英数字の間には半角スペースを入れる。コード内コメントは日本語、エラーメッセージは英語。
+- YAML はインデント 2 スペース。
+- Bash: エラーハンドリング (`set -e` 等) が設定されているか確認する。GitHub Actions 変数は `${{ }}`、Bash 変数は `$名前` で参照する。
 
-- **会話言語**: 日本語
-- **コミット規約**: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) に従う
-  - 形式: `<type>(<scope>): <description>`
-  - `<description>` は日本語で記載
-  - 例: `feat: monthly update issue の自動作成機能を追加`
-- **ブランチ命名**: [Conventional Branch](https://conventional-branch.github.io) に従う
-  - 形式: `<type>/<description>`
-  - `<type>` は短縮形（feat, fix）を使用
-  - 例: `feat/add-monthly-update`
-- **日本語と英数字の間**: 半角スペースを挿入する
+## 重点的に指摘すべき点
 
-## 技術スタック
+- **トークン漏洩**: GitHub Token のハードコード、トークン/シークレットのログ出力を必ず指摘する。認証は `secrets.METRICS_TOKEN` または `${{ github.token }}` を使う。
+- **`gh` / `jq` パイプラインの失敗**: 失敗しうる箇所でエラーが握り潰されていないか (意図しない空出力での issue 作成など) を確認する。
+- **プレースホルダーの対応漏れ**: `update-template.md` のプレースホルダー (`{{ date }}`, `{{ pr-number }}`, `{{ *-renovate-success-prs }}`, `{{ *-renovate-failure-prs }}`) を追加/変更した場合、`monthly-update.yml` 側の置換処理と対応が取れているか確認する。
 
-- **GitHub Actions**: ワークフローの自動実行
-- **YAML**: GitHub Actions ワークフロー定義
-- **Bash**: シェルスクリプト（GitHub Actions 内で使用）
-- **GitHub CLI (gh)**: GitHub API の操作、PR/Issue の検索・作成
-- **jq**: JSON データの処理
+## フラグしないでよい既知パターン (誤検知しやすい)
 
-## コーディング規約
-
-### YAML
-
-- GitHub Actions の標準的な構造に従う
-- インデント: スペース 2 個
-- コメント: 日本語で記述
-
-### Bash
-
-- Shebang: 不要（GitHub Actions の run で実行）
-- `set -e` などのエラーハンドリングは適切に設定
-- 変数参照: `${{ }}` 形式（GitHub Actions の変数）、`$変数名` 形式（Bash の変数）
-- コメント: 日本語で記述
-
-## 開発コマンド
-
-このプロジェクトは `package.json` を使用していないため、主に GitHub CLI (`gh`) を使用して操作します。
-
-```bash
-# metrics.yml の実行
-gh workflow run metrics.yml
-
-# monthly-update.yml の実行
-gh workflow run monthly-update.yml
-```
-
-## テスト方針
-
-- **テストフレームワーク**: なし（GitHub Actions のワークフローのみ）
-- **テスト方法**: GitHub Actions のワークフローを手動実行して動作確認
-
-## セキュリティ / 機密情報
-
-- **GitHub Token**: `METRICS_TOKEN` シークレットと `${{ github.token }}` を使用
-- **認証情報**: GitHub リポジトリの Secrets で管理
-- **ログ**: トークンやシークレットをログに出力しない
-
-## ドキュメント更新
-
-以下の変更があった場合、関連ドキュメントを更新する：
-
-- **README.md**: プロフィール情報の変更時
-- **GitHub Actions ワークフロー**: ワークフロー変更時、このファイルとプロンプトファイルを更新
-
-## リポジトリ固有
-
-- **README.md**: MIT ライセンスで公開されており、他のユーザーがプロフィール作成の参考にできる
-- **github-metrics.svg**: 自動生成されるファイルなので、手動で編集しない
-- **.github/update-template.md**: monthly update issue のテンプレート。プレースホルダー（`{{ date }}`, `{{ pr-number }}` など）が含まれる
-- **Renovate PR リスト**: book000, tomacheese, jaoafa の 3 つのオーナーの Renovate PR を収集・表示
-- **PR 番号計算**: 既存の issue/PR 番号から、転送や削除によるギャップを考慮して、次に利用可能な番号を検索
+- `github-metrics.svg` は `book000/metrics` による自動生成物。差分が大きくても手書きコードとしてレビューしない。
+- `update-template.md` 内の `{{ ... }}` はワークフローが置換するプレースホルダーであり、未定義変数やテンプレート構文エラーではない。
+- URL の `github.com` → `togithub.com` 置換は通知抑制のための意図的な処理。バグとして指摘しない。
+- metrics コミットの `[Skip GitHub Action]` 表記、および `github-actions[bot]` の push をスキップする `if` 条件は、再実行ループ回避のための意図的な設計。
+- `jq ... 2>/dev/null` は出力が空になりうるケースを許容する意図的な記述 (`|| true` と併用)。単純なエラー無視として指摘しない。
