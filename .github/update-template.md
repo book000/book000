@@ -69,5 +69,5 @@ wget -qO - https://raw.githubusercontent.com/book000/update-softwares/refs/heads
 
 ## その他
 
-- [ ] renovate PR の対応
+- [ ] renovate PR の対応: [renovate-pr-doctor](https://github.com/tomacheese/renovate-pr-doctor)
 - [ ] Cinnamon の VM アップデート
