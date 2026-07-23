@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="819" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="988" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}svg.calendar{margin-left:13px;margin-top:4px}code{display:inline-block}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}code{display:inline-block}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -30,20 +30,20 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -75,7 +75,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
                             </svg>
-                            1145 Pull requests reviewed
+                            1146 Pull requests reviewed
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -88,13 +88,13 @@
                                 <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
                                 <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
                             </svg>
-                            400 Issues opened
+                            401 Issues opened
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                             </svg>
-                            4214 issue comments
+                            4216 issue comments
                         </div>
                     </section>
                     <section>
@@ -223,8 +223,8 @@
                             12
                         </div>
                         <div class="entry">
-                            <span class="value">2</span>
-                            <div class="bar" style="height: 7.6923076923076925px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                             13
                         </div>
                         <div class="entry">
@@ -233,8 +233,8 @@
                             14
                         </div>
                         <div class="entry">
-                            <span class="value">2</span>
-                            <div class="bar" style="height: 7.6923076923076925px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">3</span>
+                            <div class="bar" style="height: 11.538461538461538px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             15
                         </div>
                         <div class="entry">
@@ -248,8 +248,8 @@
                             17
                         </div>
                         <div class="entry">
-                            <span class="value">7</span>
-                            <div class="bar" style="height: 26.923076923076923px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <span class="value">8</span>
+                            <div class="bar" style="height: 30.76923076923077px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                             18
                         </div>
                         <div class="entry">
@@ -304,13 +304,13 @@
                                 Wed
                             </div>
                             <div class="entry">
-                                <span class="value">3</span>
-                                <div class="bar" style="height: 6.25px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">5</span>
+                                <div class="bar" style="height: 10.416666666666668px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Thu
                             </div>
                             <div class="entry">
-                                <span class="value">8</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">6</span>
+                                <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Fri
                             </div>
                             <div class="entry">
@@ -340,6 +340,327 @@
                                     </svg>
                                     <div class="content">
                                         Closed
+                                        <span class="issue">#268 TomaPi, Nuts の Docker コンテナの状況確認のスキル</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">book000/dotfiles</span></div>
+                                </div>
+                                <div class="timestamp">23 Jul 2026, 18:25:47</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#268 TomaPi, Nuts の Docker コンテナの状況確認のスキル</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by book000 in <span class="repo">book000/dotfiles</span></div>
+                                    <div class="comment">
+                                        <b>調査結果: nuts マシンにおける事前情報整理</b>
+                                        本 Issue のスキルは別の開発用マシンで実装する予定のため、対象マシンの1つである
+                                        <code>nuts</code>
+                                        (
+                                        <code>/mnt/hdd/nuts</code>
+                                        ) の実環境を調査し、実装時に踏まえるべき情報をまとめる。
+                                        <code>tomapi</code>
+                                        は未調査(このマシンからは参照不可)。
+                                        <b>1. 基本環境</b>
+                                        ホスト名:
+                                        <code>nuts</code>
+                                        / OS: Ubuntu (kernel 6.8.0-134-generic)
+Docker:
+                                        <code>29.6.1</code>
+                                        / Docker Compose:
+                                        <code>v5.3.0</code>
+                                        (
+                                        <code>docker compose</code>
+                                        サブコマンド形式、
+                                        <code>docker-compose</code>
+                                        単体コマンドではない)
+                                        <code>jq 1.7</code>
+                                        導入済み
+Claude Code:
+                                        <code>2.1.218</code>
+                                        。
+                                        <code>CronCreate</code>
+                                        /
+                                        <code>CronList</code>
+                                        /
+                                        <code>CronDelete</code>
+                                        に相当するツールが利用可能で、Issue 中の「cron で15分おきに確認」は Claude Code 組み込みのスケジュール機能を指すと判断できる(OS の crontab ではない)。
+ディスク:
+                                        <code>/mnt/hdd</code>
+                                        は 1.8TB 中 1.4TB 使用(残 361GB、80%)
+                                        <b>2. <code>/mnt/hdd/nuts</code> 配下の構成</b>
+                                        直下のディレクトリ数: 42
+うち compose 定義(
+                                        <code>compose.yaml</code>
+                                        /
+                                        <code>compose.yml</code>
+                                        /
+                                        <code>docker-compose.yml</code>
+                                        )を持つディレクトリ: 37
+ファイル名は
+                                        <code>compose.yaml</code>
+                                        が主流だが、
+                                        <code>asmrine-dl</code>
+                                        と
+                                        <code>watch-twitter-likes</code>
+                                        のみ
+                                        <code>docker-compose.yml</code>
+                                        。ディレクトリ列挙スクリプトは両方の命名パターンに対応させる必要あり(
+                                        <code>docker-compose.yaml</code>
+                                        表記も一応考慮)。
+
+
+現在起動中のコンテナ: 26個(
+                                        <code>docker ps -q | wc -l</code>
+                                        )。多くの compose ディレクトリは常時起動ではなく、cron 等でオンデマンド起動する設計(例:
+                                        <code>twitter-adsense-crawler</code>
+                                        は cron 経由で
+                                        <code>mkr wrap</code>
+                                        実行、平常時は停止状態)。
+→ 「コンテナが動いていない = 異常」ではないディレクトリが多数存在するため、スキルは各サービスの「起動していないことが正常か」を判断する情報源が必要(README や compose 内コメント、cron 設定等)。単純に
+                                        <code>docker compose ps</code>
+                                        の起動数だけで赤/緑判定すると誤検知が多くなる。
+                                        <code>/mnt/hdd/nuts</code>
+                                        外の
+                                        <code>/mnt/hdd/work/&lt;日付&gt;_&lt;名前&gt;/</code>
+                                        配下にも稼働中の compose プロジェクトが存在する(例:
+                                        <code>20260326_twitter-multi-bookmark-analyzer</code>
+                                        ,
+                                        <code>20260330_40hz-sound-wave</code>
+                                        )。Issue の対象は
+                                        <code>/mnt/hdd/&lt;マシン名&gt;</code>
+                                        想定とのことだが、
+                                        <code>work</code>
+                                        配下は対象外という理解でよいか要確認(将来的な対象拡大の余地としてメモ)。
+                                        <b>3. 既存の類似スクリプト(参考実装として活用可能)</b>
+                                        <code>/mnt/hdd/nuts</code>
+                                        直下に、まさに今回のスキルが解決しようとしている作業を手動で行うためのスクリプトが既に存在する。実装の出発点として非常に参考になる。
+                                        <code>check-containers.sh</code>
+                                        : 直下の各ディレクトリを走査し、compose 定義がある場合のみ
+                                        <code>docker compose ps -a --format json</code>
+                                        を実行。各サービスについて
+                                        <code>docker compose logs --tail 100  | grep Error</code>
+                                        の有無を
+                                        <code>IsError</code>
+                                        として付与し、
+                                        <code>results.ndjson</code>
+                                        に集約 →
+                                        <code>results.tsv</code>
+                                        に変換して色分け表示(緑=正常稼働/正常終了、黄=稼働中だがエラーログあり、マゼンタ=失敗終了だがエラーログなし、赤=終了かつエラーログあり)。
+                                        <code>ls-containers.sh</code>
+                                        : 各ディレクトリで
+                                        <code>docker compose config --format json | jq '.services | length'</code>
+                                        (定義サービス数)と
+                                        <code>docker compose ps --format json | wc -l</code>
+                                        (起動中コンテナ数)を比較し、一致/一部起動/ゼロで緑・黄・赤に色分けして一覧表示。
+実行結果サンプルは
+                                        <code>results.tsv</code>
+                                        に残っており、TSV形式(
+                                        <code>Name, Image, State, ExitCode, IsError, Command</code>
+                                        )。
+
+これらのロジック(特に「定義サービス数 vs 起動数」「ログ中の Error 文字列検出」)は、今回のエージェント別チェック処理の判定ロジックの土台にそのまま使える。ただし
+                                        <code>grep Error</code>
+                                        は簡易的すぎるため(大文字小文字、
+                                        <code>error</code>
+                                        以外のパターン等)、エージェントによる調査ではログ内容をより丁寧に解釈させる想定。
+                                        <b>4. <code>docker compose ps --format json</code> の出力形式(実機確認済み)</b>
+                                        出力は JSON配列ではなく、サービス1件につき1行のJSON(NDJSON)。
+                                        <code>jq</code>
+                                        はストリームとして自然に扱えるため、
+                                        <code>jq -r '.Service'</code>
+                                        のようにそのまま実行可能。
+主なフィールド:
+                                        <code>Command</code>
+                                        ,
+                                        <code>CreatedAt</code>
+                                        ,
+                                        <code>ExitCode</code>
+                                        ,
+                                        <code>Health</code>
+                                        (ヘルスチェック定義がある場合のみ値が入る。例:
+                                        <code>karakeep-karakeep-1</code>
+                                        は
+                                        <code>Up 4 days (healthy)</code>
+                                        ),
+                                        <code>ID</code>
+                                        ,
+                                        <code>Image</code>
+                                        ,
+                                        <code>Labels</code>
+                                        (
+                                        <code>com.docker.compose.project.working_dir</code>
+                                        等、プロジェクトの実ディレクトリパスが含まれる — 起動時ディレクトリと現在のディレクトリが一致しない場合の検出に使える)。
+healthcheck 定義がある compose ファイルは一部のみ(
+                                        <code>linkwarden</code>
+                                        ,
+                                        <code>watch-twitter-likes</code>
+                                        ,
+                                        <code>watch-twitter-likes-hub</code>
+                                        )。大半のサービスは
+                                        <code>Health</code>
+                                        フィールドが空になるため、ヘルスチェックの有無に依存しない疎通確認手段(後述)が必要。
+                                        <b>5. 疎通確認の手段について</b>
+                                        汎用的なヘルスチェックエンドポイントを持つサービスは少数派。多くは Web UI 系(
+                                        <code>linkwarden</code>
+                                        ,
+                                        <code>karakeep</code>
+                                        ,
+                                        <code>obsidian-webdav</code>
+                                        ,
+                                        <code>portainer</code>
+                                        ,
+                                        <code>glances-webserver</code>
+                                        など)と、バッチ/クローラ系(cron 実行前提、常時プロセス無し)に分かれる。
+「疎通確認」の具体的な方式(HTTPステータス確認・ポート応答確認・ログのみで判断、等)はサービス種別ごとに異なる判断が必要になるため、実装時にサービスの性質(Web / バッチ / DB)を compose 定義またはディレクトリ内の README から推定するロジックが要る。
+                                        <b>6. dotfiles リポジトリ / スキル配置に関する留意点</b>
+                                        当マシンには
+                                        <code>book000/dotfiles</code>
+                                        のローカルクローンが
+                                        <code>/mnt/hdd/work/20260125_create-dotfiles</code>
+                                        に存在するが、最終コミットが 2026-01-25 と半年以上前で停止しており、
+                                        <code>home/dot_claude/skills/</code>
+                                        ディレクトリ自体が存在しない(スキルは別経路で配布されている可能性が高い)。
+実際に稼働中の
+                                        <code>~/.claude/skills/</code>
+                                        には
+                                        <code>rtk</code>
+                                        や
+                                        <code>pr-health-monitor</code>
+                                        等のスキルが存在するが、これらは chezmoi 経由ではなく
+                                        <code>~/.local/share/sync-claude-folder</code>
+                                        (独自の同期ツール、
+                                        <code>sync --apply</code>
+                                        を毎時 cron 実行)によって同期されている形跡がある。
+→ 実装マシンでは「どの経路で
+                                        <code>dot_claude</code>
+                                        配下にスキルを追加すれば実際に配布されるか」を先に確認した方がよい。この
+                                        <code>nuts</code>
+                                        上の dotfiles クローンは古すぎて配置規約の参考にはならない可能性がある。
+
+
+既存スキルのディレクトリ構成(
+                                        <code>SKILL.md</code>
+                                        の書き方、
+                                        <code>scripts/</code>
+                                        の有無等)は、稼働中の
+                                        <code>~/.claude/skills/rtk</code>
+                                        や
+                                        <code>~/.claude/skills/pr-health-monitor</code>
+                                        を実装マシン側で直接参照するのが確実。
+                                        <b>7. Issue本文からの要件整理(実装マシン向けチェックリスト)</b>
+                                        カレントディレクトリ(
+                                        <code>/mnt/hdd/&lt;マシン名&gt;</code>
+                                        想定)配下を列挙し、compose 定義があるディレクトリのみ抽出するシェルスクリプト(
+                                        <code>check-containers.sh</code>
+                                        を土台に流用可)
+ ディレクトリごとにエージェントを起動し、
+                                        <code>docker compose ps -a</code>
+                                        /
+                                        <code>docker compose logs</code>
+                                        / 疎通確認を実施。最大5並列、終わり次第次を起動
+ エージェントが無言停止するケースへの対策として、Claude Code の Cron 機能(
+                                        <code>CronCreate</code>
+                                        等)で15分おきに確認処理
+ 親セッション(team-lead)はオーケストレーション専任とし、実作業はエージェントに委譲
+ エラー検出時はインターネット情報も含め原因・対策を調査し、全ディレクトリ処理完了後に一括でユーザーへ提案
+                                        <code>STATE.md</code>
+                                        で進捗管理。auto-compact 耐性を持たせつつ肥大化を防ぐ(定期的な要約・古い完了エントリの刈り込みが必要)
+                                        <code>book000/dotfiles</code>
+                                        の
+                                        <code>dot_claude</code>
+                                        配下にグローバルスキルとして定義(配置経路は上記6章を要確認)
+ 参考実装:
+                                        <code>tomacheese/renovate-pr-doctor</code>
+                                        (未調査、実装マシン側で確認推奨)
+                                        <b>未解決・要確認事項</b>
+                                        <code>tomapi</code>
+                                        側の環境情報は本調査に含まれていない(別途
+                                        <code>tomapi</code>
+                                        上での同様の調査が必要)。
+                                        <code>/mnt/hdd/work</code>
+                                        配下の一時プロジェクトを本スキルの対象に含めるか。
+                                        <code>dot_claude</code>
+                                        へのスキル配布経路(chezmoi 直接 or
+                                        <code>sync-claude-folder</code>
+                                        経由)の実態確認。
+「起動していないことが正常」であるサービスをどう判定するか(README解析・許可リスト・前回状態との差分、等の方針決定が必要)。
+                                    </div>
+                                </div>
+                                <div class="timestamp">23 Jul 2026, 11:21:26</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
+                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Opened
+                                        <span class="issue">#268 TomaPi, Nuts の Docker コンテナの状況確認のスキル</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">book000/dotfiles</span></div>
+                                </div>
+                                <div class="timestamp">23 Jul 2026, 11:14:54</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#129 月一メンテナンスツール</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by book000 in <span class="repo">book000/book000</span></div>
+                                    <div class="comment">
+                                        <b>TomaPi, Nuts の Docker コンテナの状況</b>
+                                        カレントディレクトリ (/mnt/hdd/tomapi など) でスキルを作り、それをコールすることで状況確認を行う仕組みとする。
+対象ディレクトリは /mnt/hdd/&lt;マシン名&gt; を想定
+カレントディレクトリ以下のディレクトリを列挙し、各ディレクトリに compose.yaml などの Docker Compose 定義があるディレクトリをシェルスクリプトで抽出。
+各ディレクトリごとでエージェントを起動し、docker compose ps での起動状況確認、docker compose logs でのログの確認、その他疎通確認など網羅的に状況確認する。
+エージェントは、最大5並列とし、終わったら次を起動する方式とする。
+エージェントは無言で停止することがあるため、Claude Code の機能である cron で15分おきにエージェントに対する確認処理を実施する。
+親となる team-lead (スキルを起動したセッション) はオーケストレーターに徹し、原則として作業はエージェントに委譲すること
+エラーなどが検出された場合は、インターネット情報も含めて原因と解決策を調査し、ユーザーに提案すること。
+ただし、提案はすべてのエージェント処理 (全ディレクトリの確認) が終わった時、最後に行う。
+進捗管理のため、適宜 STATE.md に記録し、必要に応じて読み出す仕組みとすること。
+auto-compact で情報欠損が起きないように、記録すること。
+STATE.md が肥大化しすぎないようにすること。
+参考: https://github.com/tomacheese/renovate-pr-doctor
+dotfiles の Claude Code 設定ディレクトリ (dot_claude) 以下のグローバルスキルとして定義する。
+                                    </div>
+                                </div>
+                                <div class="timestamp">23 Jul 2026, 11:07:58</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
+                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Closed
                                         <span class="issue">#103 ghasecをためす</span>
                                     </div>
                                 </div>
@@ -347,74 +668,6 @@
                                     <div>opened  in <span class="repo">book000/book000</span></div>
                                 </div>
                                 <div class="timestamp">23 Jul 2026, 01:58:28</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Deleted
-                      branch
-                                        <span class="code">fix/unicorn-prefer-simple-condition-first-meeting-vote</span>
-                                        in
-                                        <span class="repo">jaoafa/jaotan.ts</span>
-                                    </div>
-                                </div>
-                                <div class="timestamp">22 Jul 2026, 22:11:53</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Deleted
-                      branch
-                                        <span class="code">fix/vpm-converter-unicorn-prefer-simple-condition-first</span>
-                                        in
-                                        <span class="repo">tomacheese/booth-purchased-items-manager</span>
-                                    </div>
-                                </div>
-                                <div class="timestamp">22 Jul 2026, 22:10:40</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Deleted
-                      branch
-                                        <span class="code">fix/eslint-config-1-16-14-rule-churn</span>
-                                        in
-                                        <span class="repo">book000/create-ts</span>
-                                    </div>
-                                </div>
-                                <div class="timestamp">22 Jul 2026, 22:09:54</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Deleted
-                      branch
-                                        <span class="code">chore/add-renovate-config</span>
-                                        in
-                                        <span class="repo">book000/chrome-mcp-router</span>
-                                    </div>
-                                </div>
-                                <div class="timestamp">22 Jul 2026, 22:07:29</div>
                             </section>
                         </div>
                     </section>
