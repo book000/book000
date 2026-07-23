@@ -38,6 +38,13 @@ $env:ISSUE_NUMBER={{ pr-number }}; irm https://raw.githubusercontent.com/book000
 wget -qO - https://raw.githubusercontent.com/book000/calculate-storage/refs/heads/master/calculate-storage.sh | sudo ISSUE_NUMBER={{ pr-number }} bash
 ```
 
+## コンテナ状況の確認
+
+Claude Code で `/check-container-status` を実行。
+
+- [ ] TomaPi
+- [ ] Nuts
+
 ## PC / Server のアップデート
 
 | ✅ | ComputerName | OS | PM | Upgraded | Failed | OS EOL |
