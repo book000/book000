@@ -76,5 +76,6 @@ wget -qO - https://raw.githubusercontent.com/book000/update-softwares/refs/heads
 
 ## その他
 
+- [ ] GlitchTip の確認: <https://glitchtip.orange.amatama.net/main/issues>
 - [ ] renovate PR の対応: [renovate-pr-doctor](https://github.com/tomacheese/renovate-pr-doctor)
 - [ ] Cinnamon の VM アップデート
