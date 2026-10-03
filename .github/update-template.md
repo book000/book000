@@ -21,7 +21,7 @@
 |  | 🍍 Pine | `/mnt/ssd/` |  (%) | 938 GB (SSD) | <!-- calculate-storage#pine#/mnt/ssd/ -->
 |  | 🍌 Banana | `/` |  (%) | 116 GB (SSD) | <!-- calculate-storage#banana#/ -->
 |  | 🍌 Banana | `/mnt/hdd` |  (%) | 916 GB (HDDD) | <!-- calculate-storage#banana#/mnt/hdd -->
-|  | ☄ Comet | `/` |  (%) | 98.25 GB (SSD) | <!-- calculate-storage#Comet3#/ -->
+|  | ☄ Comet | `/` |  (%) | 98.25 GB (SSD) | <!-- calculate-storage#comet4#/ -->
 |  | 🌉 frp-server | `/` |  (%) | 29.36 GB (SSD) | <!-- calculate-storage#frp-server#/ -->
 |  | ⏺️ RecPi | `/` |  (%) | 28.14 GB (SD) | <!-- calculate-storage#recpi#/ -->
 |  | ⏺️ RecPi | `/mnt/hdd` |  (%) | 3.58 TB (HDD) | <!-- calculate-storage#recpi#/mnt/hdd -->
@@ -58,7 +58,7 @@ Claude Code で `/check-container-status` を実行。
 |  | 🟤 Cinnamon | Ubuntu | apt |  |  |  | <!-- update-softwares#cinnamon#apt -->
 |  | 🍍 Pine | Ubuntu | apt |  |  |  | <!-- update-softwares#pine#apt -->
 |  | 🍌 Banana | Ubuntu | apt |  |  |  | <!-- update-softwares#banana#apt -->
-|  | ☄ Comet | Ubuntu | apt |  |  |  | <!-- update-softwares#Comet3#apt -->
+|  | ☄ Comet | Ubuntu | apt |  |  |  | <!-- update-softwares#comet4#apt -->
 |  | 🌉 frp-server | Debian | apt |  |  |  | <!-- update-softwares#frp-server#apt -->
 |  | ⏺️ RecPi | Ubuntu | apt |  |  |  | <!-- update-softwares#recpi#apt -->
 |  | 👒 ZakuroHat | Ubuntu | apt |  |  |  | <!-- update-softwares#zh-2#apt -->
