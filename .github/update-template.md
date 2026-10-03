@@ -19,6 +19,8 @@
 |  | 🟤 Cinnamon | `/mnt/pve/data` |  (%) | 5.41 TB (HDD) | <!-- calculate-storage#cinnamon#/mnt/pve/data -->
 |  | 🍍 Pine | `/` |  (%) | 457 GB (SSD) | <!-- calculate-storage#pine#/ -->
 |  | 🍍 Pine | `/mnt/ssd/` |  (%) | 938 GB (SSD) | <!-- calculate-storage#pine#/mnt/ssd/ -->
+|  | 🍌 Banana | `/` |  (%) | 116 GB (SSD) | <!-- calculate-storage#banana#/ -->
+|  | 🍌 Banana | `/mnt/hdd` |  (%) | 916 GB (HDDD) | <!-- calculate-storage#banana#/mnt/hdd -->
 |  | ☄ Comet | `/` |  (%) | 98.25 GB (SSD) | <!-- calculate-storage#Comet3#/ -->
 |  | 🌉 frp-server | `/` |  (%) | 29.36 GB (SSD) | <!-- calculate-storage#frp-server#/ -->
 |  | ⏺️ RecPi | `/` |  (%) | 28.14 GB (SD) | <!-- calculate-storage#recpi#/ -->
@@ -55,6 +57,7 @@ Claude Code で `/check-container-status` を実行。
 |  | 🥜 Nuts | Ubuntu | apt |  |  |  | <!-- update-softwares#nuts#apt -->
 |  | 🟤 Cinnamon | Ubuntu | apt |  |  |  | <!-- update-softwares#cinnamon#apt -->
 |  | 🍍 Pine | Ubuntu | apt |  |  |  | <!-- update-softwares#pine#apt -->
+|  | 🍌 Banana | Ubuntu | apt |  |  |  | <!-- update-softwares#banana#apt -->
 |  | ☄ Comet | Ubuntu | apt |  |  |  | <!-- update-softwares#Comet3#apt -->
 |  | 🌉 frp-server | Debian | apt |  |  |  | <!-- update-softwares#frp-server#apt -->
 |  | ⏺️ RecPi | Ubuntu | apt |  |  |  | <!-- update-softwares#recpi#apt -->
