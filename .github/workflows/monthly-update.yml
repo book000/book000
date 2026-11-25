@@ -11,7 +11,7 @@ jobs:
 
    steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Get current date
         id: date
@@ -88,7 +88,7 @@ jobs:
               NEXT_PR_NUMBER=$CANDIDATE_NUMBER
               MAX_ATTEMPTS=50  # Reasonable upper limit to prevent infinite loops
               
-              for attempt in $(seq 1 $MAX_ATTEMPTS); do
+              for attempt in $(seq 1 "$MAX_ATTEMPTS"); do
                 if test_number_available "$NEXT_PR_NUMBER"; then
                   break
                 else
@@ -96,7 +96,7 @@ jobs:
                 fi
               done
               
-              if [ $attempt -eq $MAX_ATTEMPTS ]; then
+              if [ "$attempt" -eq "$MAX_ATTEMPTS" ]; then
                 echo "Warning: Reached maximum attempts ($MAX_ATTEMPTS), using number $NEXT_PR_NUMBER"
               fi
             fi
@@ -112,7 +112,7 @@ jobs:
           fi
           
           echo "NEXT_PR_NUMBER: $NEXT_PR_NUMBER"
-          echo "next-pr-number=$NEXT_PR_NUMBER" >> $GITHUB_OUTPUT
+          echo "next-pr-number=$NEXT_PR_NUMBER" >> "$GITHUB_OUTPUT"
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
